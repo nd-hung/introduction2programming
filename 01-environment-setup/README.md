@@ -1,32 +1,42 @@
 <h2 align="center"> 
-LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+Thiết lập môi trường lập trình C/C++
 </h2>
 
-### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
+### [Các bước viết chương trình](#programmingsteps)
+### [Môi trường phát triển tích hợp](#ides)
 
-### Khoa Công nghệ thông tin, Trường đại học Nha Trang
-<hr>
+### [DEV C++](https://www.bloodshed.net/)
+#### Đặc điểm
+- Là một IDE được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: mã nguồn mở (open-source), rất gọn nhẹ, đủ tính năng cơ bản;
+- Hỗ trợ một số trình biên dịch khác nhau (như MingW, Cygwin);
+- Chỉ chạy trên Windows.
+#### Cài đặt
+#### Sử dụng
 
-### [Bài giảng tóm tắt](Lecturenotes)
-#### [1 - GioTổng quan về lập trình hướng đối tượng](Lecturenotes/01-overview) 
+### CLion
+#### Đặc điểm
+#### Cài đặt
+#### Sử dụng
 
-#### [2 - Phân tích thiết kế hướng đối tượng](Lecturenotes/02-oop-analysis-and-design) 
+### Visual Studio Code
+#### Đặc điểm
+#### Cài đặt
+#### Sử dụng
 
-#### [3 - Nền tảng .NET và ngôn ngữ C#](Lecturenotes/03-dotnet-and-csharp)
+### Eclipse
+#### Đặc điểm
+#### Cài đặt
+#### Sử dụng
 
-#### [4 - Lớp và đối tượng](Lecturenotes/04-classes-and-objects) 
+### Code::Blocks
+#### Đặc điểm
+#### Cài đặt
+#### Sử dụng
 
-#### [5 - Thừa kế và đa hình](Lecturenotes/05-inheritance) 
+### XCode
+#### Đặc điểm
+#### Cài đặt
+#### Sử dụng
 
-#### [6 - Lớp trừu tượng và giao diện ](Lecturenotes/06-abstract-classes) 
-
-#### [7 - Một số lớp dựng sẵn trong .NET Framework](Lecturenotes/07-dotnet-builtin-classes) 
-
-#### [8 - Lập trình Windows Forms](Lecturenotes/08-windows-forms-apps) 
-
-### [Bài thực hành](Labs)
-
-### [Bài tập](Assignments)
-### [Đồ án môn học](Projects)
 
 ### [Tham khảo](References.md)
