@@ -2,15 +2,16 @@
 Thiết lập môi trường lập trình C/C++
 </h2>
 
+*Bài thực hành nhằm giúp người học lập trình (1) Xác định được quy trình tạo một chương trình máy tính, (2) Thiết lập môi trường lập trình C/C++, và (3) Viết chương trình đơn giản đầu tiên.*
+
 - ## [Các bước viết chương trình](#programmingsteps)
 - ## [Môi trường phát triển tích hợp](#ides)
     ### [Dev-C++](devcpp)
     ### [Visual Studio Code](vscode)
 <br>
 
-## Các bước viết chương trình <a name="programmingsteps"/>
-<a href="http://www.btechsmartclass.com/c_programming/C-Creating-and-Running-C-Program.html">
-         <img alt="c-pipeline" src="figs/program-execution-process.png"/>
+## Các bước viết chương trình
+<img src="figs/c-programming-pipeline.PNG"/>
 
 ## Môi trường phát triển tích hợp<a name="ides"/>
 ### - [Dev-C++](devcpp)

@@ -15,3 +15,11 @@
 # Debug files
 *.pdb
 
+# Powerpoint files
+*.Powerpoint
+*.pptx
+*.ppt
+
+# PDF files
+*.pdf
+
