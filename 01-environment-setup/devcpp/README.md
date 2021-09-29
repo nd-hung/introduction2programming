@@ -39,7 +39,7 @@ Chọn **File->New->Source File**, hoặc nhấn tổ hợp phím **Ctrl+N**, ho
 
 <img src="figs/devcpp-install-06.png">
 
-- Viết chương trình (Edit)
+#### [Bước 1: Viết chương trình (Edit)](#edit)
 
 Ở màn hình soạn thảo, viết mã lệnh chương trình.
 ```c
@@ -55,7 +55,7 @@ int main()
 Chọn **File->Save**, hoặc nhấn **Ctrl+S** để lưu lại file mã nguồn. Nên đặt tên file có ý nghĩa, chẳng hạn `helloworld.c`
 <img src="figs/devcpp-install-08.PNG">
 
-- Biên dịch (Compile)
+#### Biên dịch (Compile)
 
 Chọn **Excecute->Compile**, hoặc nhấn **F9**, hoặc nhấn biểu tượng **Compile** trên thanh công cụ.
 <img src="figs/devcpp-install-09.png">
@@ -66,7 +66,7 @@ Nếu chương trình không có lỗi nào (errors = 0), trình biên dịch (c
 
 **Lỗi (errors)** 
 
-Là các thông báo của trình biên dịch khi chương trình còn lỗi (loại "lỗi tầm thường"). Cần phải quay lại trình soạn thảo để sửa hết các lỗi này.
+Là các thông báo của trình biên dịch khi chương trình còn lỗi (loại "lỗi tầm thường"). Cần phải quay lại <a name="edit"> **Bước 1** </a> để sửa hết các lỗi này.
 
 *Một số lỗi thường gặp ở người mới học lập trình:*
 
@@ -90,5 +90,6 @@ Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai 
 
 
 - Chạy chương trình (Run)
+
 Chọn **Excecute->Run**, hoặc nhấn **F10**, hoặc nhấn biểu tượng **Run** trên thanh công cụ.
 <img src="figs/devcpprun01.PNG">
