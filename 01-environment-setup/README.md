@@ -2,12 +2,19 @@
 Thiết lập môi trường lập trình C/C++
 </h2>
 
-### [Các bước viết chương trình](#programmingsteps)
-### [Môi trường phát triển tích hợp](#ides)
+## [1 - Các bước viết chương trình](#programmingsteps)
+## [2 - Môi trường phát triển tích hợp](#ides)
+### [2.1 - Dev-C++](#devcpp)
+### [2.2 - Visual Studio Code](#vscode)
+### [2.3 - CLion](#clion)
+## [3 - Tham khảo](#references) 
+<hr>
 
-### [Dev-C++](https://www.bloodshed.net/)
+## 1 - Các bước viết chương trình <a name="programmingsteps"/>
+## 2 - Môi trường phát triển tích hợp<a name="ides"/>
+### 2.1 - Dev-C++ <a name"devcpp"/>
 #### Đặc điểm
-- Dev-C++ được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: mã nguồn mở (open-source), rất gọn nhẹ và đủ tính năng cơ bản;
+- [Dev-C++](https://www.bloodshed.net/) được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: mã nguồn mở (open-source), rất gọn nhẹ và đủ tính năng cơ bản;
 - Hỗ trợ một số trình biên dịch khác nhau (như [MingW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/));
 - Chỉ chạy trên Windows.
 #### Cài đặt
@@ -33,6 +40,7 @@ Nhấn **Install**.
 Viết chương trình in ra màn hình dòng chữ "Hello World!".
 - Khởi động Dev-C++
 <img src="figs/devcpp-install-05.PNG">
+
 Khi chạy lần đầu, Dev-C++ yêu cầu chọn lựa về ngôn ngữ, theme (các thiết lập về font chữ, màu sắc và các biểu tượng). Hãy chọn thiết lập mặc định và nhấn **OK** để hoàn tất.
 - Tạo file mã nguồn 
 Chọn **File->New->Source File**, hoặc nhấn tổ hợp phím **Ctrl+N**, hoặc chọn biểu tượng **New** ở thanh công cụ chính.
