@@ -2,7 +2,7 @@
 Thiết lập môi trường lập trình C/C++
 </h2>
 
-*Bài thực hành nhằm giúp người học lập trình (1) Xác định được quy trình tạo một chương trình máy tính, (2) Thiết lập môi trường lập trình C/C++, và (3) Viết chương trình đơn giản đầu tiên.*
+*Bài thực hành nhằm giúp người học lập trình (1) Xác định được quy trình tạo một chương trình máy tính, (2) Thiết lập được môi trường lập trình C/C++, và (3) Viết được chương trình đơn giản đầu tiên.*
 
 - ## [Các bước viết chương trình](#programmingsteps)
 - ## [Môi trường phát triển tích hợp](#ides)
