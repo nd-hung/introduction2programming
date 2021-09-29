@@ -4,7 +4,9 @@ THỰC HÀNH NHẬP MÔN LẬP TRÌNH
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
 #### Khoa Công nghệ thông tin, Trường đại học Nha Trang </h3>
-<hr>
+<br>
+<img src="01-environment-setup/figs/c-programming-pipeline.PNG"/>
+<br>
 
 ## [1 - Thiết lập môi trường lập trình C/C++](01-environment-setup) 
 ## [2 - Các lệnh cơ bản của C](02-basic) 
