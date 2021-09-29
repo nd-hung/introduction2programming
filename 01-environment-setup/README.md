@@ -7,7 +7,7 @@ Thiết lập môi trường lập trình C/C++
 ### [2.1 - Dev-C++](#devcpp)
 ### [2.2 - Visual Studio Code](#vscode)
 ### [2.3 - CLion](#clion)
-## [3 - Tham khảo](#references) 
+## [3 - Tham khảo](#references) <br><br>
 
 ## 1 - Các bước viết chương trình <a name="programmingsteps"/>
 ## 2 - Môi trường phát triển tích hợp<a name="ides"/>
