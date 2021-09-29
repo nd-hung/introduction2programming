@@ -12,12 +12,12 @@ Thiết lập môi trường lập trình C/C++
          <img alt="c-pipeline" src="figs/program-execution-process.png"/>
 
 ## Môi trường phát triển tích hợp<a name="ides"/>
-### - [Dev-C++](http://dev-cpp.com/)
+### - [Dev-C++](devcpp)
 - Mã nguồn mở (open-source).
 - Rất gọn nhẹ & đủ tính năng cơ bản;
 - Chỉ chạy trên Windows.
 
-### - [Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
+### - [Visual Studio Code](vscode)
 - IDE gọn nhẹ với nhiều tính năng cao cấp, do Microsoft phát triển.
 - Chạy được trên Windows, macOS and Linux.
 - Hỗ trợ nhiều ngôn ngữ (C/C++, C#, Java, Python, ...).
