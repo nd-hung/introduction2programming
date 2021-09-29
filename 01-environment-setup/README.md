@@ -15,7 +15,7 @@ Thiết lập môi trường lập trình C/C++
 ## Môi trường phát triển tích hợp<a name="ides"/>
 ### - [Dev-C++](devcpp)
 - Mã nguồn mở (open-source).
-- Rất gọn nhẹ & đủ tính năng cơ bản;
+- Rất gọn nhẹ & đủ tính năng cơ bản. 
 - Chỉ chạy trên Windows.
 
 ### - [Visual Studio Code](vscode)
