@@ -8,7 +8,8 @@ Thiết lập môi trường lập trình C/C++
 <br>
 
 ## Các bước viết chương trình <a name="programmingsteps"/>
-<img src="figs/program-execution-process.png"/>
+<a href="http://www.btechsmartclass.com/c_programming/C-Creating-and-Running-C-Program.html">
+         <img alt="cpipeline" src="figs/program-execution-process.png"/>
 
 ## Môi trường phát triển tích hợp<a name="ides"/>
 ### - [Dev-C++](http://dev-cpp.com/)
