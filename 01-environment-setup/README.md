@@ -37,7 +37,7 @@ Khi chạy lần đầu, Dev-C++ yêu cầu chọn lựa về ngôn ngữ, theme
 - Tạo file mã nguồn 
 Chọn **File->New->Source File**, hoặc nhấn tổ hợp phím **Ctrl+N**, hoặc chọn biểu tượng **New** ở thanh công cụ chính.
 
-<img src="figs/devcpp-install-06.PNG">
+<img src="figs/devcpp-install-06.png">
 
 - Viết chương trình (Edit)
 
