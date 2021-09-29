@@ -48,14 +48,18 @@ Chọn **File->New->Source File**, hoặc nhấn tổ hợp phím **Ctrl+N**, ho
 
 int main()
 {
-	printf("Hello World");
+	printf("Hello World!");
 }
 ```
 Chọn **File->Save**, hoặc nhấn **Ctrl+S** để lưu lại file mã nguồn. Nên đặt tên file có ý nghĩa, chẳng hạn `helloworld.c`
 <img src="figs/devcpp-install-08.PNG">
 
 - Biên dịch (Compile)
-<img src="figs/devcpp-install-07.PNG">
+
+Chọn **Excecute->Compile**, hoặc nhấn **F9**, hoặc nhấn biểu tượng **Compile** trên thanh công cụ.
+<img src="figs/devcpp-install-09.PNG">
+
+Cửa sổ **Compiler Log** hiện kết quả biên dịch.
 
 
 ### CLion
