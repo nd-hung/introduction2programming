@@ -13,4 +13,4 @@ THỰC HÀNH NHẬP MÔN LẬP TRÌNH
 ## [5 - Kiểu mảng, chuỗi](05-arrays-strings) 
 ## [6 - Kiểu cấu trúc (struct)](06-struct) 
 
-## [Tham khảo](References.md)
+## [Tham khảo](references.md)
