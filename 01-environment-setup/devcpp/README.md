@@ -1,7 +1,7 @@
 ## Lập trình C/C++ với Dev-C++
-### [Đặc điểm](#specs)
-### [Cài đặt](#install)
-### [Sử dụng](#use)
+- ### [Đặc điểm](#specs)
+- ### [Cài đặt](#install)
+- ### [Sử dụng](#use)
 <br>
 
 ### Đặc điểm <a name="specs"/>
