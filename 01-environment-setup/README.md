@@ -9,7 +9,7 @@ Thiết lập môi trường lập trình C/C++
 ### [2.3 - CLion](#clion)
 ## [3 - Tham khảo](#references)
 
-<br><br>
+<br>
 
 ## 1 - Các bước viết chương trình <a name="programmingsteps"/>
 ## 2 - Môi trường phát triển tích hợp<a name="ides"/>
@@ -70,6 +70,33 @@ Chọn **Excecute->Compile**, hoặc nhấn **F9**, hoặc nhấn biểu tượn
 <img src="figs/devcpp-install-09.png">
 
 Cửa sổ **Compiler Log** hiện kết quả biên dịch.
+
+Nếu chương trình không có lỗi nào (số lỗi = 0), trình biên dịch (compiler) sẽ dịch file mã nguồn `helloworld.c` và liên kết với các thư viện có dùng đến trong chương trình để tạo thành file thực thi được trên máy tính, ở đây là file `helloworld.exe`.
+
+**Lỗi (errors)** 
+
+Là các lỗi xảy ra khi biên dịch. Cần phải quay lại trình soạn thảo để sửa hết các lỗi này.
+
+*Một số lỗi thường gặp ở người mới học lập trình:*
+
+Thiếu ký tự `;` phân tách các câu lệnh:
+<img src="figs/error01.PNG">
+
+Nhập chưa đúng tên hàm, từ khóa chuỗi định dạng, cú pháp lệnh:
+<img src="figs/error02.PNG">
+
+**Cảnh báo (warnings):**
+
+Là các thông báo của trình biên dịch, cảnh báo chương trình vẫn chạy được nhưng có thể gây ra lỗi. 
+
+*Ví dụ về cảnh báo:*
+Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai báo thư viện vào ra chuẩn `stdio.h`. 
+<img src="figs/warning01.PNG">
+
+
+- Chạy chương trình (Run)
+Chọn **Excecute->Run**, hoặc nhấn **F10**, hoặc nhấn biểu tượng **Run** trên thanh công cụ.
+<img src="figs/devcpprun01.PNG">
 
 
 ### CLion
