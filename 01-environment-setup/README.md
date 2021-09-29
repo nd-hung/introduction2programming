@@ -13,7 +13,7 @@ Thiết lập môi trường lập trình C/C++
 
 ## 1 - Các bước viết chương trình <a name="programmingsteps"/>
 ## 2 - Môi trường phát triển tích hợp<a name="ides"/>
-### 2.1 - Dev-C++ <a name"devcpp"/>
+### 2.1 - Dev-C++ <a name="devcpp"/>
 #### Đặc điểm
 - [Dev-C++](https://www.bloodshed.net/) được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: mã nguồn mở (open-source), rất gọn nhẹ và đủ tính năng cơ bản;
 - Hỗ trợ một số trình biên dịch khác nhau (như [MingW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/));
