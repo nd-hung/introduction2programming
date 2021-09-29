@@ -58,7 +58,7 @@ Chọn **File->Save**, hoặc nhấn **Ctrl+S** để lưu lại file mã nguồ
 - Biên dịch (Compile)
 
 Chọn **Excecute->Compile**, hoặc nhấn **F9**, hoặc nhấn biểu tượng **Compile** trên thanh công cụ.
-<img src="figs/devcpp-install-09.PNG">
+<img src="figs/devcpp-install-09.png">
 
 Cửa sổ **Compiler Log** hiện kết quả biên dịch.
 
