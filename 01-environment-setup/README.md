@@ -16,9 +16,10 @@ Thiết lập môi trường lập trình C/C++
 - Chỉ chạy trên Windows.
 
 ### - [Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
-- VS Code không phải là IDE hoàn chỉnh, mà là ứng dụng viết mã nguồn với nhiều tính năng cao cấp.
-- Gọn nhẹ, chạy được trên Windows, macOS and Linux.
+- IDE gọn nhẹ với nhiều tính năng cao cấp, do Microsoft phát triển.
+- Chạy được trên Windows, macOS and Linux.
 - Hỗ trợ nhiều ngôn ngữ (C/C++, C#, Java, Python, ...).
+- Miễn phí.
 
 ### - [CLion](https://www.jetbrains.com/clion/)
 - Hỗ trợ tạo ứng dụng chuyên nghiệp C/C++ đa nền tảng (cross-platform).
