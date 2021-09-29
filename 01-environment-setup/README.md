@@ -2,19 +2,37 @@
 Thiết lập môi trường lập trình C/C++
 </h2>
 
-## [1 - Các bước viết chương trình](#programmingsteps)
-## [2 - Môi trường phát triển tích hợp](#ides)
-### [2.1 - Dev-C++](#devcpp)
-### [2.2 - Visual Studio Code](#vscode)
-### [2.3 - CLion](#clion)
-## [3 - Tham khảo](#references)
+- ## [Các bước viết chương trình](#programmingsteps)
+- ## [Môi trường phát triển tích hợp](#ides)
 
 <br>
 
-## 1 - Các bước viết chương trình <a name="programmingsteps"/>
-## 2 - Môi trường phát triển tích hợp<a name="ides"/>
-### 2.1 - Dev-C++ <a name="devcpp"/>
-### 2.2 - Visual Studio Code
-### 2.3 - CLion
+## Các bước viết chương trình <a name="programmingsteps"/>
+
+## Môi trường phát triển tích hợp<a name="ides"/>
+### - [Dev-C++](http://dev-cpp.com/)
+- Mã nguồn mở (open-source).
+- Rất gọn nhẹ & đủ tính năng cơ bản;
+- Chỉ chạy trên Windows.
+
+### - [Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
+- VS Code không phải là IDE hoàn chỉnh, mà là ứng dụng viết mã nguồn với nhiều tính năng cao cấp.
+- Gọn nhẹ, chạy được trên Windows, macOS and Linux.
+- Hỗ trợ nhiều ngôn ngữ (C/C++, C#, Java, Python, ...).
+
+### - [CLion](https://www.jetbrains.com/clion/)
+- Hỗ trợ tạo ứng dụng chuyên nghiệp C/C++ đa nền tảng (cross-platform).
+- Chạy được trên Windows, macOS and Linux.
+- Nhiều tính năng cao cấp: Phân tích mã nguồn (code analysis), tái cấu trúc mã nguồn (code refactoring), tự động sinh mã nguồn (code generation).
+
+### - [Visual Studio](https://visualstudio.microsoft.com/)
+- Là công cụ phát triển chuyên nghiệp, phát hành bởi Microsoft.
+- Có thể tạo ứng dụng cho Windows, macOS, Linux.
+- Đầy đủ tính năng cao cấp.
+- Đòi hỏi máy tính cấu hình đủ mạnh & bộ nhớ lớn.
+
+### - [Code::Blocks](https://www.codeblocks.org/)
+### - [Eclipse](https://www.eclipse.org/)
+### - [XCode](https://developer.apple.com/xcode/)
 
 ### [Tham khảo](References.md)
