@@ -71,9 +71,11 @@ Là các thông báo của trình biên dịch khi chương trình còn lỗi (l
 *Một số lỗi thường gặp ở người mới học lập trình:*
 
 Thiếu ký tự `;` phân tách các câu lệnh:
+
 <img src="figs/error01.PNG">
 
 Nhập chưa đúng tên hàm, từ khóa chuỗi định dạng, cú pháp lệnh:
+
 <img src="figs/error02.PNG">
 
 **Cảnh báo (warnings):**
@@ -83,6 +85,7 @@ Là các thông báo của trình biên dịch, cảnh báo chương trình vẫ
 *Ví dụ:*
 
 Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai báo thư viện vào ra chuẩn `stdio.h`. 
+
 <img src="figs/warning01.PNG">
 
 
