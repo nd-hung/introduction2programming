@@ -89,7 +89,8 @@ Nhập chưa đúng tên hàm, từ khóa chuỗi định dạng, cú pháp lệ
 
 Là các thông báo của trình biên dịch, cảnh báo chương trình vẫn chạy được nhưng có thể gây ra lỗi. 
 
-*Ví dụ về cảnh báo:*
+*Ví dụ:*
+
 Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai báo thư viện vào ra chuẩn `stdio.h`. 
 <img src="figs/warning01.PNG">
 
