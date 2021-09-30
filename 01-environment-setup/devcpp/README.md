@@ -95,5 +95,5 @@ Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai 
 
 #### Bước 3: Chạy chương trình (Run)
 
-Chọn **Excecute->Run**, hoặc nhấn **F10**, hoặc nhấn biểu tượng **Run** trên thanh công cụ.
+Chọn **Execute->Run**, hoặc nhấn **F10**, hoặc nhấn biểu tượng **Run** trên thanh công cụ.
 <img src="figs/devcpprun01.PNG">
