@@ -19,7 +19,7 @@
 
 - **Choose Components**: nên chọn mặc định (Full) để cài đầy đủ các thành phần. Nếu đã từng cài Dev-C++ trước đó, nên chọn thêm "Remove old configuration files" để gỡ bỏ các thiết lập cũ.
 
-<img src="figs/devcpp-install-02.PNG">
+<img src="figs/devcpp-install-02.PNG"/>
 
 Chọn **Next**.
 
@@ -42,7 +42,7 @@ Khi chạy lần đầu, Dev-C++ yêu cầu chọn lựa về ngôn ngữ, theme
 
 Chọn **File->New->Source File**, hoặc nhấn tổ hợp phím **Ctrl+N**, hoặc chọn biểu tượng **New** ở thanh công cụ chính.
 
-<img src="figs/devcpp-install-06.png">
+<img src="figs/devcpp-install-06.png"/>
 
 Ở màn hình soạn thảo, tiến hành viết mã lệnh chương trình.
 ```c
@@ -58,13 +58,13 @@ int main()
 - Lưu file mã nguồn
 
 Chọn **File->Save**, hoặc nhấn **Ctrl+S** để lưu lại file mã nguồn. Nên đặt tên file có ý nghĩa, chẳng hạn `helloworld.c`
-<img src="figs/devcpp-install-08.PNG">
+<img src="figs/devcpp-install-08.PNG"/>
 
 #### Bước 2: Biên dịch (Compile)
 
 Chọn **Excecute->Compile**, hoặc nhấn **F9**, hoặc nhấn biểu tượng **Compile** trên thanh công cụ.
 
-<img src="figs/devcpp-install-09.png">
+<img src="figs/devcpp-install-09.png"/>
 
 Cửa sổ **Compiler Log** hiện kết quả biên dịch.
 
@@ -78,11 +78,11 @@ Là các thông báo của trình biên dịch khi chương trình còn lỗi (l
 
 Thiếu ký tự `;` phân tách các câu lệnh:
 
-<img src="figs/error01.PNG">
+<img src="figs/error01.PNG"/>
 
 Nhập chưa đúng tên hàm, từ khóa chuỗi định dạng, cú pháp lệnh, v.v..:
 
-<img src="figs/error02.PNG">
+<img src="figs/error02.PNG"/>
 
 **Cảnh báo (warnings):**
 
@@ -92,10 +92,10 @@ Là các thông báo của trình biên dịch, cảnh báo chương trình vẫ
 
 Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai báo thư viện vào ra chuẩn `stdio.h`. 
 
-<img src="figs/warning01.PNG">
+<img src="figs/warning01.PNG"/>
 
 
 #### Bước 3: Chạy chương trình (Run)
 
 Chọn **Execute->Run**, hoặc nhấn **F10**, hoặc nhấn biểu tượng **Run** trên thanh công cụ.
-<img src="figs/devcpprun01.PNG">
+<img src="figs/devcpprun01.PNG"/>
