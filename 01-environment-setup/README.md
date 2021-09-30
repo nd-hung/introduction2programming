@@ -14,33 +14,48 @@ Thiết lập môi trường lập trình C/C++
 <br>
 
 ## Các bước viết chương trình <a name="programmingsteps"/>
+Sau khi xây dựng được *giải thuật* giải quyết bài toán, bước tiếp theo là *cài đặt* thuật toán đó thành *chương trình máy tính*.
+
+Có thể chia quy trình viết chương trình làm ba bước:
+
+### Bước 1: Viết mã nguồn (Edit)
+- Mã nguồn (source code) là những dòng lệnh được viết theo cú pháp của một ngôn ngữ lập trình cụ thể, chẳng hạn như C/C++, Java, Python,... 
+- Ở các ngôn ngữ lập trình bậc cao, các dòng lệnh được viết theo cú pháp gần gũi với ngôn ngữ tự nhiên, thường là tiếng Anh. <br> *Ví dụ*: Để in một thông báo lên màn hình, câu lệnh trong ngôn ngữ C như sau:
+```c 
+printf("This is a message");
+```
+
 <img src="figs/c-programming-pipeline.PNG"/>
 
-## Môi trường phát triển tích hợp<a name="ides"/>
+### Bước 2: Dịch (Compile)
+- Bước dịch (compiling) chuyển đổi mã nguồn (là các dòng lệnh con người hiểu được) sang mã máy (máy tính hiểu & thực thi được).
+- Quá trình dịch được thực hiện bởi chương trình dịch (compiler).
+- Nếu mã nguồn còn có lỗi cú pháp, chương trình dịch sẽ thông báo lỗi. Người lập trình cần quay lại **Bước 1** để khắc phục hết các lỗi này.
+- Nếu không còn lỗi cú pháp, trình biên dịch chuyển đổi file mã nguồn thành file mã máy có phần mở rộng là `.obj`; sau đó liên kết với các thư viện liên quan để tạo thành file thi hành được trên máy tính (có phần mở rộng là `.exe`).
+
+### Bước 3: Chạy (Run)
+- Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.
+
+**Lưu ý**: 
+
+    - Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
+    - Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo, biên dịch và chạy; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
+
+## Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
 ### - [Dev-C++](devcpp)
-- Mã nguồn mở (open-source).
 - Rất gọn nhẹ & đủ tính năng cơ bản. 
+- Mã nguồn mở (open-source).
 - Chỉ chạy trên Windows.
 
 ### - [Visual Studio Code](vscode)
 - Gọn nhẹ với nhiều tính năng cao cấp, do Microsoft phát triển.
 - Chạy trên Windows, macOS và Linux.
-- Hỗ trợ nhiều ngôn ngữ (C/C++, C#, Java, Python, ...).
 - Miễn phí.
 
-### - [CLion](https://www.jetbrains.com/clion/)
-- Hỗ trợ tạo ứng dụng chuyên nghiệp C/C++ đa nền tảng (cross-platform).
-- Chạy trên Windows, macOS and Linux.
-- Nhiều tính năng cao cấp: Phân tích mã nguồn (code analysis), tái cấu trúc mã nguồn (code refactoring), tự động sinh mã nguồn (code generation).
+### Một số công cụ lập trình C/C++ chuyên nghiệp
+- [CLion](https://www.jetbrains.com/clion/)
+- [Visual Studio](https://visualstudio.microsoft.com/)
+- [Eclipse](https://www.eclipse.org/)
+- [XCode](https://developer.apple.com/xcode/)
 
-### - [Visual Studio](https://visualstudio.microsoft.com/)
-- Là công cụ phát triển chuyên nghiệp, phát hành bởi Microsoft.
-- Có thể tạo ứng dụng cho Windows, macOS, Linux.
-- Đầy đủ tính năng cao cấp.
-- Đòi hỏi máy tính cấu hình đủ mạnh & bộ nhớ lớn.
-
-### - [Code::Blocks](https://www.codeblocks.org/)
-### - [Eclipse](https://www.eclipse.org/)
-### - [XCode](https://developer.apple.com/xcode/)
-
-### [Tham khảo](References.md)
+## [Tài liệu tham khảo](References.md)
