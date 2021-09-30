@@ -3,14 +3,14 @@ Thiết lập môi trường lập trình C/C++
 </h2>
 
 ### Mục tiêu:
-1. Xác định được quy trình tạo một chương trình máy tính
-2. Thiết lập được môi trường lập trình C/C++ thông dụng
-3. Viết được chương trình đơn giản đầu tiên
+- Xác định được quy trình tạo một chương trình máy tính
+- Thiết lập được môi trường lập trình C/C++ thông dụng
+- Viết được chương trình đơn giản đầu tiên
 
-- ## [Các bước viết chương trình](#programmingsteps)
-- ## [Môi trường phát triển tích hợp](#ides)
-    ### [Dev-C++](devcpp)
-    ### [Visual Studio Code](vscode)
+## [1. Các bước viết chương trình](#programmingsteps)
+## [2. Môi trường phát triển tích hợp](#ides)
+    ### [2.1 - Dev-C++](devcpp)
+    ### [2.2 - Visual Studio Code](vscode)
 <br>
 
 ## Các bước viết chương trình <a name="programmingsteps"/>
