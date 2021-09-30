@@ -51,7 +51,7 @@ printf("This is a message");
 - Chạy trên Windows, macOS và Linux.
 - Miễn phí.
 
-### Một số công cụ lập trình C/C++ chuyên nghiệp
+### Một số IDE khác
 - [CLion](https://www.jetbrains.com/clion/)
 - [Visual Studio](https://visualstudio.microsoft.com/)
 - [Eclipse](https://www.eclipse.org/)
