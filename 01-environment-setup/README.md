@@ -38,7 +38,7 @@ printf("This is a message");
 - Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.
 - Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
 - Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi logic (nếu có). Nếu còn lỗi khi chạy, quay lại **Bước 1** để khắc phục.
-- Các công cụ phát triển tích hợp thường hỗ trợ chức năng gỡ rối (Debug), giúp dò tìm lỗi khi chạy chương trình.
+- Các công cụ lập trình thường hỗ trợ chức năng gỡ rối (Debug), giúp dò tìm lỗi khi chạy chương trình.
 
 **Chú ý:**
 - Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo mã nguồn, biên dịch, chạy và gỡ rối; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
