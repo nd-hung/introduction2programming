@@ -69,7 +69,7 @@ Chọn **Excecute->Compile**, hoặc nhấn **F9**, hoặc nhấn biểu tượn
 
 <img src="figs/devcpp-install-09.png"/>
 
-Cửa sổ **Compiler Log** hiện kết quả biên dịch.
+Cửa sổ **Compile Log** hiện kết quả biên dịch.
 
 Nếu chương trình không có lỗi nào (errors = 0), trình biên dịch (compiler) sẽ dịch file mã nguồn `helloworld.c` và liên kết với các thư viện có dùng đến trong chương trình để tạo thành file thực thi được trên máy tính, ở đây là file `helloworld.exe`.
 
