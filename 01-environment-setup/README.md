@@ -5,7 +5,7 @@ Thiết lập môi trường lập trình C/C++
 ### Mục tiêu:
 - Xác định được quy trình tạo một chương trình máy tính
 - Thiết lập được môi trường lập trình C/C++ thông dụng
-- Viết được chương trình đơn giản đầu tiên
+- Tạo được chương trình đơn giản đầu tiên
 
 ## [1 - Các bước viết chương trình](#programmingsteps)
 ## [2 - Một số công cụ lập trình C/C++ thông dụng](#ides)
