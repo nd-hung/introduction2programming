@@ -2,7 +2,6 @@
 - ### [Đặc điểm](#specs)
 - ### [Cài đặt](#install)
 - ### [Sử dụng](#use)
-<br>
 
 ### Đặc điểm <a name="specs"/>
 - [Dev-C++](https://www.bloodshed.net/) được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: rất gọn nhẹ, đủ tính năng cơ bản, mã nguồn mở (open-source).
