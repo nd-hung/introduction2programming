@@ -13,10 +13,10 @@
 #### Cài đặt Dev-C++
 - Chạy file `Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe` vừa tải xuống để bắt đầu cài đặt.
 
-- **License Agreement**: chọn `I Agree`.
+- **License Agreement**: chọn **I Agree**.
 <img src="figs/devcpp-install-01.PNG">
 
-- **Choose Components**: nên chọn mặc định (Full) để cài đầy đủ các thành phần. Nếu đã từng cài Dev-C++ trước đó, nên chọn thêm "Remove old configuration files" để gỡ bỏ các thiết lập cũ.
+- **Choose Components**: nên chọn mặc định (Full) để cài đầy đủ các thành phần. Nếu đã từng cài Dev-C++ trước đó, nên chọn thêm ``Remove old configuration files`` để gỡ bỏ các thiết lập cũ.
 
 <img src="figs/devcpp-install-02.PNG"/>
 
