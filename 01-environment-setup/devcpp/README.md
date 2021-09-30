@@ -17,9 +17,10 @@
 - **License Agreement**: chọn `I Agree`.
 <img src="figs/devcpp-install-01.PNG">
 
-- **Choose Components**: nên chọn mặc định (Full) để cài đầy đủ các thành phần. Nếu đã từng cài Dev-C++ trước đó, nên chọn thêm "Remove old configuration files" để gỡ bỏ các thiết lập cũ.<br>
-Chọn **Next**.
+- **Choose Components**: nên chọn mặc định (Full) để cài đầy đủ các thành phần. Nếu đã từng cài Dev-C++ trước đó, nên chọn thêm "Remove old configuration files" để gỡ bỏ các thiết lập cũ.
+
 <img src="figs/devcpp-install-02.PNG">
+Chọn **Next**.
 
 - **Choose Install Location**: chọn vị trí cài đặt trên ổ đĩa. 
 Nhấn **Install**.
@@ -78,7 +79,7 @@ Thiếu ký tự `;` phân tách các câu lệnh:
 
 <img src="figs/error01.PNG">
 
-Nhập chưa đúng tên hàm, từ khóa chuỗi định dạng, cú pháp lệnh:
+Nhập chưa đúng tên hàm, từ khóa chuỗi định dạng, cú pháp lệnh, v.v..:
 
 <img src="figs/error02.PNG">
 
