@@ -3,7 +3,7 @@ THỰC HÀNH NHẬP MÔN LẬP TRÌNH
 </h2>
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
-#### Khoa Công nghệ thông tin, Trường đại học Nha Trang </h3>
+#### Khoa Công nghệ thông tin, Trường đại học Nha Trang
 <br>
 <img src="01-environment-setup/figs/c-programming-pipeline.PNG"/>
 <br>
