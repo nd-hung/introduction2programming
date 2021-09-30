@@ -16,7 +16,7 @@
 - **License Agreement**: chọn **I Agree**.
 <img src="figs/devcpp-install-01.PNG">
 
-- **Choose Components**: nên chọn mặc định (Full) để cài đầy đủ các thành phần. Nếu đã từng cài Dev-C++ trước đó, nên chọn thêm ``Remove old configuration files`` để gỡ bỏ các thiết lập cũ.
+- **Choose Components**: nên chọn mặc định (Full) để cài đầy đủ các thành phần. Nếu đã từng cài Dev-C++ trước đó, nên chọn thêm `Remove old configuration files` để gỡ bỏ các thiết lập cũ.
 
 <img src="figs/devcpp-install-02.PNG"/>
 
@@ -24,10 +24,13 @@ Chọn **Next**.
 
 - **Choose Install Location**: chọn vị trí cài đặt trên ổ đĩa. 
 Nhấn **Install**.
-<img src="figs/devcpp-install-03.PNG">
+<img src="figs/devcpp-install-03.PNG"/>
 
-- Nhấn **Finish** để hoàn tất cài đặt.
-<img src="figs/devcpp-install-04.PNG">
+- Hoàn tất cài đặt
+
+<img src="figs/devcpp-install-04.PNG"/>
+
+Nhấn **Finish**.
 
 ### Sử dụng Dev-C++ <a name="use"/>
 Viết chương trình in ra màn hình dòng chữ "Hello World!".
