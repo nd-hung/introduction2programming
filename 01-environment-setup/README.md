@@ -17,9 +17,9 @@ Thiết lập môi trường lập trình C/C++
 
 Khi cần giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật* giải quyết bài toán, sau đó sử dụng một (hoặc một số) ngôn ngữ lập trình để *cài đặt* giải thuật thành *chương trình máy tính*.
 
-Có thể chia quy trình viết chương trình thành ba bước:
+Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile), chạy (run).
 
-### Bước 1: Viết mã nguồn (Edit)
+### Bước 1: Viết mã nguồn
 - Mã nguồn (source code) là những dòng lệnh được viết theo cú pháp của một ngôn ngữ lập trình cụ thể, chẳng hạn như C/C++, Java, Python,... 
 - Ở các ngôn ngữ lập trình bậc cao, các dòng lệnh được viết theo cú pháp gần gũi với ngôn ngữ tự nhiên, thường là tiếng Anh. <br> *Ví dụ*: Để in một thông báo lên màn hình, câu lệnh trong ngôn ngữ C như sau:
 ```c 
@@ -28,13 +28,13 @@ printf("This is a message");
 
 <img src="figs/c-programming-pipeline.PNG"/>
 
-### Bước 2: Dịch (Compile)
+### Bước 2: Dịch
 - Bước dịch (compiling) chuyển đổi mã nguồn (là các dòng lệnh con người hiểu được) sang mã máy (máy tính hiểu & thực thi được).
 - Quá trình dịch được thực hiện bởi chương trình dịch (compiler).
 - Nếu mã nguồn còn có lỗi cú pháp, chương trình dịch sẽ thông báo lỗi. Người lập trình cần quay lại **Bước 1** để khắc phục hết các lỗi này.
 - Nếu không còn lỗi cú pháp, trình biên dịch chuyển đổi file mã nguồn thành file mã máy có phần mở rộng là `.obj`; sau đó liên kết với các thư viện liên quan để tạo thành file thi hành được trên máy tính (có phần mở rộng là `.exe`).
 
-### Bước 3: Chạy (Run)
+### Bước 3: Chạy
 - Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.
 - Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
 - Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi logic (nếu có). Nếu còn lỗi khi chạy, quay lại **Bước 1** để khắc phục.
