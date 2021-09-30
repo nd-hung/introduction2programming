@@ -7,13 +7,13 @@ Thiết lập môi trường lập trình C/C++
 - Thiết lập được môi trường lập trình C/C++ thông dụng
 - Viết được chương trình đơn giản đầu tiên
 
-## [Các bước viết chương trình](#programmingsteps)
-## [Một số công cụ lập trình C/C++ thông dụng](#ides)
-### [Dev-C++](devcpp)
-### [Visual Studio Code](vscode)
+## [1 - Các bước viết chương trình](#programmingsteps)
+## [2 - Một số công cụ lập trình C/C++ thông dụng](#ides)
+### [2.1 - Dev-C++](devcpp)
+### [2.2 -Visual Studio Code](vscode)
 <br>
 
-## Các bước viết chương trình <a name="programmingsteps"/>
+## 1- Các bước viết chương trình <a name="programmingsteps"/>
 Sau khi xây dựng được *giải thuật* giải quyết bài toán, bước tiếp theo là *cài đặt* thuật toán đó thành *chương trình máy tính*.
 
 Có thể chia quy trình viết chương trình làm ba bước:
@@ -40,18 +40,18 @@ printf("This is a message");
 - Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
 - Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo, biên dịch và chạy; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
 
-## Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
-### - [Dev-C++](devcpp)
+## 2 -  Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
+### 2.1 - [Dev-C++](devcpp)
 - Rất gọn nhẹ & đủ tính năng cơ bản. 
 - Mã nguồn mở (open-source).
 - Chỉ chạy trên Windows.
 
-### - [Visual Studio Code](vscode)
+### 2.2 - [Visual Studio Code](vscode)
 - Gọn nhẹ với nhiều tính năng cao cấp, do Microsoft phát triển.
 - Chạy trên Windows, macOS và Linux.
 - Miễn phí.
 
-### Một số IDE khác
+### 2.3 - Một số IDE khác
 - [CLion](https://www.jetbrains.com/clion/)
 - [Visual Studio](https://visualstudio.microsoft.com/)
 - [Eclipse](https://www.eclipse.org/)
