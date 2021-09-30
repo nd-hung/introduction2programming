@@ -59,7 +59,8 @@ int main()
 ```
 - Lưu file mã nguồn
 
-Chọn **File->Save**, hoặc nhấn **Ctrl+S** để lưu lại file mã nguồn. Nên đặt tên file có ý nghĩa, chẳng hạn `helloworld.c`
+Chọn **File->Save**, hoặc nhấn **Ctrl+S** để lưu lại file mã nguồn. Nên đặt tên file ngắn gọn và mô tả được nội dung, chẳng hạn `helloworld.c`.
+
 <img src="figs/devcpp-install-08.PNG"/>
 
 #### Bước 2: Biên dịch (Compile)
