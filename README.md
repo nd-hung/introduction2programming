@@ -9,10 +9,11 @@ THỰC HÀNH NHẬP MÔN LẬP TRÌNH
 <br>
 
 ### [1 - Thiết lập môi trường lập trình C/C++](01-environment-setup) 
-### [2 - Các lệnh cơ bản của C](02-basic) 
+### [2 - Các lệnh cơ bản](02-basic) 
 ### [3 - Các cấu trúc điều khiển](03-control-structures) 
 ### [4 - Hàm ](04-functions) 
 ### [5 - Kiểu mảng, chuỗi](05-arrays-strings) 
-### [6 - Kiểu cấu trúc (struct)](06-struct) 
+### [6 - Kiểu dữ liệu cấu trúc (struct)](06-struct) 
+### [7 - Xử lý file]() 
 
 ### [Tham khảo](references.md)
