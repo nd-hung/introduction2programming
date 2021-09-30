@@ -9,7 +9,8 @@
 - Dev-C++ chỉ chạy trên Windows.
 
 ### Cài đặt Dev-C++ <a name="install"/>
-#### [Tải nguồn cài đặt Dev-C++](https://sourceforge.net/projects/orwelldevcpp/files/latest/download)
+#### Tải nguồn cài đặt
+Tải nguồn cài Dev-C++ [tại đây](https://sourceforge.net/projects/orwelldevcpp/files/latest/download).
 #### Cài đặt Dev-C++
 - Chạy file `Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe` vừa tải xuống để bắt đầu cài đặt.
 
