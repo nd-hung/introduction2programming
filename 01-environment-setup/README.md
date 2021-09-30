@@ -36,10 +36,9 @@ printf("This is a message");
 ### Bước 3: Chạy (Run)
 - Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.
 
-**Lưu ý**: 
-
-    - Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
-    - Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo, biên dịch và chạy; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
+**Chú ý:**
+- Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
+- Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo, biên dịch và chạy; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
 
 ## Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
 ### - [Dev-C++](devcpp)
