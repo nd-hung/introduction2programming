@@ -9,8 +9,8 @@ Thiết lập môi trường lập trình C/C++
 
 ## [1 - Các bước viết chương trình](#programmingsteps)
 ## [2 - Một số công cụ lập trình C/C++ thông dụng](#ides)
-    ### [2.1 - Dev-C++](devcpp)
-    ### [2.2 -Visual Studio Code](vscode)
+### [2.1 - Dev-C++](devcpp)
+### [2.2 -Visual Studio Code](vscode)
 <br>
 
 ## 1- Các bước viết chương trình <a name="programmingsteps"/>
