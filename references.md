@@ -7,5 +7,8 @@ Tài liệu tham khảo
 ### [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp) 
 ### [Microsoft C++, C, and Assembler documentation](https://docs.microsoft.com/en-us/cpp/?view=msvc-160) 
 ### [CLion: A cross-platform C/C++ IDE](https://www.jetbrains.com/clion/learn/) 
+### The C Programming Language (2nd Edition), Brian Kernighan and Dennis Ritchie
+### Practical C Programming (3rd Edition), O'Reilly
 ### Bài giảng Cơ sở lập trình, Khoa CNTT, Trường ĐHKHTN, ĐHQG TP. Hồ Chí Minh
+
 
