@@ -31,17 +31,18 @@ Nhấn **Install**.
 ### Sử dụng Dev-C++ <a name="use"/>
 Viết chương trình in ra màn hình dòng chữ "Hello World!".
 - Khởi động Dev-C++
-<img src="figs/devcpp-install-05.PNG">
+<img src="figs/devcpp-install-05.PNG"/>
 
-Khi chạy lần đầu, Dev-C++ yêu cầu chọn lựa về ngôn ngữ, theme (các thiết lập về font chữ, màu sắc và các biểu tượng). Hãy chọn thiết lập mặc định và nhấn **OK** để hoàn tất.
-- Tạo file mã nguồn 
+Khi chạy lần đầu, Dev-C++ yêu cầu chọn lựa về ngôn ngữ, theme (các thiết lập về font chữ, màu sắc và các biểu tượng). Chọn thiết lập mặc định và nhấn **OK** để hoàn tất.
+
+#### [Bước 1: Viết chương trình (Edit)](#edit)
+- Tạo file mã nguồn
+
 Chọn **File->New->Source File**, hoặc nhấn tổ hợp phím **Ctrl+N**, hoặc chọn biểu tượng **New** ở thanh công cụ chính.
 
 <img src="figs/devcpp-install-06.png">
 
-#### [Bước 1: Viết chương trình (Edit)](#edit)
-
-Ở màn hình soạn thảo, viết mã lệnh chương trình.
+Ở màn hình soạn thảo, tiến hành viết mã lệnh chương trình.
 ```c
 // The first C program: print "Hello World" message
 
@@ -52,12 +53,15 @@ int main()
 	printf("Hello World!");
 }
 ```
+- Lưu file mã nguồn
+
 Chọn **File->Save**, hoặc nhấn **Ctrl+S** để lưu lại file mã nguồn. Nên đặt tên file có ý nghĩa, chẳng hạn `helloworld.c`
 <img src="figs/devcpp-install-08.PNG">
 
-#### Biên dịch (Compile)
+#### Bước 2: Biên dịch (Compile)
 
 Chọn **Excecute->Compile**, hoặc nhấn **F9**, hoặc nhấn biểu tượng **Compile** trên thanh công cụ.
+
 <img src="figs/devcpp-install-09.png">
 
 Cửa sổ **Compiler Log** hiện kết quả biên dịch.
@@ -66,7 +70,7 @@ Nếu chương trình không có lỗi nào (errors = 0), trình biên dịch (c
 
 **Lỗi (errors)** 
 
-Là các thông báo của trình biên dịch khi chương trình còn lỗi (loại "lỗi tầm thường"). Cần phải quay lại <a name="edit"> **Bước 1** </a> để sửa hết các lỗi này.
+Là các thông báo của trình biên dịch khi chương trình còn lỗi (loại "lỗi tầm thường"). Cần phải quay lại **Bước 1** để sửa hết các lỗi này.
 
 *Một số lỗi thường gặp ở người mới học lập trình:*
 
@@ -89,7 +93,7 @@ Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai 
 <img src="figs/warning01.PNG">
 
 
-- Chạy chương trình (Run)
+#### Bước 3: Chạy chương trình (Run)
 
 Chọn **Excecute->Run**, hoặc nhấn **F10**, hoặc nhấn biểu tượng **Run** trên thanh công cụ.
 <img src="figs/devcpprun01.PNG">
