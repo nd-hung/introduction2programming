@@ -37,7 +37,7 @@ Viết chương trình in ra màn hình dòng chữ "Hello World!".
 - Khởi động Dev-C++
 <img src="figs/devcpp-install-05.PNG"/>
 
-Khi chạy lần đầu, Dev-C++ yêu cầu chọn lựa về ngôn ngữ, theme (các thiết lập về font chữ, màu sắc và các biểu tượng). Chọn thiết lập mặc định và nhấn **OK** để hoàn tất.
+*Khi chạy lần đầu, Dev-C++ yêu cầu chọn lựa về ngôn ngữ, theme (các thiết lập về font chữ, màu sắc và các biểu tượng). Chọn thiết lập mặc định và nhấn **OK** để hoàn tất.*
 
 #### [Bước 1: Viết chương trình (Edit)](#edit)
 - Tạo file mã nguồn
