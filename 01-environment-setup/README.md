@@ -8,7 +8,7 @@ Thiết lập môi trường lập trình C/C++
 - Viết được chương trình đơn giản đầu tiên
 
 ## [Các bước viết chương trình](#programmingsteps)
-## [Môi trường phát triển tích hợp](#ides)
+## [Một số công cụ lập trình C/C++ thông dụng](#ides)
 ### [Dev-C++](devcpp)
 ### [Visual Studio Code](vscode)
 <br>
