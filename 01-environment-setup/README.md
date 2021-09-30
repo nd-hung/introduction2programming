@@ -14,7 +14,8 @@ Thiết lập môi trường lập trình C/C++
 <br>
 
 ## 1- Các bước viết chương trình <a name="programmingsteps"/>
-Sau khi xây dựng được *giải thuật* giải quyết bài toán, bước tiếp theo là *cài đặt* giải thuật đó thành *chương trình máy tính*.
+
+Khi cần giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật* giải quyết bài toán, sau đó sử dụng một (hoặc một số) ngôn ngữ lập trình để *cài đặt* giải thuật thành *chương trình máy tính*.
 
 Có thể chia quy trình viết chương trình thành ba bước:
 
@@ -35,11 +36,12 @@ printf("This is a message");
 
 ### Bước 3: Chạy (Run)
 - Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.
-- Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi (nếu có).
+- Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
+- Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi logic (nếu có). Nếu còn lỗi khi chạy, quay lại **Bước 1** để khắc phục.
+- Các công cụ phát triển tích hợp thường hỗ trợ chức năng gỡ rối (Debug), giúp dò tìm lỗi khi chạy chương trình.
 
 **Chú ý:**
-- Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
-- Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo, biên dịch và chạy; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
+- Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo mã nguồn, biên dịch, chạy và gỡ rối; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
 
 ## 2 -  Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
 ### 2.1 - [Dev-C++](devcpp)
