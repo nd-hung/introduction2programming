@@ -17,7 +17,7 @@ Thiết lập môi trường lập trình C/C++
 
 Khi cần giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật* giải quyết bài toán, sau đó sử dụng một (hoặc một số) ngôn ngữ lập trình để *cài đặt* giải thuật thành *chương trình máy tính*.
 
-Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile), chạy (run).
+Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile) và chạy (run).
 
 ### Bước 1: Viết mã nguồn
 - Mã nguồn (source code) là những dòng lệnh được viết theo cú pháp của một ngôn ngữ lập trình cụ thể, chẳng hạn như C/C++, Java, Python,... 
