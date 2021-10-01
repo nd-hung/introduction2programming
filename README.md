@@ -1,5 +1,5 @@
 <h2 align="center"> 
-THỰC HÀNH NHẬP MÔN LẬP TRÌNH
+NHẬP MÔN LẬP TRÌNH
 </h2>
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
