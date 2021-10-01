@@ -4,7 +4,7 @@
 - ### [Sử dụng](#use)
 
 ### Đặc điểm <a name="specs"/>
-- [Dev-C++](https://www.bloodshed.net/) được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: rất gọn nhẹ, đủ tính năng cơ bản, mã nguồn mở (open-source).
+- [Dev-C++](https://www.bloodshed.net/) được ưa thích sử dụng dạy/học lập trình C/C++ bởi: rất gọn nhẹ, đủ tính năng cơ bản, mã nguồn mở (open-source).
 - Dev-C++ hỗ trợ một số trình biên dịch khác nhau (như [MingW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/), [TDM-GCC](https://sourceforge.net/projects/tdm-gcc/)).
 - Dev-C++ chỉ chạy trên Windows.
 
