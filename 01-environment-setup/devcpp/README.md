@@ -5,12 +5,12 @@
 
 ### Đặc điểm <a name="specs"/>
 - [Dev-C++](https://www.bloodshed.net/) được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: rất gọn nhẹ, đủ tính năng cơ bản, mã nguồn mở (open-source).
-- Dev-C++ hỗ trợ một số trình biên dịch khác nhau (như [MingW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/)).
+- Dev-C++ hỗ trợ một số trình biên dịch khác nhau (như [MingW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/), [TDM-GCC](https://sourceforge.net/projects/tdm-gcc/)).
 - Dev-C++ chỉ chạy trên Windows.
 
 ### Cài đặt Dev-C++ <a name="install"/>
 #### Tải nguồn cài đặt Dev-C++
-Tải nguồn cài tại [SourceForge](https://sourceforge.net/projects/orwelldevcpp/files/latest/download).
+Tải nguồn cài tại [SourceForge](https://sourceforge.net/projects/orwelldevcpp/files/latest/download). Gói cài đặt này gồm cả trình biên dịch [TDM-GCC](https://sourceforge.net/projects/tdm-gcc/).
 #### Cài đặt Dev-C++
 - Mở file đã tải xuống (phiên bản mới nhất có tên file cài đặt là `"Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe"`) để bắt đầu cài đặt.
 
@@ -78,13 +78,13 @@ Nếu chương trình không có lỗi nào (errors = 0), trình biên dịch (c
 
 Là các thông báo của trình biên dịch khi chương trình còn lỗi (loại "lỗi tầm thường"). Cần phải quay lại **Bước 1** để sửa hết các lỗi này.
 
-*Một số lỗi thường gặp ở người mới học lập trình:*
+*Ví dụ về một số lỗi thường gặp ở người mới học lập trình:*
 
-Thiếu ký tự `;` phân tách các câu lệnh:
+- Thiếu ký tự `;` phân tách các câu lệnh, trình biên dịch báo lỗi ở dòng 8 "[error] expected ';' before '}' token". Cần thêm ký tự `;` vào cuối dòng 7.
 
 <img src="figs/error01.PNG"/>
 
-Nhập chưa đúng tên hàm, từ khóa chuỗi định dạng, cú pháp lệnh, v.v..:
+- Nhập chưa đúng tên hàm, từ khóa, chuỗi định dạng, cú pháp lệnh, v.v.. Ở dòng 7 tên hàm cần viết đúng là `printf`.
 
 <img src="figs/error02.PNG"/>
 
