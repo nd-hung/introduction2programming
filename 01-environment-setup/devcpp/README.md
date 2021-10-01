@@ -56,6 +56,7 @@ Chọn **File->New->Source File**, hoặc nhấn tổ hợp phím **Ctrl+N**, ho
 int main()
 {
 	printf("Hello World!");
+	return 0;
 }
 ```
 - Lưu file mã nguồn
