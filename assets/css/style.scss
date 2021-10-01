@@ -4,11 +4,6 @@
 @import "{{ site.theme }}";
 
 body {
-    font: 11px "Courier New";
+    font-family: Arial, Helvetica, sans-serif;
     color: dark;
-}
-h2{
-    color: maroon;
-h3{
-    color: blueviolet;
 }
