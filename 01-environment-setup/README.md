@@ -44,12 +44,7 @@ printf("This is a message");
 - Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo mã nguồn, biên dịch, chạy và gỡ rối; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
 
 ## 2 -  Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
-<h3>
-<div class="tooltip">[2.1 - Dev-C++](devcpp)
-  <span class="tooltiptext">Xem hướng dẫn sử dụng Dev-C++</span>
-</div>
-</h3>
-
+### [2.1 - Dev-C++](devcpp)
 - Rất gọn nhẹ & đủ tính năng cơ bản. 
 - Mã nguồn mở (open-source).
 - Chỉ chạy trên Windows.
