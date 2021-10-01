@@ -93,8 +93,7 @@ Là các thông báo của trình biên dịch khi chương trình còn lỗi (l
 
 Là các thông báo của trình biên dịch, cảnh báo chương trình vẫn chạy được nhưng có thể gây ra lỗi. 
 
-*Ví dụ:*
-
+*Ví dụ:* 
 Trong trường hợp sau, cảnh báo ở dòng 5 do mã nguồn thiếu khai báo thư viện vào ra chuẩn `stdio.h`:
 
 <img src="figs/warning01.PNG"/>
