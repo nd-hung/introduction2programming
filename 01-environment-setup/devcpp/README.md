@@ -81,11 +81,11 @@ Là các thông báo của trình biên dịch khi chương trình còn lỗi (l
 
 *Ví dụ về một số lỗi thường gặp ở người mới học lập trình:*
 
-- Thiếu ký tự `;` phân tách các câu lệnh, trình biên dịch báo lỗi ở dòng 7 "[error] expected ';' before 'return'". Cần thêm ký tự `;` vào cuối dòng 6.
+- Thiếu ký tự `;` phân tách các câu lệnh, trình biên dịch báo lỗi ở dòng 7 "[error] expected ';' before 'return'". Cần thêm ký tự `;` vào cuối dòng 6:
 
 <img src="figs/error01.PNG"/>
 
-- Nhập chưa đúng tên hàm, từ khóa, chuỗi định dạng, cú pháp lệnh, v.v.. Ở dòng 6 tên hàm cần viết đúng là `printf`.
+- Nhập chưa đúng tên hàm, từ khóa, chuỗi định dạng, cú pháp lệnh, v.v.. Ở dòng 6 tên hàm cần viết đúng là `printf`:
 
 <img src="figs/error02.PNG"/>
 
@@ -95,7 +95,7 @@ Là các thông báo của trình biên dịch, cảnh báo chương trình vẫ
 
 *Ví dụ:*
 
-Trong trường hợp này, cảnh báo ở dòng 5 do mã nguồn thiếu khai báo thư viện vào ra chuẩn `stdio.h`. 
+Trong trường hợp sau, cảnh báo ở dòng 5 do mã nguồn thiếu khai báo thư viện vào ra chuẩn `stdio.h`:
 
 <img src="figs/warning01.PNG"/>
 
