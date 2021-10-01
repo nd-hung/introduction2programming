@@ -5,14 +5,14 @@
 
 ### Đặc điểm <a name="specs"/>
 - [Dev-C++](https://www.bloodshed.net/) được ưa chuộng hàng đầu trong dạy/học lập trình C/C++ bởi: rất gọn nhẹ, đủ tính năng cơ bản, mã nguồn mở (open-source).
-- Dev-C++ hỗ trợ một số trình biên dịch khác nhau ([MingW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/)).
+- Dev-C++ hỗ trợ một số trình biên dịch khác nhau (như [MingW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/)).
 - Dev-C++ chỉ chạy trên Windows.
 
 ### Cài đặt Dev-C++ <a name="install"/>
-#### Tải nguồn cài đặt
-Tải nguồn cài Dev-C++ [tại đây](https://sourceforge.net/projects/orwelldevcpp/files/latest/download).
+#### Tải nguồn cài đặt Dev-C++
+Tải nguồn cài tại [SourceForge](https://sourceforge.net/projects/orwelldevcpp/files/latest/download).
 #### Cài đặt Dev-C++
-- Chạy file `Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe` vừa tải xuống để bắt đầu cài đặt.
+- Mở file đã tải xuống (phiên bản mới nhất có tên file cài đặt là `"Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe"`) để bắt đầu cài đặt.
 
 - **License Agreement**: chọn **I Agree**.
 <img src="figs/devcpp-install-01.PNG">
