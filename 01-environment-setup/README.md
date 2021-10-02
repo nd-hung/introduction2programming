@@ -65,4 +65,4 @@ printf("This is a message");
 - [Eclipse](https://www.eclipse.org/)
 - [XCode](https://developer.apple.com/xcode/)
 
-## [Tài liệu tham khảo](References.md)
+## [Tài liệu tham khảo](references.md)
