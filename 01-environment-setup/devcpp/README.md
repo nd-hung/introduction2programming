@@ -81,7 +81,7 @@ Là các thông báo của trình biên dịch khi chương trình còn lỗi (l
 
 *Ví dụ về một số lỗi thường gặp ở người mới học lập trình:*
 
-- Thiếu ký tự `;` phân tách các câu lệnh, trình biên dịch báo lỗi ở dòng 7 "[error] expected ';' before 'return'". 
+- Thiếu ký tự `;` phân tách các câu lệnh: 
 
 <img src="figs/error01.PNG"/>
 
