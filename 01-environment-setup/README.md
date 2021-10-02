@@ -11,9 +11,6 @@ Thiết lập môi trường lập trình C/C++
 ## [2 - Một số công cụ lập trình C/C++ thông dụng](#ides)
 ### [2.1 - Dev-C++](devcpp)
 ### [2.2 - Visual Studio Code](vscode)
-<br>
-
-## 1- Các bước viết chương trình <a name="programmingsteps"/>
 
 <p>
 <blockquote class="otro-blockquote">
@@ -22,6 +19,7 @@ Thiết lập môi trường lập trình C/C++
 </blockquote>
 </p>
 
+## 1- Các bước viết chương trình <a name="programmingsteps"/>
 Để giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật*, sau đó sử dụng một (hoặc một số) ngôn ngữ lập trình để *cài đặt* giải thuật thành *chương trình máy tính*.
 
 Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile) và chạy (run).
