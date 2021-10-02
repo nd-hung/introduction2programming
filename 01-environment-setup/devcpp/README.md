@@ -6,7 +6,7 @@
 <p>
 <blockquote class="otro-blockquote">
   The only way to learn a new programming language is by writing programs in it.
-  <span>Dennis Ritchie</span>
+  <span> - Dennis Ritchie</span>
 </blockquote>
 </p>
 

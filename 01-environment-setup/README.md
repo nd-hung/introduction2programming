@@ -18,7 +18,7 @@ Thiết lập môi trường lập trình C/C++
 <p>
 <blockquote class="otro-blockquote">
   First, solve the problem. Then, write the code.
-  <span>John Johnson</span>
+  <span> - John Johnson</span>
 </blockquote>
 </p>
 
