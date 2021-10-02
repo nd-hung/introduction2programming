@@ -15,7 +15,7 @@ Thiết lập môi trường lập trình C/C++
 
 ## 1- Các bước viết chương trình <a name="programmingsteps"/>
 
-<p> <q=id="a">First, solve the problem. Then, write the code. – John Johnson</q></p>
+<p> <q id="a">First, solve the problem. Then, write the code. – John Johnson</q></p>
 
 Khi cần giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật*, sau đó sử dụng một (hoặc một số) ngôn ngữ lập trình để *cài đặt* giải thuật thành *chương trình máy tính*.
 
