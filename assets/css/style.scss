@@ -12,9 +12,9 @@ blockquote{
   font-size: 1.2em;
   width:75%;
   margin:30px auto;
-  font-family: "Courier New";
+  font-family:"Courier New";
   font-style:normal;
-  color: #22200;
+  color:#22200;
   padding:1.2em 25px 0.5em 50px;
   border-left:8px solid brown ;
   line-height:1.2;
@@ -24,16 +24,16 @@ blockquote{
 
 blockquote::before{
   font-family:Arial;
-  content: "\201C";
-  color: brown;
+  content:"\201C";
+  color:brown;
   font-size:4em;
   position: absolute;
-  left: 10px;
+  left:10px;
   top:-10px;
 }
 
 blockquote::after{
-  content: '';
+  content:'';
 }
 
 blockquote span{
@@ -46,7 +46,7 @@ blockquote span{
 
 div {
   margin-bottom: 2px;
-  padding: 3px 8px;
+  padding: .5px 8px;
 }
 
 .danger {
