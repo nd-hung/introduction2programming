@@ -43,8 +43,8 @@ printf("This is a message");
 - Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.
 - Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi logic (nếu có). Nếu còn lỗi, quay lại **Bước 1** để khắc phục.
 - Các công cụ lập trình thường hỗ trợ chức năng gỡ rối (Debug), giúp dò tìm lỗi khi chạy chương trình.
-<div class="warning">
-  <p><strong>Chú ý:</strong> Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.</p>
+- <div class="warning">
+  <p><strong></strong>Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.</p>
 </div>
 
 
