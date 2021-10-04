@@ -21,7 +21,7 @@
 - Mở file đã tải xuống để bắt đầu cài đặt.
 
 - **License Agreement**
-<img src="figs/install-vscode-1.PNG">
+<img src="figs/installvscode1.PNG">
 
 Chọn "I accept the agreement" và nhấn **Next**.
 
