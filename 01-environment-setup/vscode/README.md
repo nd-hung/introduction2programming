@@ -37,6 +37,7 @@
 
 ### Cài C/C++ extension
 - Khởi động VS Code
+
 <img src="figs/installvscode4.PNG">
 
 Chọn biểu tượng "Extensions" (Ctrl+Shift+X), nhập C/C++ vào ô tìm kiếm, chọn cài đặt gói **C/C++ IntelliSense, debugging, and code browsing** của Microsoft.
@@ -68,6 +69,7 @@ Tại ô tìm kiếm của Windows, gõ "Edit environment variables for account"
 - **User variables for ...**: Chọn "PATH" và nhấn **Edit**.
 
 - **Edit evironment variable**: Chọn **New**.
+
 <img src="figs/installmingw5.PNG">
 
 Bổ sung dòng khai báo đường dẫn đến thư mục cài đặt MinGW, ở đây là `C:\msys64\mingw64\bin`. Nhấn **OK** để hoàn tất.
@@ -96,6 +98,7 @@ code .
 - **Bước 1**: Viết mã nguồn
 
 Ở cửa số Explorer, chọn **New File** và nhập tên file là `helloworld.c`.
+
 <img src="figs/helloworld1.PNG">
 
 Viết mã nguồn ở file `helloworld.c`.
@@ -114,6 +117,7 @@ int main()
 - **Bước 2**: Biên dịch
 
 Chọn **Terminal->Run Build Task** (Ctrl+Shift+B) để biên dịch. Chọn trình biên dịch là `C:\msys64\mingw64\bin\gcc.exe`.
+
 <img src="figs/helloworld2.PNG">
 
 Nếu không còn lỗi cú pháp, ở cửa sổ Terminal trình biên dịch báo "Build finished successfully". Nhấn phím bất kỳ để đóng lại.
