@@ -1,11 +1,17 @@
 ## [Lập trình C/C++ với Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
 
-## [Đặc điểm](#specs)
-## [Cài đặt](#install)
-## [Sử dụng](#use)
-<br>
+### [Đặc điểm](#specs)
+### [Cài đặt](#install)
+### [Sử dụng](#use)
 
-## Đặc điểm <a name="specs"/>
+<p>
+<blockquote class="otro-blockquote">
+ Make it work, make it right, make it fast.
+  <span> – Kent Beck</span>
+</blockquote>
+</p>
+
+## Đặc điểm chính của VS Code <a name="specs"/>
 - Visual Studio Code là công cụ viết mã nguồn (code editor), không phải là IDE đầy đủ. Để viết chương trình C/C++ với VS Code, cần cài đặt thêm các công cụ sau:
     * Gói mở rộng (extension) hỗ trợ viết mã nguồn C/C++ và debug.
     * Trình biên dịch (compiler) C/C++.
@@ -14,7 +20,7 @@
 - Tích hợp Git - công cụ quản lý mã nguồn phân tán.
 - Chạy trên Windows, macOS và Linux.
 
-## Cài đặt VS Code, C/C++ extention, và C/C++ compiler trên Windows <a name="install">
+## Cài đặt VS Code, C/C++ extension, và C/C++ compiler trên Windows <a name="install">
 
 ### Cài đặt VS Code
 - [Tải về gói cài đặt](https://code.visualstudio.com/Download). Chọn phiên bản cho Windows.
@@ -29,7 +35,7 @@
 - **Ready to Install**: Nhấn **Install** và chờ quá trình cài đặt hoàn tất.
 <img src="figs/installvscode3.PNG">
 
-### Cài C/C++ extention
+### Cài C/C++ extension
 - Khởi động VS Code
 <img src="figs/installvscode4.PNG">
 
