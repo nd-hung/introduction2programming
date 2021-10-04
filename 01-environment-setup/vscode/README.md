@@ -6,8 +6,8 @@
 
 <p>
 <blockquote class="otro-blockquote">
- Make it work, make it right, make it fast.
-  <span> – Kent Beck</span>
+ Everybody should learn to program a computer because it teaches you how to think.
+  <span> – Steve Jobs</span>
 </blockquote>
 </p>
 
@@ -113,14 +113,18 @@ int main()
 
 - **Bước 2**: Biên dịch
 
-Chọn **Terminal->Run Build Task** (Ctrl+Shift+B) để biên dịch.
+Chọn **Terminal->Run Build Task** (Ctrl+Shift+B) để biên dịch. Chọn trình biên dịch là `C:\msys64\mingw64\bin\gcc.exe`.
 <img src="figs/helloworld2.PNG">
 
 Nếu không còn lỗi cú pháp, ở cửa sổ Terminal trình biên dịch báo "Build finished successfully". Nhấn phím bất kỳ để đóng lại.
 
 - **Bước 3**: Chạy chương trình
 
-Mở Terminal và nhập tên file `helloworld` để chạy chương trình:
+Mở Terminal, nhập tên file thực thi `helloworld.exe` để chạy chương trình:
+
+```console
+.\helloworld
+```
 <img src="figs/helloworld3.PNG">
 
 
