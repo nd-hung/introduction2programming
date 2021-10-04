@@ -87,6 +87,41 @@ mkdir HelloWorld
 cd HelloWorld
 code .
 ```
+- **Bước 1**: Viết mã nguồn
+
+Ở cửa số Explorer, chọn **New File** và nhập tên file là `helloworld.c`.
+<img src="figs/helloworld1.PNG">
+
+Viết mã nguồn ở file `helloworld.c`.
+```c
+// Hello World from VS Code and MinGW
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World from VS Code & MinGW!");
+    return 0;
+}
+```
+
+- **Bước 2**: Biên dịch
+
+Chọn **Terminal->Run Build Task** (Ctrl+Shift+B) để biên dịch.
+<img src="figs/helloworld2.PNG">
+
+Nếu không còn lỗi cú pháp, ở cửa sổ Terminal trình biên dịch báo "Build finished successfully". Nhấn phím bất kỳ để đóng lại.
+
+- **Bước 3**: Chạy chương trình
+
+Mở Terminal và nhập tên file `helloworld` để chạy chương trình:
+<img src="figs/helloworld3.PNG">
+
+
+
+
+
+
 
 
 
