@@ -20,24 +20,18 @@
 - [Tải về gói cài đặt](https://code.visualstudio.com/Download). Chọn phiên bản cho Windows.
 - Mở file đã tải xuống để bắt đầu cài đặt.
 
-- **License Agreement**
+- **License Agreement**: Chọn "I accept the agreement" và nhấn **Next**.
 <img src="figs/installvscode1.PNG">
 
-Chọn "I accept the agreement" và nhấn **Next**.
+- **Select Additional Tasks**: Để các tùy chọn mặc định và nhấn **Next**.
+<img src="figs/installvscode2.PNG">
 
-- **Select Additional Tasks**
-<img src="figs/install-vscode-2.PNG">
-
-Để các tùy chọn mặc định và nhấn **Next**.
-
-- **Ready to Install**
-<img src="figs/install-vscode-3.PNG">
-
-Nhấn **Install** và chờ quá trình cài đặt hoàn tất.
+- **Ready to Install**: Nhấn **Install** và chờ quá trình cài đặt hoàn tất.
+<img src="figs/installvscode3.PNG">
 
 ### Cài C/C++ extention
 - Khởi động VS Code
-<img src="figs/install-vscode-4.PNG">
+<img src="figs/installvscode4.PNG">
 
 Chọn biểu tượng "Extensions" (Ctrl+Shift+X), nhập C/C++ vào ô tìm kiếm, chọn cài đặt gói **C/C++ IntelliSense, debugging, and code browsing** của Microsoft.
 
@@ -47,28 +41,28 @@ Trình biên dịch MinGW (Minimalist GNU for Windows), miễn phí, thường �
 
 - Mở file đã tải xuống để bắt đầu cài đặt.
 
-<img src="figs/install-mingw-01.PNG">
+<img src="figs/installmingw1.PNG">
 
 Nhấn **Next**.
 
 - **Installation Folder**. Chọn vị trí cài đặt trên ổ đĩa.
 
-<img src="figs/install-mingw-02.PNG">
+<img src="figs/installmingw2.PNG">
 
 Nhấn **Next** để cài đặt. Nhấn **Finish** để hoàn tất.
 
 - Thiết lập biến môi trường
 
-<img src="figs/install-mingw-03.PNG">
+<img src="figs/installmingw3.PNG">
 
 Tại ô tìm kiếm của Windows, gõ "Edit environment variables for account" rồi chọn mở thiết lập tương ứng.
 
-<img src="figs/install-mingw-04.PNG">
+<img src="figs/installmingw4.PNG">
 
 - **User variables for ...**: Chọn "PATH" và nhấn **Edit**.
 
 - **Edit evironment variable**: Chọn **New**.
-<img src="figs/install-mingw-05.PNG">
+<img src="figs/installmingw5.PNG">
 
 Bổ sung dòng khai báo đường dẫn đến thư mục cài đặt MinGW, ở đây là `C:\msys64\mingw64\bin`. Nhấn **OK** để hoàn tất.
 
@@ -79,7 +73,7 @@ Mở cửa sổ Command Promt và gõ lệnh:
 g++ --version
 gdb --version
 ```
-<img src="figs/install-mingw-06.PNG">
+<img src="figs/installmingw6.PNG">
 
 ## Lập trình C/C++ với VS Code <a name="use">
 Tạo chương trình "Hello World" với VS Code.
