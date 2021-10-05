@@ -40,7 +40,7 @@
 
 <img src="figs/installvscode4.PNG">
 
-Chọn biểu tượng "Extensions" (Ctrl+Shift+X), nhập C/C++ vào ô tìm kiếm, chọn cài đặt gói **C/C++ IntelliSense, debugging, and code browsing** của Microsoft.
+Chọn biểu tượng "Extensions" (Ctrl+Shift+X), nhập C/C++ vào ô tìm kiếm, chọn cài đặt gói "C/C++ IntelliSense, debugging, and code browsing" của Microsoft.
 
 ### Cài đặt trình biên dịch
 Trình biên dịch MinGW (Minimalist GNU for Windows), miễn phí, thường được sử dụng. 
@@ -72,9 +72,9 @@ Tại ô tìm kiếm của Windows, gõ "Edit environment variables for account"
 
 <img src="figs/installmingw5.PNG">
 
-Bổ sung dòng khai báo đường dẫn đến thư mục cài đặt MinGW, ở đây là `C:\msys64\mingw64\bin`. Nhấn **OK** để hoàn tất.
+Bổ sung dòng khai báo đường dẫn đến thư mục cài đặt MinGW, ở đây là "C:\msys64\mingw64\bin". Nhấn **OK** để hoàn tất.
 
-- Kiểm tra cài đặt trình biên dịch:
+- Kiểm tra kết quả cài đặt trình biên dịch:
 
 Mở cửa sổ Command Promt và gõ lệnh:
 ```console
@@ -97,11 +97,11 @@ code .
 ```
 - **Bước 1**: Viết mã nguồn
 
-Ở cửa số Explorer, chọn **New File** và nhập tên file là `helloworld.c`.
+Ở cửa số Explorer, chọn **New File** và nhập tên file là "helloworld.c".
 
 <img src="figs/helloworld1.PNG">
 
-Viết mã nguồn ở file `helloworld.c`.
+Viết mã nguồn ở file "helloworld.c".
 ```c
 // Hello World from VS Code and MinGW
 
@@ -116,7 +116,7 @@ int main()
 
 - **Bước 2**: Biên dịch
 
-Chọn **Terminal->Run Build Task** (Ctrl+Shift+B) để biên dịch. Chọn trình biên dịch là `C:\msys64\mingw64\bin\gcc.exe`.
+Chọn **Terminal->Run Build Task** (Ctrl+Shift+B) để biên dịch. Chọn trình biên dịch là "C:\msys64\mingw64\bin\gcc.exe".
 
 <img src="figs/helloworld2.PNG">
 
@@ -124,7 +124,7 @@ Nếu không còn lỗi cú pháp, ở cửa sổ Terminal trình biên dịch b
 
 - **Bước 3**: Chạy chương trình
 
-Mở Terminal, nhập tên file thực thi `helloworld.exe` để chạy chương trình:
+Mở Terminal, nhập tên file thực thi "helloworld.exe" để chạy chương trình:
 
 ```console
 .\helloworld
