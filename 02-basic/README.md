@@ -53,9 +53,9 @@ c, ..., z`
 - Không được đặt tên có khoảng trắng & trùng với các từ khóa.
 - C phân biệt chữ hoa chữ thường.
 
-<div class="info">
+<div class="success">
   <p>
-    - Nên đặt tên có ý nghĩa.
+    Nên đặt tên có ý nghĩa.
   </p>
 </div>
 
