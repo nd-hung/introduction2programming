@@ -55,8 +55,9 @@ c, ..., z`
 
 <div class="success">
   <p>
-    - Nên đặt tên có ý nghĩa.
-    - Thói quen lập trình tốt: nên đặt tên thống nhất theo một quy ước (naming conventions). Chẳng hạn, sau đây là quy ước đặt tên của hãng Oracle:
+    - Nên đặt tên có ý nghĩa.<br>
+    - Thói quen lập trình tốt: nên đặt tên thống nhất theo một quy ước (naming conventions). Chẳng hạn, sau đây là quy ước đặt tên của hãng Oracle:<br>
+     
 
   </p>
 </div>
