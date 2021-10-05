@@ -55,7 +55,7 @@ int main()
 
     // Các lệnh
     printf("Nhap ban kinh hinh tron = ");   // Lệnh xuất
-    scanf("%f", &banKinh);					// Lệnh nhập 
+    scanf("%f", &banKinh);  // Lệnh nhập 
     if(banKinh > 0)                         
     {
         dienTich = DienTichHinhTron(banKinh); // Lời gọi hàm
