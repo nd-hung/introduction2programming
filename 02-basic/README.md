@@ -33,12 +33,15 @@ c, ..., z`
 - Từ khóa là các từ dùng riêng của ngôn ngữ. Không được đặt các tên biến, hằng, hàm trùng với từ khóa.
 
 - Bộ từ khóa của C
-    * const, signed, struct, typedef, unsigned, static
-    * char, double, float, int, long, short, void
-    * case, default, else, if, switch
-    * do, for, while
-    * break, continue, return, 
-    * goto, enum, union, sizeof, auto, extern, register, volatile
+
+```c
+    const; signed; struct; typedef; unsigned; static
+    char; double; float; int; long; short; void
+    if; else; switch; case; default
+    for; while; do
+    break; continue; return
+    goto; enum; union; sizeof; auto; extern; register; volatile
+```
 
 #### Cấu trúc cơ bản của chương trình C
 

@@ -76,7 +76,7 @@ Bổ sung dòng khai báo đường dẫn đến thư mục cài đặt MinGW, �
 
 - Kiểm tra kết quả cài đặt trình biên dịch:
 
-Mở cửa sổ Command Promt và gõ lệnh:
+Mở cửa sổ Command Prompt và gõ lệnh:
 ```console
 g++ --version
 gdb --version
