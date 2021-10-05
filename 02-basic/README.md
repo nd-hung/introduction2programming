@@ -13,11 +13,14 @@ Các thao tác cơ bản với C
 <br>
 
 ## 1 - Tổng quan về ngôn ngữ C <a name="intro"/>
+
 ### Giới thiệu
 - C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - Hỗ trợ lập trình thủ tục/cấu trúc.
 - Case sensitive.
+
 ### Bộ từ vựng của C
+
 #### Các ký tự được sử dụng
 - Bộ ký tự chữ cái Latinh `A, B, C, ..., Z, a, b,
 c, ..., z`
@@ -25,6 +28,7 @@ c, ..., z`
 - Các ký hiệu toán học: `+ – * / = < > ( )`
 - Các ký tự đặc biệt: `. , : ; [ ] % ! \ # $ ‘`
 - Ký tự gạch nối `_`, khoảng trắng `‘ ’`
+
 #### Các từ khóa (keywords)
 - Từ khóa là các từ dùng riêng. Người lập trình không được đặt các tên biến, hằng, hàm trùng với từ khóa.
 - Bộ từ khóa của C:
@@ -71,5 +75,3 @@ float DienTichHinhTron(float r)
     if(r > 0) return r*r*PI;
 }
 ```
-
-
