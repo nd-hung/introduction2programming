@@ -1,21 +1,21 @@
-// Khai b�o c�c thu vi?n
+// Khai báo các thư viện
 #include <stdio.h>        
 
-// Khai b�o c�c h?ng, bi?n to�n c?c (global)
+// Khai báo các hằng, biến toàn cục (global)
 const float PI=3.1416;  
 
-// Khai b�o khu�n m?u (prototype) h�m
+// Khai báo khuôn mẫu hàm (prototype)
 float DienTichHinhTron(float); 
 
-// Chuong tr�nh (h�m) ch�nh
+// Chương trình chính
 int main() 
 {
-    // Khai b�o bi?n c?c b?
+    // Khai báo biên cục bộ (local)
     float banKinh, dienTich=0; 
 
-    // C�c l?nh
-    printf("Nhap ban kinh hinh tron = ");	// Lenh xuat
-    scanf("%f", &banKinh);					// Lenh nhap
+    // Các lệnh
+    printf("Nhap ban kinh hinh tron = ");   // Lệnh xuất
+    scanf("%f", &banKinh);					// Lệnh nhập
     
     if(banKinh > 0)
     {
@@ -26,7 +26,7 @@ int main()
         printf("Ban kinh hinh tron phai > 0");
 }
 
-// C�i d?t c�c h�m t? d?nh nghia
+// Cài đặt hàm tự định nghĩa
 float DienTichHinhTron(float r)
 {
     if(r > 0) return r*r*PI;
