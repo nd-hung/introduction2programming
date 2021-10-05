@@ -37,31 +37,33 @@ c, ..., z`
 #### Cấu trúc cơ bản của chương trình C
 ```c
 // Khai báo các thư viện
-#include <stdio.h>;        
+#include <stdio.h>        
 
 // Khai báo các hằng, biến toàn cục (global)
 const float PI=3.1416;  
 
-// Khai báo khuôn mẫu (prototype) hàm
+// Khai báo khuôn mẫu hàm (prototype)
 float DienTichHinhTron(float); 
 
-// Chương trình (hàm) chính
+// Chương trình chính
 int main() 
 {
-    // Khai báo biến cục bộ
-    float banKinh = 1.23, dienTich=0; 
+    // Khai báo biến cục bộ (local)
+    float banKinh, dienTich=0; 
 
     // Các lệnh
-    if(banKinh > 0)
+    printf("Nhap ban kinh hinh tron = ");   // Lệnh xuất
+    scanf("%f", &banKinh);					// Lệnh nhập 
+    if(banKinh > 0)                         
     {
-        dienTich = DienTichHinhTron(banKinh); 
+        dienTich = DienTichHinhTron(banKinh); // Lời gọi hàm
         printf("Dien tich hinh tron = %f\n", dienTich);
     }
     else
         printf("Ban kinh hinh tron phai > 0");
 }
 
-// Cài đặt các hàm tự định nghĩa
+// Cài đặt hàm tự định nghĩa
 float DienTichHinhTron(float r)
 {
     if(r > 0) return r*r*PI;
