@@ -32,8 +32,10 @@ c, ..., z`
 #### Các từ khóa (keywords)
 - Từ khóa là các từ dùng riêng của ngôn ngữ. 
 
-- <div class="warning">
-  <p>Người lập trình không được đặt các tên biến, hằng, hàm trùng với từ khóa.</p>
+<div class="warning">
+    <p>
+        Không được đặt các tên biến, hằng, hàm trùng với từ khóa.
+    </p>
 </div>
 
 - Bộ từ khóa của C:
