@@ -56,8 +56,8 @@ c, ..., z`
 <div class="success">
   <p><strong>Nên:</strong>
     <ul>
-        <li> Đặt tên có ý nghĩa
-        <li> Sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming conventions)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
+        <li> Đặt tên có ý nghĩa</li>
+        <li> Sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming conventions)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.</li>
     </ul>
   </p>
 </div>
