@@ -4,7 +4,7 @@ Các thao tác cơ bản với C
 
 ### Mục tiêu:
 - Xác định được cấu trúc của một chương trình C 
-- Sử dụng được các thành phần cơ bản: biến, hằng, biểu thức
+- Sử dụng được các thành phần: biến, hằng, biểu thức
 - Sử được các lệnh cơ bản: gán, nhập/xuất
 
 ## [1 - Tổng quan về ngôn ngữ C](#intro)
@@ -30,7 +30,12 @@ c, ..., z`
 - Ký tự gạch nối `_`, khoảng trắng `‘ ’`
 
 #### Các từ khóa (keywords)
-- Từ khóa là các từ dùng riêng. Người lập trình không được đặt các tên biến, hằng, hàm trùng với từ khóa.
+- Từ khóa là các từ dùng riêng của ngôn ngữ. 
+
+- <div class="warning">
+  <p>Người lập trình không được đặt các tên biến, hằng, hàm trùng với từ khóa.</p>
+</div>
+
 - Bộ từ khóa của C:
     * const, signed, struct, typedef, unsigned, static
     * char, double, float, int, long, short, void
