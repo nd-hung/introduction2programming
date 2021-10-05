@@ -30,16 +30,9 @@ c, ..., z`
 - Ký tự gạch nối `_`, khoảng trắng `‘ ’`
 
 #### Các từ khóa (keywords)
-- Từ khóa là các từ dùng riêng của ngôn ngữ. 
-<ul>
-<div class="warning">
-    <p>
-        Không được đặt các tên biến, hằng, hàm trùng với từ khóa.
-    </p>
-</div>
-</ul>
+- Từ khóa là các từ dùng riêng của ngôn ngữ. Không được đặt các tên biến, hằng, hàm trùng với từ khóa.
 
-- Bộ từ khóa của C:
+- Bộ từ khóa của C
     * const, signed, struct, typedef, unsigned, static
     * char, double, float, int, long, short, void
     * case, default, else, if, switch
