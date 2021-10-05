@@ -54,11 +54,9 @@ c, ..., z`
 - C phân biệt chữ hoa chữ thường.
 
 <div class="success">
-  <p>
+  <p><strong></strong>
     - Nên đặt tên có ý nghĩa.<br>
-    - Thói quen lập trình tốt: nên đặt tên thống nhất theo một quy ước (naming conventions). Chẳng hạn, sau đây là quy ước đặt tên của hãng Oracle:<br>
-     
-
+    - Thói quen lập trình tốt: nên sử dụng một [quy cách đặt tên (naming conventions)](https://en.wikipedia.org/wiki/Naming_convention_(programming)) thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
   </p>
 </div>
 
