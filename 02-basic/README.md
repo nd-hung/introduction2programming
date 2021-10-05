@@ -72,7 +72,8 @@ c, ..., z`
     * Dạng 1: Phù hợp với chú thích gồm nhiều dòng
     ```c
     /*
-        Comments
+        Comment 1.
+        Comment 2.
     */
     ```
     * Dạng 2: Dành cho chú thích trên một dòng
