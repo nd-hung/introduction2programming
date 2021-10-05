@@ -35,8 +35,8 @@ c, ..., z`
 - Bộ từ khóa của C
 
 ```c
-    const; signed; struct; typedef; unsigned; static
-    char; double; float; int; long; short; void
+    const;  struct; typedef;  static
+    signed; unsigned; char; double; float; int; long; short; void
     if; else; switch; case; default
     for; while; do
     break; continue; return
