@@ -54,9 +54,12 @@ c, ..., z`
 - C phân biệt chữ hoa chữ thường.
 
 <div class="success">
-  <p><strong></strong>
-    - Nên đặt tên có ý nghĩa.<br>
-    - Thói quen lập trình tốt: nên sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming conventions)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
+  <p><strong>Nên:</strong>
+    <ul>
+        <li> Đặt tên có ý nghĩa
+        <li> Sử dụng một <a 
+        href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming conventions)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
+    </ul>
   </p>
 </div>
 
