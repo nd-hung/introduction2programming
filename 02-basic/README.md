@@ -48,7 +48,7 @@ c, ..., z`
 ```
 
 #### Tên/Định danh (Identifier)
-- Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
+- Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm, cấu trúc. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
 - Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`, độ dài không vượt quá 255 ký tự.
 - Không được đặt tên có khoảng trắng & trùng với các từ khóa.
 - C phân biệt chữ hoa chữ thường.
