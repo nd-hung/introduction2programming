@@ -31,12 +31,13 @@ c, ..., z`
 
 #### Các từ khóa (keywords)
 - Từ khóa là các từ dùng riêng của ngôn ngữ. 
-
+<ul>
 <div class="warning">
     <p>
         Không được đặt các tên biến, hằng, hàm trùng với từ khóa.
     </p>
 </div>
+</ul>
 
 - Bộ từ khóa của C:
     * const, signed, struct, typedef, unsigned, static
