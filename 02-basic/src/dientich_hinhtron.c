@@ -28,6 +28,8 @@ int main()
     }
     else
         printf("Ban kinh hinh tron phai > 0");
+    
+    return 0;   // Kết thúc chương trình
 }
 
 // Cài đặt hàm tự định nghĩa
