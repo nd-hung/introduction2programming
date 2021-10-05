@@ -130,15 +130,3 @@ Mở Terminal, nhập tên file thực thi `helloworld.exe` để chạy chươn
 .\helloworld
 ```
 <img src="figs/helloworld3.PNG">
-
-
-
-
-
-
-
-
-
-
-
-
