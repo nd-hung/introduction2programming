@@ -2,6 +2,9 @@
 *.o
 *.obj
 
+# VS Code
+.vscode/
+
 # Precompiled Headers
 *.gch
 *.pch
