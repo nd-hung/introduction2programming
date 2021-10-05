@@ -34,7 +34,9 @@ c, ..., z`
     * do, for, while
     * break, continue, return, 
     * goto, enum, union, sizeof, auto, extern, register, volatile
+
 #### Cấu trúc cơ bản của chương trình C
+
 ```c
 // Khai báo các thư viện
 #include <stdio.h>        
