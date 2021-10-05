@@ -8,7 +8,7 @@ Các thao tác cơ bản với C
 - Sử được các lệnh cơ bản: gán, nhập/xuất
 
 ## [1 - Tổng quan về ngôn ngữ C](#intro)
-## [2 - Các thao các cơ bản](#basic)
+## [2 - Các lệnh cơ bản](#basic)
 
 <br>
 
@@ -18,6 +18,10 @@ Các thao tác cơ bản với C
 - C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - Hỗ trợ lập trình thủ tục/cấu trúc.
 - Case sensitive.
+- Ưu điểm của C
+    * C rất mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).
+    * Được sử dụng rộng rãi bởi các nhà lập trình chuyên nghiệp.
+    * Rõ ràng, cô đọng.
 
 ### Bộ từ vựng của C
 
@@ -43,6 +47,17 @@ c, ..., z`
     goto; enum; union; sizeof; auto; extern; register; volatile
 ```
 
+#### Tên/Định danh (Identifier)
+- Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
+- Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`, độ dài không vượt quá 255 ký tự.
+- Không được đặt tên có khoảng trắng & trùng với các từ khóa.
+- C phân biệt chữ hoa chữ thường.
+
+<div class="info">
+  <p>
+    - Nên đặt tên có ý nghĩa.
+  </p>
+</div>
 #### Cấu trúc cơ bản của chương trình C
 
 ```c
