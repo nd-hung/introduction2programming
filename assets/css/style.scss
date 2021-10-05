@@ -68,3 +68,10 @@ div {
   background-color: #ffcc66 ;
   border-left: 6px solid #ff9900;
 }
+
+// set img block auto
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
