@@ -17,3 +17,55 @@ Các thao tác cơ bản với C
 - C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - Hỗ trợ lập trình thủ tục/cấu trúc.
 - Case sensitive.
+### Bộ từ vựng của C
+#### Các ký tự được sử dụng
+- Bộ ký tự chữ cái Latinh `A, B, C, ..., Z, a, b,
+c, ..., z`
+- Bộ chữ số thập phân: `0, 1, 2, ..., 9`
+- Các ký hiệu toán học: `+ – * / = < > ( )`
+- Các ký tự đặc biệt: `. , : ; [ ] % ! \ # $ ‘`
+- Ký tự gạch nối `_`, khoảng trắng `‘ ’`
+#### Các từ khóa (keywords)
+- Từ khóa là các từ dùng riêng. Người lập trình không được đặt các tên biến, hằng, hàm trùng với từ khóa.
+- Bộ từ khóa của C:
+    * const, signed, struct, typedef, unsigned, static
+    * char, double, float, int, long, short, void
+    * case, default, else, if, switch
+    * do, for, while
+    * break, continue, return, 
+    * goto, enum, union, sizeof, auto, extern, register, volatile
+#### Cấu trúc cơ bản của chương trình C
+```c
+// Khai báo các thư viện
+#include <stdio.h>;        
+
+// Khai báo các hằng, biến toàn cục (global)
+const float PI=3.1416;  
+
+// Khai báo khuôn mẫu (prototype) hàm
+float DienTichHinhTron(float); 
+
+// Chương trình (hàm) chính
+int main() 
+{
+    // Khai báo biến cục bộ
+    float banKinh = 1.23, dienTich=0; 
+
+    // Các lệnh
+    if(banKinh > 0)
+    {
+        dienTich = DienTichHinhTron(banKinh); 
+        printf("Dien tich hinh tron = %f\n", dienTich);
+    }
+    else
+        printf("Ban kinh hinh tron phai > 0");
+}
+
+// Cài đặt các hàm tự định nghĩa
+float DienTichHinhTron(float r)
+{
+    if(r > 0) return r*r*PI;
+}
+```
+
+
