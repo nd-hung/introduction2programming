@@ -50,7 +50,7 @@ c, ..., z`
 #### Tên/Định danh (Identifier)
 - Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm, cấu trúc. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
 - Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`, độ dài không vượt quá 255 ký tự.
-- Không được đặt tên có khoảng trắng & trùng với các từ khóa.
+- Không được đặt tên có khoảng trắng, không được trùng với các từ khóa.
 - C phân biệt chữ hoa chữ thường.
 
 <div class="success">
@@ -62,6 +62,23 @@ c, ..., z`
   </p>
 </div>
 
+#### Dấu chấm phẩy `;`
+- Dùng để phân tách giữa các câu lệnh. 
+
+#### Dòng chú thích (comments)
+- Các dòng chú thích giúp mã nguồn dễ hiểu hơn.
+- Trình biên dịch bỏ qua các dòng chú thích.
+- Hai cách tạo chú thích trong C:
+    * Dạng 1: Phù hợp với chú thích gồm nhiều dòng
+    ```c
+    /*
+        Comments
+    */
+    ```
+    * Dạng 2: Dành cho chú thích trên một dòng
+    ```c
+    // Comment
+    ```
 
 #### Cấu trúc cơ bản của chương trình C
 
