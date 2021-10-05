@@ -1,3 +1,7 @@
+/*
+Minh họa cấu trúc cơ bản của một chương trình C
+*/
+
 // Khai báo các thư viện
 #include <stdio.h>        
 
@@ -10,16 +14,16 @@ float DienTichHinhTron(float);
 // Chương trình chính
 int main() 
 {
-    // Khai báo biên cục bộ (local)
+    // Khai báo biến cục bộ (local)
     float banKinh, dienTich=0; 
 
     // Các lệnh
     printf("Nhap ban kinh hinh tron = ");   // Lệnh xuất
     scanf("%f", &banKinh);					// Lệnh nhập
     
-    if(banKinh > 0)
+    if(banKinh > 0)                         // Cấu trúc điều khiển
     {
-        dienTich = DienTichHinhTron(banKinh); 
+        dienTich = DienTichHinhTron(banKinh); // Lời gọi hàm
         printf("Dien tich hinh tron = %f\n", dienTich);
     }
     else
