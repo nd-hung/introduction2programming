@@ -86,14 +86,14 @@ Chẳng hạn, biểu thức tính quãng đường đi khi biết vận tốc v
 - Các dòng chú thích giúp chương trình nguồn dễ hiểu hơn.
 - Trình biên dịch bỏ qua các dòng chú thích.
 - Hai dạng chú thích trong C:
-    * Dạng 1: Phù hợp với chú thích gồm nhiều dòng
+    * Dạng 1: Chú thích gồm nhiều dòng
     ```c
     /*
         Comment 1
         Comment 2
     */
     ```
-    * Dạng 2: Dành cho chú thích trên một dòng
+    * Dạng 2: Chú thích trên một dòng
     ```c
     // Comment
     ```
