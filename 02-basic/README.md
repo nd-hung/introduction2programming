@@ -70,7 +70,7 @@ c, ..., z`
             Nên đặt tên có nghĩa & ngắn gọn (không nên dài quá 31 ký tự). 
         </li>
     
-Chẳng hạn, biểu thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết `distance = speed * time` thay vì `d = s * t`.
+Chẳng hạn, công thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết `distance = speed * time` thay vì `d = s * t`.
 
 <li> 
     Nên sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming convention)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
