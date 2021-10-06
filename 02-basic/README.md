@@ -8,17 +8,17 @@ Cơ bản về ngôn ngữ C
 - Sử được các lệnh cơ bản: gán, nhập/xuất
 
 ## [Giới thiệu ngôn ngữ C](#intro)
-### Đặc điểm
-### Bộ từ vựng
-### Cấu trúc chương trình C
+#### Đặc điểm
+#### Bộ từ vựng
+#### Cấu trúc chương trình C
 
 ## [Cơ bản về C](#basic)
-### [Các kiểu dữ liệu]
-### [Biểu thức, câu lệnh]
+#### Các kiểu dữ liệu
+#### Biểu thức, câu lệnh
 
 <br>
 
-## Tổng quan về ngôn ngữ C <a name="intro"/>
+## Giới thiệu ngôn ngữ C <a name="intro"/>
 
 ### Đặc điểm
 - Ngôn ngữ lập trình C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
@@ -125,3 +125,5 @@ float DienTichHinhTron(float r)
     if(r > 0) return r*r*PI;
 }
 ```
+
+## Cơ bản về C <a name="basic">
