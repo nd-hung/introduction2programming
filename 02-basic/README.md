@@ -14,7 +14,7 @@ Cơ bản về ngôn ngữ C
     <li><h4>Cấu trúc chương trình C</h4></li>
 </ul>
 
-<a href="#basic"><h3>Cơ bản về C</h3></a>
+<a href="#basic"><h3>Cơ bản về ngôn ngữ C</h3></a>
 <ul>
     <li><h4>Các kiểu dữ liệu cơ sở</h4></li>
     <li><h4>Biểu thức, câu lệnh</h4></li>
@@ -137,4 +137,4 @@ float DienTichHinhTron(float r)
 }
 ```
 
-## Cơ bản về C <a name="basic">
+## Cơ bản về ngôn ngữ C <a name="basic">
