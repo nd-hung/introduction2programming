@@ -9,15 +9,15 @@ Cơ bản về ngôn ngữ C
 <div style="border: 1px solid brown">
 <a href="#intro"><h2>Giới thiệu ngôn ngữ C</h2></a>
 <ul>
-<li><h4>Đặc điểm</li>
-<li><h4>Bộ từ vựng</li>
-<li><h4>Cấu trúc chương trình C</li>
+<li><h4>Đặc điểm</h4></li>
+<li><h4>Bộ từ vựng</h4></li>
+<li><h4>Cấu trúc chương trình C</h4></li>
 </ul>
 
 <a href="#basic"><h2>Cơ bản về C</h2></a>
 <ul>
-<li><h4>Các kiểu dữ liệu</li>
-<li><h4>Biểu thức, câu lệnh>
+<li><h4>Các kiểu dữ liệu</h4></li>
+<li><h4>Biểu thức, câu lệnh></h4></li>
 </ul>
 </div>
 
