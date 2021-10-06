@@ -57,6 +57,7 @@ div {
 .success {
   background-color: #ddffdd;
   border-left: 6px solid #04AA6D;
+  background-image: url(../images/icons/good_practice2.png);
 }
 
 .info {
@@ -69,6 +70,8 @@ div {
   border-left: 6px solid #ff9900;
 }
 
+
+
 // set img block auto
 img {
   display: block;
@@ -76,17 +79,3 @@ img {
   margin-right: auto;
 }
 
-p.note
-{
-     -moz-border-radius: 6px;
-     -webkit-border-radius: 6px;
-     background-color: #f0f7fb;
-     background-image: url(../images/icons/good_practice2.png);
-     background-position: 9px 0px;
-     background-repeat: no-repeat;
-     border: solid 1px #3498db;
-     border-radius: 6px;
-     line-height: 18px;
-     overflow: hidden;
-     padding: 15px 60px;
-}
