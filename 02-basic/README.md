@@ -62,7 +62,6 @@ c, ..., z`
   </p>
 </div>
 
-<p id="note">Good Practice</p>
 
 
 #### Dấu chấm phẩy `;`
