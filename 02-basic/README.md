@@ -19,11 +19,9 @@ Cơ bản về ngôn ngữ C
 <br>
 
 ## Giới thiệu ngôn ngữ C <a name="intro"/>
-
-### Đặc điểm
 - Ngôn ngữ lập trình C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.
-- Ưu điểm của C:
+- Đặc điểm của C:
     * Rất mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).
     * Được sử dụng rộng rãi bởi các nhà lập trình chuyên nghiệp.
     * Rõ ràng, cô đọng.
