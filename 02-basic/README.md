@@ -53,7 +53,7 @@ c, ..., z`
 
 #### Tên/Định danh (Identifier)
 - Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm, cấu trúc. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
-- Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`, độ dài không vượt quá 255 ký tự.
+- Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`.
 - Không được đặt tên có khoảng trắng, không được trùng với các từ khóa.
 - C phân biệt chữ hoa chữ thường.
 
@@ -61,7 +61,7 @@ c, ..., z`
   <p><strong>Nên:</strong>
     <ul>
         <li> 
-            Đặt tên ngắn gọn & có nghĩa. 
+            Đặt tên có nghĩa & ngắn gọn (không nên dài quá 31 ký tự). 
         </li>
     
 Chẳng hạn, biểu thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết `distance = speed * time` thay vì `d = s * t`.
