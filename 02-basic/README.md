@@ -16,7 +16,7 @@ Cơ bản về ngôn ngữ C
 
 <a href="#basic"><h3>Cơ bản về C</h3></a>
 <ul>
-    <li><h4>Các kiểu dữ liệu</h4></li>
+    <li><h4>Các kiểu dữ liệu cơ sở</h4></li>
     <li><h4>Biểu thức, câu lệnh</h4></li>
 </ul>
 </div>
