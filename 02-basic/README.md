@@ -4,8 +4,9 @@ Cơ bản về ngôn ngữ C
 
 ### Mục tiêu:
 - Xác định được cấu trúc của một chương trình C 
-- Sử dụng được các thành phần: biến, hằng, biểu thức
-- Sử được các lệnh cơ bản: gán, nhập/xuất
+- Sử dụng được các thành phần: biến, hằng, biểu thức, câu lệnh
+- Viết chương trình sử dụng các lệnh cơ bản
+
 <div class="header">
 <a href="#intro"><h3>Giới thiệu ngôn ngữ lập trình C</h3></a>
 <ul>
@@ -29,8 +30,8 @@ Cơ bản về ngôn ngữ C
 - C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.
 - Đặc điểm của C:
     * Mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).
-    * Được sử dụng rộng rãi bởi các nhà lập trình chuyên nghiệp.
     * Rõ ràng, cô đọng.
+    * Được sử dụng rộng rãi bởi các nhà lập trình chuyên nghiệp.
 
 ### Bộ từ vựng của C
 
@@ -59,17 +60,24 @@ c, ..., z`
 #### Tên/Định danh (Identifier)
 - Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm, cấu trúc. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
 - Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`.
-- Không được đặt tên có khoảng trắng, không được trùng với các từ khóa.
+- Không được đặt tên trùng với từ khóa hoặc có khoảng trắng.
 - Ngôn ngữ C phân biệt chữ hoa chữ thường. Vì thế, 2 tên sau đây là khác nhau: `maxSpeed` và `MaxSpeed`.
 
-<div class="icongoodpractice">
+<div class="goodpractice">
   <p>
     <ul>
         <li> 
             Nên đặt tên có nghĩa & ngắn gọn (không nên dài quá 31 ký tự). 
         </li>
     
-Chẳng hạn, biểu thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết `distance = speed * time` thay vì `d = s * t`.
+Chẳng hạn, biểu thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết 
+```c
+distance = speed * time
+``` 
+thay vì 
+```c
+d = s * t
+```
 
 <li> 
     Nên sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming convention)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
