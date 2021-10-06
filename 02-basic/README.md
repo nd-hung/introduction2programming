@@ -7,7 +7,7 @@ Cơ bản về ngôn ngữ C
 - Sử dụng được các thành phần: biến, hằng, biểu thức
 - Sử được các lệnh cơ bản: gán, nhập/xuất
 <div class="header">
-<a href="#intro"><h3>Giới thiệu ngôn ngữ C</h3></a>
+<a href="#intro"><h3>Giới thiệu ngôn ngữ lập trình C</h3></a>
 <ul>
     <li><h4>Đặc điểm</h4></li>
     <li><h4>Bộ từ vựng</h4></li>
@@ -23,9 +23,9 @@ Cơ bản về ngôn ngữ C
 
 <br>
 
-## Giới thiệu ngôn ngữ C <a name="intro"/>
+## Giới thiệu ngôn ngữ lập trình C <a name="intro"/>
 
-- Ngôn ngữ lập trình C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
+- Ngôn ngữ C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.
 - Đặc điểm của C:
     * Mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).
@@ -60,7 +60,7 @@ c, ..., z`
 - Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm, cấu trúc. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
 - Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`.
 - Không được đặt tên có khoảng trắng, không được trùng với các từ khóa.
-- C phân biệt chữ hoa chữ thường.
+- Ngôn ngữ C phân biệt chữ hoa chữ thường. Vì thế, 2 tên sau đây là khác nhau: `maxSpeed` và `MaxSpeed`.
 
 <div class="success">
   <p><strong>Nên:</strong>
