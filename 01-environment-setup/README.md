@@ -7,10 +7,24 @@ Thiết lập môi trường lập trình C/C++
 - Thiết lập được môi trường lập trình C/C++ thông dụng
 - Tạo được chương trình đơn giản đầu tiên
 
-## [1 - Các bước viết chương trình](#programmingsteps)
-## [2 - Một số công cụ lập trình C/C++ thông dụng](#ides)
-### [2.1 - Dev-C++](devcpp)
-### [2.2 - Visual Studio Code](vscode)
+<div style="border: 1px solid brown; margin=2px" >
+<a href="#programmingsteps"><h3>Các bước viết chương trình</h3></a>
+<ul>
+    <li><h4>Viết mã nguồn (Edit)</h4></li>
+    <li><h4>Dịch (Compile)</h4></li>
+    <li><h4>Chạy (Run)</h4></li>
+</ul>
+
+<a href="#ides"><h3>Một số công cụ lập trình C/C++ thông dụng</h3></a>
+<ul>
+    <li>
+    <a href="devcpp"><h4>Dev-C++</h4></a>
+    </li>
+    <li>
+    <a href="vscode"><h4>Visual Studio Code</h4></a>
+    </li>
+</ul>
+</div>
 
 <p>
 <blockquote class="otro-blockquote">

@@ -7,17 +7,17 @@ Cơ bản về ngôn ngữ C
 - Sử dụng được các thành phần: biến, hằng, biểu thức
 - Sử được các lệnh cơ bản: gán, nhập/xuất
 <div style="border: 1px solid brown">
-<a href="#intro"><h2>Giới thiệu ngôn ngữ C</h2></a>
+<a href="#intro"><h3>Giới thiệu ngôn ngữ C</h3></a>
 <ul>
-<li><h4>Đặc điểm</h4></li>
-<li><h4>Bộ từ vựng</h4></li>
-<li><h4>Cấu trúc chương trình C</h4></li>
+    <li><h4>Đặc điểm</h4></li>
+    <li><h4>Bộ từ vựng</h4></li>
+    <li><h4>Cấu trúc chương trình C</h4></li>
 </ul>
 
-<a href="#basic"><h2>Cơ bản về C</h2></a>
+<a href="#basic"><h3>Cơ bản về C</h3></a>
 <ul>
-<li><h4>Các kiểu dữ liệu</h4></li>
-<li><h4>Biểu thức, câu lệnh></h4></li>
+    <li><h4>Các kiểu dữ liệu</h4></li>
+    <li><h4>Biểu thức, câu lệnh</h4></li>
 </ul>
 </div>
 
