@@ -33,7 +33,7 @@ Thiết lập môi trường lập trình C/C++
 </blockquote>
 </p>
 
-## 1- Các bước viết chương trình <a name="programmingsteps"/>
+## Các bước viết chương trình <a name="programmingsteps"/>
 Để giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật*, sau đó sử dụng một (hoặc một số) ngôn ngữ lập trình để *cài đặt* giải thuật thành *chương trình máy tính*.
 
 Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile) và chạy (run).
@@ -64,18 +64,18 @@ printf("This is a message");
 </div>
 
 
-## 2 -  Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
-### [2.1 - Dev-C++](devcpp)
+## Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
+### [Dev-C++](devcpp)
 - Rất gọn nhẹ & đủ tính năng cơ bản. 
 - Mã nguồn mở (open-source).
 - Chỉ chạy trên Windows.
 
-### [2.2 - Visual Studio Code](vscode)
+### [Visual Studio Code](vscode)
 - Gọn nhẹ với nhiều tính năng cao cấp, do Microsoft phát triển.
 - Chạy trên Windows, macOS và Linux.
 - Miễn phí.
 
-### 2.3 - Một số IDE khác
+### Một số IDE khác
 - [CLion](https://www.jetbrains.com/clion/)
 - [Visual Studio](https://visualstudio.microsoft.com/)
 - [Eclipse](https://www.eclipse.org/)
