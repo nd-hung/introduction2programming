@@ -1,5 +1,5 @@
 <h2 align="center"> 
-Các thao tác cơ bản với C
+Cơ bản về ngôn ngữ C
 </h2>
 
 ### Mục tiêu:
@@ -7,14 +7,20 @@ Các thao tác cơ bản với C
 - Sử dụng được các thành phần: biến, hằng, biểu thức
 - Sử được các lệnh cơ bản: gán, nhập/xuất
 
-## [1 - Tổng quan về ngôn ngữ C](#intro)
-## [2 - Các lệnh cơ bản](#basic)
+## [Giới thiệu ngôn ngữ C](#intro)
+### Đặc điểm
+### Bộ từ vựng
+### Cấu trúc chương trình C
+
+## [Cơ bản về C](#basic)
+### [Các kiểu dữ liệu]
+### [Biểu thức, câu lệnh]
 
 <br>
 
-## 1 - Tổng quan về ngôn ngữ C <a name="intro"/>
+## Tổng quan về ngôn ngữ C <a name="intro"/>
 
-### Giới thiệu
+### Đặc điểm
 - Ngôn ngữ lập trình C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.
 - Ưu điểm của C:
@@ -55,7 +61,7 @@ c, ..., z`
 <div class="success">
   <p><strong>Nên:</strong>
     <ul>
-        <li> Đặt tên có ý nghĩa</li>
+        <li> Đặt tên có ý nghĩa.</li>
         <li> Sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming convention)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.</li>
     </ul>
   </p>
