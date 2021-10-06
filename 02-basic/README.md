@@ -71,10 +71,13 @@ c, ..., z`
         </li>
     
 Chẳng hạn, biểu thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết 
+
 ```c
 distance = speed * time
-``` 
+```
+
 thay vì 
+
 ```c
 d = s * t
 ```
