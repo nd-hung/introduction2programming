@@ -7,7 +7,7 @@ Thiết lập môi trường lập trình C/C++
 - Thiết lập được môi trường lập trình C/C++ thông dụng
 - Tạo được chương trình đơn giản đầu tiên
 
-<div style="border: 1px solid brown; margin=2px" >
+<div class="header">
 <a href="#programmingsteps"><h3>Các bước viết chương trình</h3></a>
 <ul>
     <li><h4>Viết mã nguồn (Edit)</h4></li>

@@ -6,7 +6,7 @@ Cơ bản về ngôn ngữ C
 - Xác định được cấu trúc của một chương trình C 
 - Sử dụng được các thành phần: biến, hằng, biểu thức
 - Sử được các lệnh cơ bản: gán, nhập/xuất
-<div style="border: 1px solid brown">
+<div class="header">
 <a href="#intro"><h3>Giới thiệu ngôn ngữ C</h3></a>
 <ul>
     <li><h4>Đặc điểm</h4></li>
