@@ -62,11 +62,14 @@ c, ..., z`
   </p>
 </div>
 
+<p id="note">Good Practice</p>
+
+
 #### Dấu chấm phẩy `;`
 - Dùng để phân tách giữa các câu lệnh. 
 
 #### Dòng chú thích (comments)
-- Các dòng chú thích giúp mã nguồn dễ hiểu hơn.
+- Các dòng chú thích giúp chương trình nguồn dễ hiểu hơn.
 - Trình biên dịch bỏ qua các dòng chú thích.
 - Hai cách tạo chú thích trong C:
     * Dạng 1: Phù hợp với chú thích gồm nhiều dòng
