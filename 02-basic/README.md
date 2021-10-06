@@ -15,11 +15,10 @@ Các thao tác cơ bản với C
 ## 1 - Tổng quan về ngôn ngữ C <a name="intro"/>
 
 ### Giới thiệu
-- C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
-- Hỗ trợ lập trình thủ tục/cấu trúc.
-- Case sensitive.
-- Ưu điểm của C
-    * C rất mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).
+- Ngôn ngữ lập trình C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
+- C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.
+- Ưu điểm của C:
+    * Rất mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).
     * Được sử dụng rộng rãi bởi các nhà lập trình chuyên nghiệp.
     * Rõ ràng, cô đọng.
 
@@ -57,11 +56,10 @@ c, ..., z`
   <p><strong>Nên:</strong>
     <ul>
         <li> Đặt tên có ý nghĩa</li>
-        <li> Sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming conventions)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.</li>
+        <li> Sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming convention)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.</li>
     </ul>
   </p>
 </div>
-
 
 
 #### Dấu chấm phẩy `;`
