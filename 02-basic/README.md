@@ -62,8 +62,8 @@ c, ..., z`
 - Không được đặt tên có khoảng trắng, không được trùng với các từ khóa.
 - Ngôn ngữ C phân biệt chữ hoa chữ thường. Vì thế, 2 tên sau đây là khác nhau: `maxSpeed` và `MaxSpeed`.
 
-<div class="success">
-  <p><strong>Nên:</strong>
+<div class="icongoodpractice">
+  <p><strong></strong>
     <ul>
         <li> 
             Đặt tên có nghĩa & ngắn gọn (không nên dài quá 31 ký tự). 

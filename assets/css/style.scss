@@ -57,10 +57,6 @@ div {
 .success {
   background-color: #ddffdd;
   border-left: 6px solid #04AA6D;
-  //background-image: url(../images/icons/good_practice2.png);
-  //background-position: 9px 0px;
-  //background-size: 5%;
-  //background-repeat: no-repeat;
 }
 
 .info {
@@ -77,6 +73,14 @@ div {
   border: 1px solid brown;
   padding: 10px;
 }
+
+.icongoodpractice {
+  background: url(../images/icons/good_practice.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  border: none;
+}
+
 
 // set img block auto
 img {
