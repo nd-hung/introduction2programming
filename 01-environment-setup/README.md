@@ -60,7 +60,13 @@ printf("This is a message");
 - Các công cụ lập trình thường hỗ trợ chức năng gỡ rối (Debug), giúp dò tìm lỗi khi chạy chương trình.
 
 <div class="info">
-  <p><strong></strong>Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo mã nguồn, biên dịch, chạy và gỡ rối; vì thế các công cụ này gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).</p>
+  <p>
+  <ul>
+    <li>
+      Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo mã nguồn, biên dịch, chạy và gỡ rối; vì thế chúng được gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
+    </li>
+  </ul>
+  </p>
 </div>
 
 
