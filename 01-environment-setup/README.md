@@ -60,12 +60,8 @@ printf("This is a message");
 - Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi logic (nếu có). Nếu còn lỗi, quay lại **Bước 1** để khắc phục.
 
 <div class="info">
-  <p>
-  <ul>
-    <li>
+  <p>  
       Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo mã nguồn, biên dịch, chạy và gỡ rối; vì thế chúng được gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
-    </li>
-  </ul>
   </p>
 </div>
 
