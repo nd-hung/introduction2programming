@@ -20,6 +20,7 @@ blockquote{
   line-height:1.2;
   position:relative;
   //background:#EDEDED;
+  background:inherit;
 }
 
 blockquote::before{
@@ -65,15 +66,19 @@ div {
   background-position: 8px center;
   padding-left: 35px;
   border: 1px solid rgb(89, 164, 219);
-  
   //background-color: #e7f3fe;
   //border-left: 6px solid #2196F3;
 
 }
 
 .warning {
-  background-color: #ffcc66 ;
-  border-left: 6px solid #ff9900;
+  background: url(../images/icons/warning2.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  border: 1px solid rgb(89, 164, 219);
+  // background-color: #ffcc66 ;
+  // border-left: 6px solid #ff9900;
 }
 
 .header {
