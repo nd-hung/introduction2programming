@@ -43,7 +43,7 @@
 Chọn biểu tượng "Extensions" (Ctrl+Shift+X), nhập C/C++ vào ô tìm kiếm, chọn cài đặt gói "C/C++ IntelliSense, debugging, and code browsing" của Microsoft.
 
 ### Cài đặt trình biên dịch
-Trình biên dịch MinGW (Minimalist GNU for Windows), miễn phí, thường được sử dụng. 
+Trình biên dịch C/C++ thường được sử dụng cho Windows là MinGW (Minimalist GNU for Windows). MinGW miễn phí và mã nguồn mở.
 - [Tải về MinGW](https://github.com/msys2/msys2-installer/releases/download/2021-07-25/msys2-x86_64-20210725.exe).
 
 - Mở file đã tải xuống để bắt đầu cài đặt.
