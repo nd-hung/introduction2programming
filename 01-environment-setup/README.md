@@ -39,7 +39,7 @@ Thiết lập môi trường lập trình C/C++
 
 Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile) và chạy (run).
 
-<img src="figs/c-programming-pipeline.PNG"/>
+<img src="figs/c-programming-pipeline.PNG">
 
 ### Bước 1: Viết mã nguồn (Edit)
 - Mã nguồn (source code) là những dòng lệnh được viết theo cú pháp của một ngôn ngữ lập trình cụ thể, chẳng hạn như C/C++, Java, Python,... 
@@ -58,7 +58,6 @@ printf("This is a message");
 - Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.
 - Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.
 - Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi logic (nếu có). Nếu còn lỗi, quay lại **Bước 1** để khắc phục.
-- Các công cụ lập trình thường hỗ trợ chức năng gỡ rối (Debug), giúp dò tìm lỗi khi chạy chương trình.
 
 <div class="info">
   <p>
@@ -73,14 +72,12 @@ printf("This is a message");
 
 ## Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
 ### [Dev-C++](devcpp)
-- Rất gọn nhẹ & đủ tính năng cơ bản. 
-- Mã nguồn mở (open-source).
+- Rất gọn nhẹ, đủ chức năng cơ bản & dễ sử dụng. 
 - Chỉ chạy trên Windows.
 
 ### [Visual Studio Code](vscode)
-- Gọn nhẹ với nhiều tính năng cao cấp, do Microsoft phát triển.
+- Gọn nhẹ với nhiều tính năng cao cấp.
 - Chạy trên Windows, macOS và Linux.
-- Miễn phí.
 
 ### Một số IDE khác
 - [CLion](https://www.jetbrains.com/clion/)
