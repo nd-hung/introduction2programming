@@ -1,6 +1,6 @@
 
 <div class="formula">
 <p>
-Data Structures + Algorithms = Programs
+Algorithms + Data Structures = Programs
 </p>
 </div>
