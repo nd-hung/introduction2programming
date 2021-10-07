@@ -19,8 +19,8 @@ blockquote{
   //border-left:8px solid brown ;
   line-height:1.2;
   position:relative;
-  //background:#EDEDED;
-  background:rgb(231,231,231);
+  //background:rgb(231,231,231);
+  background: transparent;
 }
 
 blockquote::before{
@@ -52,7 +52,7 @@ div {
 
 .danger {
   background-color: #ffdddd;
-  border-left: 6px solid #f44336;
+  border: 1px solid #f44336;
 }
 
 .success {
@@ -76,7 +76,8 @@ div {
   background-size: 40px 40px;
   background-position: 8px center;
   padding-left: 35px;
-  border: 1px solid rgb(89, 164, 219);
+  //border: 1px solid rgb(89, 164, 219);
+  border: 1px solid orange 
   // background-color: #ffcc66 ;
   // border-left: 6px solid #ff9900;
 }
@@ -94,7 +95,8 @@ div {
   background-size: 40px 40px;
   background-position: 8px center;
   padding-left: 35px;
-  border: 1px solid rgb(89,164,219);
+  // border: 1px solid rgb(89,164,219);
+  border: 1px solid green;
 }
 
 // set img block auto
