@@ -34,9 +34,12 @@ Thiết lập môi trường lập trình C/C++
 </p>
 
 ## Các bước viết chương trình <a name="programmingsteps"/>
-Để giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật*, sau đó sử dụng một (hoặc một số) ngôn ngữ lập trình để *cài đặt* giải thuật thành *chương trình máy tính*.
+
+Để giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật*, sau đó sử dụng một (hoặc một số) *ngôn ngữ lập trình* để *cài đặt* giải thuật thành *chương trình máy tính*.
 
 Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile) và chạy (run).
+
+<img src="figs/c-programming-pipeline.PNG"/>
 
 ### Bước 1: Viết mã nguồn (Edit)
 - Mã nguồn (source code) là những dòng lệnh được viết theo cú pháp của một ngôn ngữ lập trình cụ thể, chẳng hạn như C/C++, Java, Python,... 
@@ -44,8 +47,6 @@ Có thể chia quy trình viết chương trình thành ba bước: viết mã n
 ```c 
 printf("This is a message");
 ```
-
-<img src="figs/c-programming-pipeline.PNG"/>
 
 ### Bước 2: Dịch (Compile)
 - Bước dịch (compiling) chuyển đổi mã nguồn (là các dòng lệnh con người hiểu được) sang mã máy (máy tính hiểu & thực thi được).

@@ -11,14 +11,15 @@
 </blockquote>
 </p>
 
-## Đặc điểm chính của VS Code <a name="specs"/>
-- Visual Studio Code là công cụ viết mã nguồn (code editor), không phải là IDE đầy đủ. Để viết chương trình C/C++ với VS Code, cần cài đặt thêm các công cụ sau:
+## Đặc điểm chính của Visual Studio Code <a name="specs"/>
+- Gọn nhẹ, với nhiều tính năng cao cấp như: gợi ý mã lệnh thông minh (IntelliSense code completion), quản lý phiên bản mã nguồn phân tán (Git).
+- Khả năng mở rộng để lập trình với nhiều ngôn ngữ, như C/C++, C#, Java, Python, PHP.
+- Chạy trên Windows, macOS và Linux.
+- Miễn phí & mã nguồn mở. 
+- VS Code là công cụ viết mã nguồn (code editor), không phải là IDE đầy đủ. Để viết chương trình C/C++ với VS Code, cần cài đặt thêm các công cụ sau:
     * Gói mở rộng (extension) hỗ trợ viết mã nguồn C/C++ và debug.
     * Trình biên dịch (compiler) C/C++.
-- Cung cấp khả năng mở rộng để lập trình với nhiều ngôn ngữ, như C/C++, C#, Java, Python, PHP.
-- Miễn phí & mã nguồn mở. 
-- Tích hợp Git - công cụ quản lý mã nguồn phân tán.
-- Chạy trên Windows, macOS và Linux.
+
 
 ## Cài đặt VS Code, C/C++ extension, và C/C++ compiler trên Windows <a name="install">
 
