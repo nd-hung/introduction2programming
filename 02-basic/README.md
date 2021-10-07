@@ -111,6 +111,8 @@ const float PI=3.1416;
 // Khai báo khuôn mẫu hàm (prototype)
 float DienTichHinhTron(float); 
 
+/*---------------------------------------------------------------------------*/
+
 // Chương trình chính
 int main() 
 {
@@ -130,6 +132,8 @@ int main()
     
     return 0;   // Kết thúc chương trình
 }
+
+/*---------------------------------------------------------------------------*/
 
 // Cài đặt hàm tự định nghĩa
 float DienTichHinhTron(float r)
