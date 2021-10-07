@@ -61,7 +61,7 @@ c, ..., z`
 - Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm, cấu trúc. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).
 - Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới `_`.
 - Không được đặt tên trùng với từ khóa hoặc có khoảng trắng.
-- Ngôn ngữ C phân biệt chữ hoa chữ thường. Vì thế, 2 tên sau đây là khác nhau: `maxSpeed` và `MaxSpeed`.
+- Ngôn ngữ C phân biệt chữ hoa chữ thường (case sensitive). Vì thế, 2 tên sau đây là khác nhau: `maxSpeed` và `MaxSpeed`.
 
 <div class="goodpractice">
   <p>
