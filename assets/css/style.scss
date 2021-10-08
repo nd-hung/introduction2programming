@@ -101,9 +101,9 @@ div {
 .center {
   margin: auto;
   width: 60%;
+  padding: 5px 0;
   border: 2px solid brown;
-  display:table-cell;
-  //text-align:center;
+  text-align:center;
   vertical-align: middle;
 }
 
