@@ -5,7 +5,7 @@ NHẬP MÔN LẬP TRÌNH
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io/)
 #### Khoa Công nghệ thông tin, Trường đại học Nha Trang
 <br>
-<img src="01-environment-setup/figs/c-programming-pipeline.PNG"/>
+<img src="01-environment-setup/figs/codingpipeline.png"/>
 <br>
 
 ### [1 - Thiết lập môi trường lập trình C/C++](01-environment-setup) 
