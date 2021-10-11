@@ -6,8 +6,11 @@ Từ km thứ 2 đến km thứ 5: 13500 đ/km
 Từ km thứ 6 trở đi: 11000 đ/km
 Nếu vượt 120 km được giảm 10% tổng tiền.
 
-Input: Số km, bảng giá
-Output: Số tiền phải thanh toán.
+* Input: 
+- Số km (nhập từ bàn phím)
+- Bảng giá
+
+* Output: Số tiền phải thanh toán.
 */
 
 #include <stdio.h>
