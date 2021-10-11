@@ -17,25 +17,25 @@ Nếu vượt 120 km được giảm 10% tổng tiền.
 
 int main()
 {
-	float quangduong, sotien=0;
+	float sokm, sotien=0;
 	
 	printf("Nhap quang duong di (km):");
-	scanf("%f", &quangduong);
+	scanf("%f", &sokm);
 	
-	if(quangduong <= 0)	printf("Quang duong phai > 0.\n");
+	if(sokm <= 0)	printf("Quang duong phai > 0.\n");
 	else
-		if(quangduong <= 1)	sotien = 15000;
+		if(sokm <= 1)	sotien = 15000;
 		else
-			// <-> (quangduong > 1 && quangduong <= 5)
-			if(quangduong <= 5)	sotien = 15000 + (quangduong - 1) * 13500;
+			// <-> (sokm > 1 && sokm <= 5)
+			if(sokm <= 5)	sotien = 15000 + (sokm - 1) * 13500;
 			else
-				// <-> (quangduong > 5 && quangduong <= 120)
-				if(quangduong <= 120) 
-					sotien = 15000 + 4 * 13500 + (quangduong - 5) * 11000;
+				// <-> (sokm > 5 && sokm <= 120)
+				if(sokm <= 120) 
+					sotien = 15000 + 4 * 13500 + (sokm - 5) * 11000;
 				else
-					// <-> (quangduong > 120)
-					sotien = (15000 + 4 * 13500 + (quangduong - 5) * 11000) * 0.9;
+					// <-> (sokm > 120)
+					sotien = (15000 + 4 * 13500 + (sokm - 5) * 11000) * 0.9;
 				
 	printf("\n--------------------------------\n");
-	printf("Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n", quangduong, sotien);
+	printf("Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n", sokm, sotien);
 }
