@@ -37,5 +37,3 @@ int main()
 	printf("\n--------------------------------\n");
 	printf("Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n", quangduong, sotien);
 }
-
-
