@@ -22,17 +22,19 @@ int main()
 	printf("Nhap quang duong di (km):");
 	scanf("%f", &quangduong);
 	
-	if(quangduong > 0 && quangduong <= 1)	sotien = 15000;
+	if(quangduong <= 0)	printf("Quang duong phai > 0.\n");
 	else
-		// <-> (quangduong > 1 && quangduong <= 5)
-		if(quangduong <= 5)	sotien = 15000 + (quangduong - 1) * 13500;
+		if(quangduong <= 1)	sotien = 15000;
 		else
-			// <-> (quangduong > 5 && quangduong <= 120)
-			if(quangduong <= 120) 
-				sotien = 15000 + 4 * 13500 + (quangduong - 5) * 11000;
+			// <-> (quangduong > 1 && quangduong <= 5)
+			if(quangduong <= 5)	sotien = 15000 + (quangduong - 1) * 13500;
 			else
-				// <-> (quangduong > 120)
-				sotien = (15000 + 4 * 13500 + (quangduong - 5) * 11000) * 0.9;
+				// <-> (quangduong > 5 && quangduong <= 120)
+				if(quangduong <= 120) 
+					sotien = 15000 + 4 * 13500 + (quangduong - 5) * 11000;
+				else
+					// <-> (quangduong > 120)
+					sotien = (15000 + 4 * 13500 + (quangduong - 5) * 11000) * 0.9;
 				
 	printf("\n--------------------------------\n");
 	printf("Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n", quangduong, sotien);
