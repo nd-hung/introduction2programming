@@ -21,7 +21,7 @@ int main()
         printf("Nhap so tien can rut:");
         scanf("%d", &m);
         if(m <= 0)
-            printf("So tien rut phai > 0");
+            printf("So tien rut phai > 0.\n");
     } while(m <= 0);
 
     m1 = m; // m1 lưu lại số tiền ban đầu
