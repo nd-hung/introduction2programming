@@ -1,7 +1,8 @@
 /*
-Chuong trinh giai phuong trinh ax^2 + bx + c = 0
-Input: a,b,c la cac so thuc
-Output: nghiem cua phuong trinh ax^2 + bx + c = 0
+Giải phương trình a*x^2 + b*x + c = 0
+
+Input: a,b,c là các số thực
+Output: Nghiệm của phương trình a*x^2 + b*x + c = 0
 */
 
 #include<stdio.h>
@@ -26,7 +27,7 @@ int main()
 				printf("PT vo nghiem.\n");
 		else
 			printf("PT co ghiem x = %f.\n", -c/b);
-	else // -> PT bac 2 day du -> tim nghiem theo delta
+	else // -> PT bậc 2 chính tắc -> tìm nghiệm theo delta
 	{
 		delta = b*b - 4*a*c;
 		if(delta < 0)	printf("PT vo nghiem.\n");
@@ -40,4 +41,3 @@ int main()
 		}
 	}
 }
-
