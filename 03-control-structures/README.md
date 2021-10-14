@@ -8,7 +8,7 @@ Các cấu trúc điều khiển
 <div class="header">
 <h3>Câu lệnh điều khiển rẽ nhánh (selection)</h3>
 <ul>
-    <li><h4>Câu lệnh <code>if</code></h4></li>
+    <li><h4>Câu lệnh ```c if ```/h4></li>
     <li><h4>Câu lệnh <code>switch</code></h4></li>
 </ul>
 
