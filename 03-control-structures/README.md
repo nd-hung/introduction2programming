@@ -22,7 +22,8 @@ Các cấu trúc điều khiển
 ## Câu lệnh điều khiển rẽ nhánh **if**
 
 ### Dạng 1
-<img src="figs/if1.png" width="50%">
+
+<img src="figs/if1.png" width="40%">
 
 ```c
 // Chỉ thực hiện 1 lệnh khi <Biểu thức logic> đúng
@@ -40,7 +41,8 @@ if(<Biểu_thức_logic>)
 ```
 
 ### Dạng 2
-<img src="figs/if2.png" width="50%">
+
+<img src="figs/if2.png" width="55%">
 
 ```c
 if(<Biểu_thức_logic>)
