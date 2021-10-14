@@ -4,13 +4,14 @@ Các cấu trúc điều khiển
 
 
 <div class="header">
-<h3>Câu lệnh điều khiển rẽ nhánh (selection)</h3>
+<h3>Cấu trúc tuần tự (sequence)</h3>
+<h3>Cấu trúc rẽ nhánh (selection)</h3>
 <ul>
     <li><h4>Câu lệnh <b>if</b></h4></li>
     <li><h4>Câu lệnh <b>switch</b></h4></li>
 </ul>
 
-<h3>Câu lệnh lặp (repetition)</h3>
+<h3>Cấu trúc lặp (repetition)</h3>
 <ul>
     <li><h4>Lệnh <b>for</b></h4></li>
     <li><h4>Lệnh <b>while</b></h4></li>
@@ -18,10 +19,17 @@ Các cấu trúc điều khiển
 </ul>
 </div>
 
+## Cấu trúc tuần tự (sequence)
 
-## Câu lệnh điều khiển rẽ nhánh **if**
+- Đặt các câu lệnh theo thứ tự cần thực hiện.
 
-### Dạng 1
+<img src="figs/sequence.png" width="20%">
+
+## Cấu trúc rẽ nhánh (selection)
+
+### Câu lệnh **if**
+
+#### Dạng 1
 
 <img src="figs/if1.png" width="40%">
 
@@ -38,7 +46,7 @@ int a = 36;
 if(a % 2 == 0) printf("%d la so chan\n", a);
 ```
 
-### Dạng 2
+#### Dạng 2
 
 <img src="figs/if2.png" width="55%">
 
