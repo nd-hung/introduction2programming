@@ -33,12 +33,7 @@ Các cấu trúc điều khiển
 
 <img src="figs/if1.png" width="40%">
 
-```c
-if(<Biểu thức logic>)
-    {
-        // Khối lệnh được thực thi khi <Biểu thức logic> có giá trị đúng
-    }
-```
+<img src="figs/if1_2.png">
 
 Ví dụ:
 ```c
@@ -50,16 +45,7 @@ if(a % 2 == 0) printf("%d la so chan\n", a);
 
 <img src="figs/if2.png" width="55%">
 
-```c
-if(<Biểu thức logic>)
-    {
-        // Khối lệnh 1 được thực thi khi <Biểu thức logic> có giá trị đúng
-    };
-else
-    {
-        // Khối lệnh 2 được thực thi khi <Biểu thức logic> có giá trị sai
-    }
-```
+<img src="figs/if2_2.png">
 
 Ví dụ:
 ```c
