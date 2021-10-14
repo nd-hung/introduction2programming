@@ -27,16 +27,16 @@ Các cấu trúc điều khiển
 
 ```c
 // Chỉ thực hiện 1 lệnh khi <Biểu thức logic> đúng
-if(<Biểu_thức_logic>)
+if(condition)
     <Lệnh>; 
 ```
 
 ```c
 // Thực hiện nhiều lệnh khi <Biểu thức logic> đúng
-if(<Biểu_thức_logic>)
+if(condition)
     {
-        <Lệnh_1>; 
-        <Lệnh_2>;
+        <Lệnh 1>; 
+        <Lệnh 2>;
     }
 ```
 
@@ -45,9 +45,9 @@ if(<Biểu_thức_logic>)
 <img src="figs/if2.png" width="55%">
 
 ```c
-if(<Biểu_thức_logic>)
-    <Lệnh_1>; 
+if(condition)
+    <Lệnh 1>; 
 else
-    <Lệnh_2>;
+    <Lệnh 2>;
 ```
 
