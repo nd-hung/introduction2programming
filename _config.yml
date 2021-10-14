@@ -1,6 +1,8 @@
 theme: jekyll-theme-modernist
 title: <a href="https://nd-hung.github.io/introduction2programming/">Introduction to programming</a>
 description: Nhập môn lập trình
-syntax-highlighter: rouge
 show_downloads: false
-
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
