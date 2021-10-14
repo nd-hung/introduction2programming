@@ -26,18 +26,16 @@ Các cấu trúc điều khiển
 <img src="figs/if1.png" width="40%">
 
 ```c
-// Chỉ thực hiện 1 lệnh khi <Biểu thức logic> đúng
-if(condition)
-    <Lệnh>; 
+if(<Biểu thức logic>)
+    {
+        // Khối lệnh được thực thi khi <Biểu thức logic> có giá trị đúng
+    }
 ```
 
+Ví dụ:
 ```c
-// Thực hiện nhiều lệnh khi <Biểu thức logic> đúng
-if(condition)
-    {
-        <Lệnh 1>; 
-        <Lệnh 2>;
-    }
+int a = 36;
+if(a % 2 == 0) printf("%d la so chan\n", a);
 ```
 
 ### Dạng 2
@@ -45,9 +43,19 @@ if(condition)
 <img src="figs/if2.png" width="55%">
 
 ```c
-if(condition)
-    <Lệnh 1>; 
+if(<Biểu thức logic>)
+    {
+        // Khối lệnh 1 được thực thi khi <Biểu thức logic> có giá trị đúng
+    };
 else
-    <Lệnh 2>;
+    {
+        // Khối lệnh 2 được thực thi khi <Biểu thức logic> có giá trị sai
+    }
 ```
 
+Ví dụ:
+```c
+int a = 36;
+if(a % 2 == 0) printf("%d la so chan\n", a);
+else printf("%d la so le\n", a);
+```
