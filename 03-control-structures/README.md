@@ -18,9 +18,9 @@ Các cấu trúc điều khiển
 </ul>
 </div>
 
-<br>
 
 ## Câu lệnh điều khiển rẽ nhánh **if**
+
 ### Dạng 1
 <img src="figs/if1.PNG" width="50%">
 
