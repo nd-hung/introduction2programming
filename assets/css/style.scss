@@ -114,3 +114,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.dark pre,
+.dark code {
+  //color: rgb(139, 233, 253);
+  background-color: lightgrey;
+}
