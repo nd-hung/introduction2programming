@@ -6,8 +6,8 @@ Các cấu trúc điều khiển
 <div class="header">
 <h3>Câu lệnh điều khiển rẽ nhánh (selection)</h3>
 <ul>
-    <li><h4>Câu lệnh <b>if</b> </h4></li>
-    <li><h4>Câu lệnh <b>switch</b</code></h4></li>
+    <li><h4>Câu lệnh <b>if</b></h4></li>
+    <li><h4>Câu lệnh <b>switch</b></h4></li>
 </ul>
 
 <h3>Câu lệnh lặp (Repetition)</h3>
