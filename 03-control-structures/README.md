@@ -10,7 +10,7 @@ Các cấu trúc điều khiển
     <li><h4>Câu lệnh <b>switch</b></h4></li>
 </ul>
 
-<h3>Câu lệnh lặp (Repetition)</h3>
+<h3>Câu lệnh lặp (repetition)</h3>
 <ul>
     <li><h4>Lệnh <b>for</b></h4></li>
     <li><h4>Lệnh <b>while</b></h4></li>
