@@ -70,7 +70,8 @@ else printf("%d la so le\n", a);
 <summary>Ví dụ</summary>
 <p>
 
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnd-hung%2Fintroduction2programming%2Fblob%2Fmain%2F03-control-structures%2Fsrc%2Ftinhtientaxi.c&style=github&showBorder=on&showLineNumbers=on&showCopy=on"></script>
+<script src="https://gist.github.com/benbalter/5555251.js"></script>
+<script src="https://gist.github.com/benbalter/5555251.js?file=src/tinhtientaxi.c"></script>
 
 </p>
 </details>
