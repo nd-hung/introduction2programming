@@ -114,13 +114,4 @@ int main()
 
 
 
-<details>
-<summary>Ví dụ 2</summary>
-<p>
-
-```c
 <link rel="import" href="src/tinhtientaxi.c">
-```
-
-</p>
-</details>
