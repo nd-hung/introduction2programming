@@ -119,7 +119,7 @@ int main()
 <p>
 
 ```c
-<a href="src/tinhtientaxi.c"> </a>
+<link rel="import" href="src/tinhtientaxi.c">
 ```
 
 </p>
