@@ -114,5 +114,3 @@ int main()
 
 </p>
 </details>
-
-<div w3-include-html="src/tinhtientaxi.c"></div>
