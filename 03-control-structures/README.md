@@ -58,6 +58,8 @@ else printf("%d la so le\n", a);
 
 <div class="info">
 <p>
+<ul>
     Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong <code>{}</code>.
+</ul>
 </p>
 </div>
