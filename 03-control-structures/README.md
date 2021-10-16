@@ -94,6 +94,7 @@ int main()
 	
 	if(sokm <= 0)	printf("Quang duong phai > 0.\n");
 	else
+        // <-> (sokm > 0 && sokm <= 1)
 		if(sokm <= 1)	sotien = 15000;
 		else
 			// <-> (sokm > 1 && sokm <= 5)
@@ -113,3 +114,13 @@ int main()
 
 </p>
 </details>
+
+$.ajax({
+        async:false,
+        url: 'src/tinhtientaxi.c',
+        dataType: 'text',
+        success: function(data) 
+        {
+        $('element').append(data);
+            }
+        });
