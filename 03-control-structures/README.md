@@ -114,4 +114,4 @@ int main()
 
 
 
-<script src="http://gist-it.appspot.com/https://github.com/dotnet/corefx/blob/master/src/System.ObjectModel/src/System/Windows/Input/ICommand.cs"></script>
+<script src="http://gist-it.appspot.com/https://github.com/nd-hung/introduction2programming/blob/main/03-control-structures/src/tinhtientaxi.c"></script>
