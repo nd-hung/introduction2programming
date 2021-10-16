@@ -5,7 +5,11 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    //color: dark;
+}
+
+h2,h3
+{
+  color:brown;
 }
 
 blockquote{
@@ -60,14 +64,35 @@ div {
   border-left: 6px solid #04AA6D;
 }
 
+.code {
+  // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  width:50%;
+  background: url(../images/icons/code.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
 .info {
-  background: url(../images/icons/info.png) no-repeat; // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  background: url(../images/icons/info.png) no-repeat; 
   background-size: 40px 40px;
   background-position: 8px center;
   padding-left: 35px;
-  border: 1px solid rgb(89, 164, 219);
-  //background-color: rgb(221,234,255);
-  //border-left: 6px solid #2196F3;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
+}
+
+.tip {
+  // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  background: url(../images/icons/idea.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  background-color: rgb(223,246,221);
+  padding-left: 60px;
+  padding-top: 10px;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
 }
 
 .warning {
@@ -75,16 +100,15 @@ div {
   background-size: 40px 40px;
   background-position: 8px center;
   padding-left: 35px;
-  border: 1px solid rgb(89, 164, 219);
-  // background-color: #ffcc66 ;
-  // border-left: 6px solid #ff9900;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
 }
 
 .header {
   border: 1px solid brown;
+  border-radius: 5px;
   padding-left: 10px;
   padding-top: 10px;
-  line-height: 60%;
 }
 
 .goodpractice {
@@ -93,7 +117,8 @@ div {
   background-size:40px 40px;
   background-position:8px center;
   padding-left:35px;
-  border:1px solid rgb(89,164,219);
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
   // border: 1px solid green;
 }
 
@@ -102,6 +127,7 @@ div {
   width: 60%;
   padding: 5px 0;
   border: 2px solid brown;
+  border-radius: 5px;
   text-align:center;
   vertical-align: middle;
   font-family: Helvetica, Arial, sans-serif;
@@ -113,5 +139,43 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 20px;
 }
 
+details > summary {
+  list-style-type: none;
+  padding: 4px;
+  padding-left: 50px;
+  padding-bottom:0px;
+  width: 75px;
+  border:1px solid lightgrey;
+  border-radius: 5px;
+  cursor:zoom-in;
+  background:url(../images/icons/code.png) no-repeat;
+  background-size:30px 30px;
+  background-color:#D3D3D3;
+  background-position:8px center;
+  color: brown;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: '';
+}
+
+details[open] > summary {
+  cursor:zoom-out;
+}
+
+a:link {
+  color: brown;
+}
+
+a:hover {
+  color: darkorange;
+}

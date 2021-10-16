@@ -55,3 +55,9 @@ int a = 36;
 if(a % 2 == 0) printf("%d la so chan\n", a);
 else printf("%d la so le\n", a);
 ```
+
+<div class="info">
+<p>
+Để thực hiện nhiều câu lệnh ứng với <Biểu thức logic>, cần đặt các lệnh vào một khối {}.
+</p>
+</div>
