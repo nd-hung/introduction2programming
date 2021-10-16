@@ -69,13 +69,6 @@ else printf("%d la so le\n", a);
 <details>
 <summary>Ví dụ</summary>
 <p>
-<!-- Include library -->
-<link rel="stylesheet" href="../js/styles/default.min.css">
-<script src="../js/highlight.min.js"></script>
-<!-- Initialize highlight -->
-<script>hljs.initHighlightingOnLoad();</script>
-
-<pre><code class="language-c++">
 
 /*
 Tính tiền taxi dựa vào quãng đường đi và bảng giá.
