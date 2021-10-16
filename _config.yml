@@ -2,3 +2,4 @@ theme: jekyll-theme-modernist
 title: <a href="https://nd-hung.github.io/introduction2programming/">Introduction to programming</a>
 description: Nhập môn lập trình
 show_downloads: false
+markdown: CommonMarkGhPages
