@@ -94,18 +94,14 @@ int main()
 	
 	if(sokm <= 0)	printf("Quang duong phai > 0.\n");
 	else
-        // <-> (sokm > 0 && sokm <= 1)
-		if(sokm <= 1)	sotien = 15000;
+        if(sokm <= 1)	sotien = 15000; // <-> (sokm > 0 && sokm <= 1)
 		else
-			// <-> (sokm > 1 && sokm <= 5)
-			if(sokm <= 5)	sotien = 15000 + (sokm - 1) * 13500;
+			if(sokm <= 5)	sotien = 15000 + (sokm - 1) * 13500; // <-> (sokm > 1 && sokm <= 5)
 			else
-				// <-> (sokm > 5 && sokm <= 120)
-				if(sokm <= 120) 
+				if(sokm <= 120) // <-> (sokm > 5 && sokm <= 120)
 					sotien = 15000 + 4 * 13500 + (sokm - 5) * 11000;
 				else
-					// <-> (sokm > 120)
-					sotien = (15000 + 4 * 13500 + (sokm - 5) * 11000) * 0.9;
+					sotien = (15000 + 4 * 13500 + (sokm - 5) * 11000) * 0.9; // <-> (sokm > 120)
 				
 	printf("\n--------------------------------\n");
 	printf("Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n", sokm, sotien);
