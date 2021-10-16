@@ -117,24 +117,9 @@ int main()
 </p>
 </details>
 
-
-<div>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script>
-      axios({
-      method: 'get',
-      url: 'https://raw.githubusercontent.com/iotify/nsim-examples/master/functional-testing/alarm-server.js'
-       })
-      .then(function (response) {
-         document.getElementById("code-element").innerHTML = response.data;
-      });
-</script>
-
-</div>
-
 ### 3.2.2 - Câu lệnh rẽ nhánh **switch**
 
-<img src="figs/switch.png" width="70%">
+<img src="figs/switch.png" width="50%">
 
 ```c
 switch(expression) {
