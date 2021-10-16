@@ -5,13 +5,13 @@ Các cấu trúc điều khiển
 
 <div class="header">
 <h3>Cấu trúc tuần tự (sequence)</h3>
-<h3>Cấu trúc rẽ nhánh (selection)</h3>
+<h3><a href="#selection">Cấu trúc rẽ nhánh (selection)</a</h3>
 <ul>
     <li><h4>Câu lệnh <b>if</b></h4></li>
     <li><h4>Câu lệnh <b>switch</b></h4></li>
 </ul>
 
-<h3>Cấu trúc lặp (repetition)</h3>
+<h3><a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
 <ul>
     <li><h4>Lệnh <b>for</b></h4></li>
     <li><h4>Lệnh <b>while</b></h4></li>
@@ -25,7 +25,7 @@ Các cấu trúc điều khiển
 
 <img src="figs/sequence.png" width="20%">
 
-## Cấu trúc rẽ nhánh (selection)
+## <a name="selection">Cấu trúc rẽ nhánh (selection)</a>
 
 ### Câu lệnh **if**
 
@@ -60,7 +60,7 @@ else printf("%d la so le\n", a);
 <p>
 <ul>
     <li>Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong cặp ký tự <code>{}</code>.</li>
-    <li>Câu lệnh <code>if</code> có thể lồng vào nhau, khi đó điều kiện sau từ khóa <code>else</code> sẽ ngược lại với điều kiện ở <code>if</code> ngay trước nó.</li>
+    <li>Câu lệnh <code>if</code> có thể lồng nhau, khi đó điều kiện sau từ khóa <code>else</code> sẽ ngược lại với điều kiện ở <code>if</code> ngay trước nó.</li>
     <li>Khi sử dụng các lệnh <code>if</code> lồng nhau, nên sử dụng cấu trúc <code>else</code> để loại trừ các trường hợp.</li>
 </ul>
 </p>
@@ -131,3 +131,126 @@ int main()
 </script>
 
 </div>
+
+### Câu lệnh rẽ nhánh **switch**
+#### Cú pháp
+```c
+switch(expression) {
+  case n1:
+    // <Lệnh 1>;
+    break;
+  case n2:
+    // <Lệnh 2>;
+    break;
+  case n3:
+    // <Lệnh 3>;
+    break;
+
+  default:
+    // <Lệnh 4>;
+}
+```
+#### Thực hiện
+- Giá trị của biểu thức <expression> sẽ được so sánh với giá trị ở từng trường hợp, nếu trùng nhau thì lệnh/khối lệnh tương ứng được thực thi.
+- Khi gặp lệnh **break**, chương trình sẽ thoát khỏi khối **switch**.
+- Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở khối **default** được thực thi.
+
+
+<div class="note">
+<p>
+<ul>
+    <li>Câu lệnh <code>switch</code> có thể lồng nhau.</li>
+    <li>Các trường hợp n1, n2, ... phải có giá trị rời rạc và không trùng nhau.</li>
+</ul>
+</p>
+</div>
+
+<details>
+<summary>Ví dụ</summary>
+<p>
+
+```c
+/*
+Nhập một tháng dương lịch, in ra số ngày của tháng đó.
+
+Input: tháng trong năm (1..12)
+Output: số ngày của tháng.
+
+Biết: Trong 1 năm dương lịch:
+- Tháng 1,3,5,7,8,10,12 có 31 ngày.
+- Tháng 4,6,9,11 có 30 ngày.
+- Tháng 2: năm nhuận có 29 ngày, năm không nhuận có 28 ngày.
+(Năm nhuận là năm thỏa mãn 1 trong 2 điều kiện:
++ Chia hết cho 400
++ Chia hết cho 4 và không chia hết 100
+)
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    unsigned char month;
+
+    printf("Nhap mot thang duong lich:");
+    scanf("%d", &month);
+
+    /* Cách 1 - Sử dụng lệnh rẽ nhánh if
+
+    if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+        printf("Thang %d co 31 ngay\n", month);
+
+    if(month == 4 || month == 6 || month == 9 || month == 11)
+        printf("Thang %d co 30 ngay\n", month);
+    
+    if(month == 2)
+    {
+        int year;
+        printf("Xin nhap nam:");
+        scanf("%d", &year);
+        if((year % 400 == 0) || (year % 4 == 0 && year % 100 !=0)) // -> nam nhuan
+            printf("Thang %d/%d co 29 ngay", month, year);
+        else
+            printf("Thang %d/%d co 28 ngay", month, year);
+    }
+
+    if(month < 1 || month > 12)
+        printf("Khong co thang %d", month);
+    */
+
+   // Cách 2 - Sử dụng câu lệnh rẽ nhánh switch
+   switch (month)
+   {
+   case 1:
+   case 3:
+   case 5:
+   case 7:
+   case 8:
+   case 10:
+   case 12: printf("Thang %d co 31 ngay\n", month); break;
+   case 4:
+   case 6:
+   case 9:
+   case 11: printf("Thang %d co 30 ngay\n", month); break;
+   case 2:
+        {
+            int year;
+            printf("Xin nhap nam:");
+            scanf("%d", &year);
+            if((year % 400 == 0) || (year % 4 == 0 && year % 100 !=0)) // -> nam nhuan
+                printf("Thang %d/%d co 29 ngay", month, year);
+            else
+                printf("Thang %d/%d co 28 ngay", month, year);
+            break;
+        }
+   default:  printf("Khong co thang %d", month); 
+   }
+}
+```
+</p>
+</details>
+
+
+## <a name="repetition">Cấu trúc lặp (repetition)</a>
+
+### Câu lệnh lặp **for**
