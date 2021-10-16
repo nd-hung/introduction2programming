@@ -70,8 +70,15 @@ else printf("%d la so le\n", a);
 <summary>Ví dụ</summary>
 <p>
 
-<script src="https://gist.github.com/benbalter/5555251.js"></script>
-<script src="https://gist.github.com/benbalter/5555251.js?file=src/tinhtientaxi.c"></script>
+<link rel="stylesheet" href="../js/styles/github-dark.min.css">
+<script src="../js/highlight.min.js"></script>
+<!-- Initialize highlight -->
+<script>hljs.initHighlightingOnLoad();</script>
 
+<pre><code class="language-c">
+
+printf("Hello!);
+
+</code></pre>
 </p>
 </details>
