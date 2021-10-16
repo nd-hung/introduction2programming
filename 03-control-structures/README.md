@@ -59,7 +59,7 @@ else printf("%d la so le\n", a);
 <div class="note">
 <p>
 <ul>
-    <li>Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong <code>{}</code>.</li>
+    <li>Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong cặp ký tự <code>{}</code>.</li>
     <li>Câu lệnh if có thể lồng vào nhau, khi điều kiện sau từ khóa else sẽ ngược lại với điều kiện sau if ngay trước nó.</li>
     <li>Khi sử dụng các lệnh if lồng nhau, nên sử dụng cấu trúc else để giảm bớt các trường hợp phải xét.</li>
 </ul>
