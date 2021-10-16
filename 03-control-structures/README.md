@@ -74,15 +74,12 @@ else printf("%d la so le\n", a);
 /*
 Tính tiền taxi dựa vào quãng đường đi và bảng giá.
 Bảng giá:
-<= 1 km dau: 15000 đ
+<= 1 km đầu: 15000 đ
 Từ km thứ 2 đến km thứ 5: 13500 đ/km
 Từ km thứ 6 trở đi: 11000 đ/km
 Nếu vượt 120 km được giảm 10% tổng tiền.
 
-* Input: 
-- Số km (nhập từ bàn phím)
-- Bảng giá
-
+* Input: Số km (nhập từ bàn phím)
 * Output: Số tiền phải thanh toán.
 */
 
