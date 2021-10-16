@@ -70,6 +70,7 @@ else printf("%d la so le\n", a);
 <summary>Ví dụ</summary>
 <p>
 
+```c
 /*
 Tính tiền taxi dựa vào quãng đường đi và bảng giá.
 Bảng giá:
@@ -111,7 +112,7 @@ int main()
 	printf("\n--------------------------------\n");
 	printf("Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n", sokm, sotien);
 }
+```
 
-</code></pre>
 </p>
 </details>
