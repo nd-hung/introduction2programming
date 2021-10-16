@@ -115,12 +115,4 @@ int main()
 </p>
 </details>
 
-$.ajax({
-        async:false,
-        url: 'src/tinhtientaxi.c',
-        dataType: 'text',
-        success: function(data) 
-        {
-        $('element').append(data);
-            }
-        });
+<div w3-include-html="src/tinhtientaxi.c"></div>
