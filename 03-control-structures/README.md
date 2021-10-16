@@ -31,11 +31,8 @@ Các cấu trúc điều khiển
 
 #### Dạng 1
 
-##### Lưu đồ xử lý
-
 <img src="figs/if1.png" width="40%">
 
-##### Cú pháp
 
 <img src="figs/if1_2.png">
 
@@ -47,11 +44,8 @@ if(a % 2 == 0) printf("%d la so chan\n", a);
 
 #### Dạng 2
 
-##### Lưu đồ xử lý
-
 <img src="figs/if2.png" width="55%">
 
-##### Cú pháp
 
 <img src="figs/if2_2.png">
 
