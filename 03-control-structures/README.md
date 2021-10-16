@@ -133,7 +133,9 @@ int main()
 </div>
 
 ### Câu lệnh rẽ nhánh **switch**
-#### Cú pháp
+
+<img src="figs/switch.png" width="70%">
+
 ```c
 switch(expression) {
   case n1:
@@ -150,11 +152,9 @@ switch(expression) {
     // <Lệnh 4>;
 }
 ```
-#### Thực hiện
 - Giá trị của biểu thức <expression> sẽ được so sánh với giá trị ở từng trường hợp, nếu trùng nhau thì lệnh/khối lệnh tương ứng được thực thi.
 - Khi gặp lệnh **break**, chương trình sẽ thoát khỏi khối **switch**.
 - Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở khối **default** được thực thi.
-
 
 <div class="note">
 <p>
