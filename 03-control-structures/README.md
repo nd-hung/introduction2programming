@@ -5,8 +5,9 @@
 
 <div class="header">
 <h3>3.1 - Cấu trúc tuần tự (sequence)</h3>
-<ul>
+
 <h3>3.2 - <a href="#selection">Cấu trúc rẽ nhánh (selection)</a></h3>
+<ul>
 <h4>3.2.1 - Câu lệnh <b>if</b></h4>
 <h4>3.2.2 - Câu lệnh <b>switch</b></h4>
 </ul>
