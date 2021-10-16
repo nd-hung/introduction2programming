@@ -18,7 +18,7 @@
 
 </div>
 
-## 3.1 Cấu trúc tuần tự (sequence)
+## 3.1 - Cấu trúc tuần tự (sequence)
 
 - Đặt các câu lệnh theo thứ tự cần thực hiện.
 
