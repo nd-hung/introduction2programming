@@ -70,7 +70,7 @@ else printf("%d la so le\n", a);
 <summary>Ví dụ</summary>
 <p>
 <!-- Include library -->
-<link rel="stylesheet" href="../js/styles/github-dark.min.css">
+<link rel="stylesheet" href="../js/styles/github.min.css">
 <script src="../js/highlight.min.js"></script>
 <!-- Initialize highlight -->
 <script>hljs.initHighlightingOnLoad();</script>
