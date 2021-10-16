@@ -11,11 +11,11 @@
     <li><h4>3.2.2 - Câu lệnh <b>switch</b></h4></li>
 </ul>
 
-<h3>3.3.3 - <a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
+<h3>3.3 - <a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
 <ul>
-    <li><h4>Lệnh <b>for</b></h4></li>
-    <li><h4>Lệnh <b>while</b></h4></li>
-    <li><h4>Lệnh <b>do ... while</b></h4></li>
+    <li><h4>3.3.1 - Lệnh <b>for</b></h4></li>
+    <li><h4>3.3.2 - Lệnh <b>while</b></h4></li>
+    <li><h4>3.3.3 - Lệnh <b>do ... while</b></h4></li>
 </ul>
 </div>
 
