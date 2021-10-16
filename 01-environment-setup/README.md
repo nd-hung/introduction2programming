@@ -33,7 +33,7 @@ Thiết lập môi trường lập trình C/C++
 </blockquote>
 </p>
 
-## Các bước viết chương trình <a name="programmingsteps"/>
+## <a name="programmingsteps">Các bước viết chương trình</a>
 
 Để giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được *giải thuật*, sau đó sử dụng một (hoặc một số) *ngôn ngữ lập trình* để *cài đặt* giải thuật thành *chương trình máy tính*.
 
@@ -70,7 +70,7 @@ printf("This is a message");
 </div>
 
 
-## Một số công cụ lập trình C/C++ thông dụng <a name="ides"/>
+## <a name="ides"/>Một số công cụ lập trình C/C++ thông dụng </a>
 ### [Dev-C++](devcpp)
 - Rất gọn nhẹ, đủ chức năng cơ bản & dễ sử dụng. 
 - Chỉ chạy trên Windows.
