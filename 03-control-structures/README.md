@@ -56,10 +56,63 @@ if(a % 2 == 0) printf("%d la so chan\n", a);
 else printf("%d la so le\n", a);
 ```
 
-<div class="info">
+<div class="note">
 <p>
 <ul>
-    Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong <code>{}</code>.
+    <li>Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong <code>{}</code>.</li>
+    <li>Câu lệnh if có thể lồng vào nhau, khi điều kiện sau từ khóa else sẽ ngược lại với điều kiện sau if ngay trước nó.</li>
+    <li>Khi sử dụng các lệnh if lồng nhau, nên sử dụng cấu trúc else để giảm bớt các trường hợp phải xét.</li>
 </ul>
 </p>
 </div>
+
+<details>
+<summary>Ví dụ</summary>
+<p>
+
+```c
+/*
+Tính tiền taxi dựa vào quãng đường đi và bảng giá.
+Bảng giá:
+<= 1 km dau: 15000 đ
+Từ km thứ 2 đến km thứ 5: 13500 đ/km
+Từ km thứ 6 trở đi: 11000 đ/km
+Nếu vượt 120 km được giảm 10% tổng tiền.
+
+* Input: 
+- Số km (nhập từ bàn phím)
+- Bảng giá
+
+* Output: Số tiền phải thanh toán.
+*/
+
+#include <stdio.h>
+
+int main()
+{
+	float sokm, sotien=0;
+	
+	printf("Nhap quang duong di (km):");
+	scanf("%f", &sokm);
+	
+	if(sokm <= 0)	printf("Quang duong phai > 0.\n");
+	else
+		if(sokm <= 1)	sotien = 15000;
+		else
+			// <-> (sokm > 1 && sokm <= 5)
+			if(sokm <= 5)	sotien = 15000 + (sokm - 1) * 13500;
+			else
+				// <-> (sokm > 5 && sokm <= 120)
+				if(sokm <= 120) 
+					sotien = 15000 + 4 * 13500 + (sokm - 5) * 11000;
+				else
+					// <-> (sokm > 120)
+					sotien = (15000 + 4 * 13500 + (sokm - 5) * 11000) * 0.9;
+				
+	printf("\n--------------------------------\n");
+	printf("Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n", sokm, sotien);
+}
+```
+
+<p>
+</details>
