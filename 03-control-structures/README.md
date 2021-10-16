@@ -1,17 +1,17 @@
 <h2 align="center"> 
-Các cấu trúc điều khiển
+3 - Các cấu trúc điều khiển
 </h2>
 
 
 <div class="header">
-<h3>Cấu trúc tuần tự (sequence)</h3>
-<h3><a href="#selection">Cấu trúc rẽ nhánh (selection)</a</h3>
+<h3>3.1 - Cấu trúc tuần tự (sequence)</h3>
+<h3>3.2 - <a href="#selection">Cấu trúc rẽ nhánh (selection)</a</h3>
 <ul>
-    <li><h4>Câu lệnh <b>if</b></h4></li>
-    <li><h4>Câu lệnh <b>switch</b></h4></li>
+    <li><h4>3.2.1 - Câu lệnh <b>if</b></h4></li>
+    <li><h4>3.2.2 - Câu lệnh <b>switch</b></h4></li>
 </ul>
 
-<h3><a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
+<h3>3.3.3 - <a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
 <ul>
     <li><h4>Lệnh <b>for</b></h4></li>
     <li><h4>Lệnh <b>while</b></h4></li>
@@ -19,15 +19,15 @@ Các cấu trúc điều khiển
 </ul>
 </div>
 
-## Cấu trúc tuần tự (sequence)
+## 3.1 Cấu trúc tuần tự (sequence)
 
 - Đặt các câu lệnh theo thứ tự cần thực hiện.
 
 <img src="figs/sequence.png" width="20%">
 
-## <a name="selection">Cấu trúc rẽ nhánh (selection)</a>
+## 3.2 - <a name="selection">Cấu trúc rẽ nhánh (selection)</a>
 
-### Câu lệnh **if**
+### 3.2.1 - Câu lệnh **if**
 
 #### Dạng 1
 
@@ -132,7 +132,7 @@ int main()
 
 </div>
 
-### Câu lệnh rẽ nhánh **switch**
+### 3.2.2 - Câu lệnh rẽ nhánh **switch**
 
 <img src="figs/switch.png" width="70%">
 
@@ -251,6 +251,6 @@ int main()
 </details>
 
 
-## <a name="repetition">Cấu trúc lặp (repetition)</a>
+## 3.3 - <a name="repetition">Cấu trúc lặp (repetition)</a>
 
-### Câu lệnh lặp **for**
+### 3.3.1 - Câu lệnh lặp **for**
