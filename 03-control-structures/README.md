@@ -58,6 +58,6 @@ else printf("%d la so le\n", a);
 
 <div class="info">
 <p>
-Để thực hiện nhiều câu lệnh ứng với <Biểu thức logic>, cần đặt các lệnh vào một khối {}.
+    Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong <code>{}</code>.
 </p>
 </div>
