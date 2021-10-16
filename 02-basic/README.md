@@ -1,5 +1,5 @@
 <h2 align="center"> 
-Cơ bản về ngôn ngữ C
+2 - Cơ bản về ngôn ngữ C
 </h2>
 
 ### Mục tiêu:
@@ -8,32 +8,32 @@ Cơ bản về ngôn ngữ C
 - Viết chương trình sử dụng các lệnh cơ bản
 
 <div class="header">
-<a href="#intro"><h3>Giới thiệu ngôn ngữ lập trình C</h3></a>
+<a href="#intro"><h3>2.1 - Giới thiệu ngôn ngữ lập trình C</h3></a>
 <ul>
-    <li><h4>Đặc điểm</h4></li>
-    <li><h4>Bộ từ vựng</h4></li>
-    <li><h4>Cấu trúc chương trình C</h4></li>
+    <h4>2.1.1 - Đặc điểm</h4>
+    <h4>2.1.2 - Bộ từ vựng</h4>
+    <h4>2.1.3 - Cấu trúc chương trình C</h4>
 </ul>
 
-<a href="#basic"><h3>Cơ bản về ngôn ngữ C</h3></a>
+<a href="#basic"><h3>2.2 - Cơ bản về ngôn ngữ C</h3></a>
 <ul>
-    <li><h4>Các kiểu dữ liệu cơ sở</h4></li>
-    <li><h4>Biểu thức, câu lệnh</h4></li>
+    <h4>2.2.1 - Các kiểu dữ liệu cơ sở</h4>
+    <h4>2.2.2 - Biểu thức, câu lệnh</h4>
 </ul>
 </div>
 
 <br>
 
-## Giới thiệu ngôn ngữ lập trình C <a name="intro"/>
-
+## 2.1 - Giới thiệu ngôn ngữ lập trình C <a name="intro"/>
+### 2.1.1 - Đặc điểm ngôn ngữ C
 - Ngôn ngữ C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.
-- Đặc điểm của C:
+- Ưu điểm của C:
     * Mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).
     * Rõ ràng, cô đọng.
     * Được sử dụng rộng rãi bởi các nhà lập trình chuyên nghiệp.
 
-### Bộ từ vựng của C
+### 2.1.2 - Bộ từ vựng của C
 
 #### Các ký tự được sử dụng
 - Bộ ký tự chữ cái Latinh `A, B, C, ..., Z, a, b,
@@ -99,7 +99,7 @@ Chẳng hạn, công thức tính quãng đường đi khi biết vận tốc v�
     // Comment
     ```
 
-#### Cấu trúc cơ bản của chương trình C
+### 2.1.3 -  Cấu trúc cơ bản của chương trình C
 
 ```c
 // Khai báo các thư viện
@@ -142,4 +142,6 @@ float DienTichHinhTron(float r)
 }
 ```
 
-## Cơ bản về ngôn ngữ C <a name="basic">
+## 2.2 - Cơ bản về ngôn ngữ C <a name="basic">
+### 2.2.1 - 
+### 2.2.2 - 
