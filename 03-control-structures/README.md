@@ -163,7 +163,7 @@ switch(expression) {
 - Biểu thức và các các hằng giá trị phải có kiểu rời rạc (integral): số nguyên (có hoặc không dấu), ký tự (được trình biên dịch chuyển sang mã ASCII tương ứng), thành viên của kiểu liệt kê (được trình biên dịch chuyển sang số nguyên tương ứng), các trường `bit` (0,1).
 
 #### Thực hiện:
-- Biểu thức <expression> lần lượt được so sánh với từng giá trị `value_1, value_2, ...`, nếu trùng khớp thì chương trình thực hiện từ `<lệnh/khối lệnh>` tương ứng.
+- Biểu thức <expression> lần lượt được so sánh với từng giá trị `value_1, value_2, ...`, nếu trùng khớp thì chương trình thực hiện `<lệnh/khối lệnh>` tương ứng.
 - Khi gặp lệnh **break**, chương trình sẽ thoát khỏi khối **switch**.
 - Nếu sau một trường hợp mà không gọi lệnh **break**, chương trình chuyển xuống xử lý trường hợp kế tiếp.
 - Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở khối **default** được thực thi.
@@ -171,7 +171,8 @@ switch(expression) {
 <div class="note">
 <p>
 <ul>
-    Câu lệnh <code>switch</code> có thể lồng nhau.
+    <li> Câu lệnh <code>switch</code> có thể lồng nhau.</li>
+    <li> Khối rẽ nhánh cài đặt được bằng lệnh <code>switch</code> thì cũng cài đặt được bằng lệnh <code>if</code>. Ngược lại có thể không đúng.</li>
 </ul>
 </p>
 </div>
@@ -187,14 +188,13 @@ Nhập một tháng dương lịch, in ra số ngày của tháng đó.
 Input: tháng trong năm (1..12)
 Output: số ngày của tháng.
 
-Biết: Trong 1 năm dương lịch:
+Biết: Trong một năm dương lịch:
 - Tháng 1,3,5,7,8,10,12 có 31 ngày.
 - Tháng 4,6,9,11 có 30 ngày.
 - Tháng 2: năm nhuận có 29 ngày, năm không nhuận có 28 ngày.
 (Năm nhuận là năm thỏa mãn 1 trong 2 điều kiện:
-+ Chia hết cho 400
-+ Chia hết cho 4 và không chia hết 100
-)
+    + Chia hết cho 400
+    + Chia hết cho 4 và không chia hết 100)
 */
 
 #include <stdio.h>
@@ -206,7 +206,7 @@ int main()
     printf("Nhap mot thang duong lich:");
     scanf("%d", &month);
 
-    /* Cách 1 - Sử dụng lệnh rẽ nhánh if
+    /* Cách 1 - Sử dụng lệnh rẽ nhánh if 
 
     if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
         printf("Thang %d co 31 ngay\n", month);
@@ -229,7 +229,7 @@ int main()
         printf("Khong co thang %d", month);
     */
 
-   // Cách 2 - Sử dụng câu lệnh rẽ nhánh switch
+   // Cách 2 - Sử dụng cấu trúc rẽ nhánh switch
    switch (month)
    {
    case 1:
