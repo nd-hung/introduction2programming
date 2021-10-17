@@ -122,6 +122,7 @@ int main()
 
 <img src="figs/switch.png" width="50%">
 
+### Cú pháp:
 ```c
 switch(expression) {
   case value_1:
