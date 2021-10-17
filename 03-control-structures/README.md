@@ -124,22 +124,24 @@ int main()
 
 ```c
 switch(expression) {
-  case n1:
+  case value_1:
     // <Lệnh 1>;
     break;
-  case n2:
+  case value_2:
     // <Lệnh 2>;
     break;
-  case n3:
+  case value_3::
     // <Lệnh 3>;
     break;
+    // ...
 
   default:
-    // <Lệnh 4>;
+    // <Lệnh n>;
 }
 ```
-- Giá trị của biểu thức <expression> sẽ được so sánh với giá trị ở từng trường hợp, nếu trùng nhau thì lệnh/khối lệnh tương ứng được thực thi.
+- Giá trị của biểu thức <expression> sẽ được so sánh với từng giá trị, nếu trùng nhau thì lệnh/khối lệnh tương ứng được thực thi.
 - Khi gặp lệnh **break**, chương trình sẽ thoát khỏi khối **switch**.
+- Nếu sau một trường hợp mà lệnh **break**
 - Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở khối **default** được thực thi.
 
 <div class="note">
