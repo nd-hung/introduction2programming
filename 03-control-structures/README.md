@@ -270,3 +270,15 @@ int main()
 ### 3.3.1 - Câu lệnh lặp **for**
 
 <img src="figs/for_loop.png" width="70%">
+
+#### Cú pháp:
+
+```c
+ for (init_expression; cond_expression; loop_expression) 
+    {
+        // statement   
+    }
+ ```
+ - `init_expression`: Biểu thức khởi đầu
+ - `cond_expression`: Biểu thức điều kiện lặp
+ - `loop_expression`: Biểu thức lặp (bước nhảy)
