@@ -166,7 +166,7 @@ switch(expression) {
 - Biểu thức <expression> lần lượt được so sánh với từng giá trị `value_1, value_2, ...`, nếu trùng khớp thì chương trình thực hiện `<lệnh/khối lệnh>` tương ứng.
 - Khi gặp lệnh **break**, chương trình sẽ thoát khỏi khối **switch**.
 - Nếu sau một trường hợp mà không gọi lệnh **break**, chương trình chuyển xuống xử lý trường hợp kế tiếp.
-- Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở khối **default** được thực thi.
+- Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở sau nhãn **default** được thực thi.
 
 <div class="note">
 <p>
