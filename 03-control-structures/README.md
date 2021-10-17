@@ -270,7 +270,7 @@ int main()
 ### 3.3.1 - Câu lệnh lặp **for**
 Sử dụng câu lệnh **for** khi cần lặp lại một lệnh/khối lệnh dựa theo một điều kiện cho trước.
 
-<img src="figs/for_loop.png" width="70%">
+<img src="figs/for_loop.png" width="60%">
 
 #### Cú pháp:
 
@@ -278,16 +278,45 @@ Sử dụng câu lệnh **for** khi cần lặp lại một lệnh/khối lệnh
  for (init_expression; cond_expression; loop_expression) 
     {
         // statement   
-        // [Lệnh>;]
+        // <Lệnh>;
     }
  ```
  - `init_expression`: Biểu thức khởi đầu
  - `cond_expression`: Biểu thức điều kiện lặp
  - `loop_expression`: Biểu thức lặp (bước nhảy)
- 
+
  #### Thực hiện:
 - Lệnh khởi đầu `init_expression` được thi hành 1 lần.
 - Biểu thức `cond_expression` xác định điều kiện thực thi khối lệnh. Nếu `cond_expression` có giá trị đúng (!= 0) thì khối lệnh `statement` được thi hành.
 - Lệnh `loop_expression` được thực hiện sau khối lệnh `statement`, xác định bước nhảy cho vòng lặp.
 
- 
+ <div class="note">
+<p>
+<ul>
+    <li>Câu lệnh <code>for</code> có thể lồng nhau.</li>
+    <li>Nên dùng lệnh <code>for</code> cho các vòng lặp có số lần lặp xác định.</li>
+</ul>
+</p>
+</div>
+
+<details>
+<summary>Ví dụ</summary>
+<p>
+```c
+```
+</p>
+</details>
+
+### 3.3.2 - Câu lệnh lặp **while**
+- Câu lệnh **while** lặp lại một khối lệnh chừng nào điều kiện xác định còn thỏa mãn.
+
+<img src="figs/while.png" width="60%">
+
+#### Cú pháp:
+```c
+while (condition) 
+{
+  // Khối lệnh được thi hành khi <condition> còn đúng (!= 0)
+  // <Lệnh>;
+}
+```
