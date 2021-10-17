@@ -303,6 +303,8 @@ Sử dụng câu lệnh **for** khi cần lặp lại một lệnh/khối lệnh
 <summary>Ví dụ</summary>
 <p>
 ```c
+
+
 ```
 </p>
 </details>
