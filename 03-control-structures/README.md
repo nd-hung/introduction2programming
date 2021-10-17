@@ -35,9 +35,15 @@
 <img src="figs/if1.png" width="40%">
 
 
-<img src="figs/if1_2.png">
+#### Cú pháp
+```c
+if(condition)
+    {
+        // Khối lệnh được thực hiện khi biểu thức condition != 0 (true)
+    }
+```
 
-Ví dụ:
+#### Ví dụ:
 ```c
 int a = 36;
 if(a % 2 == 0) printf("%d la so chan\n", a);
@@ -48,9 +54,19 @@ if(a % 2 == 0) printf("%d la so chan\n", a);
 <img src="figs/if2.png" width="55%">
 
 
-<img src="figs/if2_2.png">
+#### Cú pháp
+```c
+if(condition)
+    {
+        // Khối lệnh được thực hiện khi biểu thức condition != 0 (true)
+    }
+else
+    {
+        // Khối lệnh được thực hiện khi biểu thức condition == 0 (false)
+    }
+```
 
-Ví dụ:
+#### Ví dụ:
 ```c
 int a = 36;
 if(a % 2 == 0) printf("%d la so chan\n", a);

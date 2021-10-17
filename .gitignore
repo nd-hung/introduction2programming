@@ -36,4 +36,6 @@
 *.log
 *.tex
 
+# drafts
+_drafts/
 
