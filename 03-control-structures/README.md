@@ -39,9 +39,10 @@
 ```c
 if(condition)
     {
-        // Khối lệnh được thực hiện khi biểu thức condition != 0 (true)
+        // Khối lệnh được thực hiện khi biểu thức logic <condition> != 0 (true)
     }
 ```
+- `<condition>` là một biểu thức logic, có kết quả đúng (!=0, thường là 1), hoặc sai (tương ứng 0).
 
 #### Ví dụ:
 ```c
@@ -65,7 +66,7 @@ else
         // Khối lệnh được thực hiện khi biểu thức condition == 0 (false)
     }
 ```
-
+- `<expression>` là một biểu thức có giá trị rời rạc
 #### Ví dụ:
 ```c
 int a = 36;
@@ -156,16 +157,21 @@ switch(expression) {
     // <Lệnh n>;
 }
 ```
-- Giá trị của biểu thức <expression> sẽ được so sánh với từng giá trị, nếu trùng nhau thì lệnh/khối lệnh tương ứng được thực thi.
+
+- Cấu trúc `switch` chọn thực hiện các lệnh dựa trên so sánh biểu thức `<expression>` với các giá trị được xét.
+- Các giá trị `value_1, value_2, ...` phải là hằng và không được trùng nhau. 
+- Biểu thức và các các hằng giá trị phải có kiểu rời rạc (integral): số nguyên (có hoặc không dấu), ký tự (được trình biên dịch chuyển sang mã ASCII tương ứng), thành viên của kiểu liệt kê (được trình biên dịch chuyển sang số nguyên tương ứng), các trường `bit` (0,1).
+
+#### Thực hiện:
+- Biểu thức <expression> lần lượt được so sánh với từng giá trị `value_1, value_2, ...`, nếu trùng khớp thì chương trình thực hiện từ `<lệnh/khối lệnh>` tương ứng.
 - Khi gặp lệnh **break**, chương trình sẽ thoát khỏi khối **switch**.
-- Nếu sau một trường hợp mà lệnh **break**
+- Nếu sau một trường hợp mà không gọi lệnh **break**, chương trình chuyển xuống xử lý trường hợp kế tiếp.
 - Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở khối **default** được thực thi.
 
 <div class="note">
 <p>
 <ul>
-    <li>Câu lệnh <code>switch</code> có thể lồng nhau.</li>
-    <li>Các trường hợp n1, n2, ... phải có giá trị rời rạc và không trùng nhau.</li>
+    Câu lệnh <code>switch</code> có thể lồng nhau.
 </ul>
 </p>
 </div>
