@@ -16,4 +16,4 @@ NHẬP MÔN LẬP TRÌNH
 ### [6 - Kiểu dữ liệu cấu trúc (struct)](06-struct) 
 ### [7 - Xử lý file]() 
 
-### [Tham khảo](references.md)
+### [Tài liệu tham khảo](references.md)
