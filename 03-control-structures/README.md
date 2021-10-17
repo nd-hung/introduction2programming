@@ -35,16 +35,17 @@
 <img src="figs/if1.png" width="40%">
 
 
-#### Cú pháp
+##### Cú pháp
 ```c
 if(condition)
     {
         // Khối lệnh được thực hiện khi biểu thức logic <condition> != 0 (true)
+        // <Lệnh>;
     }
 ```
 - `<condition>` là một biểu thức logic, có kết quả đúng (!=0, thường là 1), hoặc sai (tương ứng 0).
 
-#### Ví dụ:
+##### Ví dụ:
 ```c
 int a = 36;
 if(a % 2 == 0) printf("%d la so chan\n", a);
@@ -55,19 +56,21 @@ if(a % 2 == 0) printf("%d la so chan\n", a);
 <img src="figs/if2.png" width="55%">
 
 
-#### Cú pháp
+##### Cú pháp
 ```c
 if(condition)
     {
         // Khối lệnh được thực hiện khi biểu thức condition != 0 (true)
+        // <Lệnh 1>;
     }
 else
     {
         // Khối lệnh được thực hiện khi biểu thức condition == 0 (false)
+        // <Lệnh 2>;
     }
 ```
-- `<expression>` là một biểu thức có giá trị rời rạc
-#### Ví dụ:
+
+##### Ví dụ:
 ```c
 int a = 36;
 if(a % 2 == 0) printf("%d la so chan\n", a);
@@ -139,7 +142,7 @@ int main()
 
 <img src="figs/switch.png" width="50%">
 
-### Cú pháp:
+#### Cú pháp:
 ```c
 switch(expression) {
   case value_1:
@@ -159,8 +162,8 @@ switch(expression) {
 ```
 
 - Cấu trúc `switch` chọn thực hiện các lệnh dựa trên so sánh biểu thức `<expression>` với các giá trị được xét.
-- Các giá trị `value_1, value_2, ...` phải là hằng và không được trùng nhau. 
 - Biểu thức và các các hằng giá trị phải có kiểu rời rạc (integral): số nguyên (có hoặc không dấu), ký tự (được trình biên dịch chuyển sang mã ASCII tương ứng), thành viên của kiểu liệt kê (được trình biên dịch chuyển sang số nguyên tương ứng), các trường `bit` (0,1).
+- Các giá trị `value_1, value_2, ...` phải là hằng và không được trùng nhau. 
 
 #### Thực hiện:
 - Biểu thức <expression> lần lượt được so sánh với từng giá trị `value_1, value_2, ...`, nếu trùng khớp thì chương trình thực hiện `<lệnh/khối lệnh>` tương ứng.
@@ -265,3 +268,5 @@ int main()
 ## 3.3 - <a name="repetition">Cấu trúc lặp (repetition)</a>
 
 ### 3.3.1 - Câu lệnh lặp **for**
+
+<img src="figs/for_loop.png" width="70%">
