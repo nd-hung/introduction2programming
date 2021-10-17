@@ -11,7 +11,7 @@
 </blockquote>
 </p>
 
-## Đặc điểm chính của Visual Studio Code <a name="specs"/>
+## <a name="specs"/>Đặc điểm chính của Visual Studio Code </a>
 - Gọn nhẹ, với nhiều tính năng cao cấp như: gợi ý mã lệnh thông minh (IntelliSense code completion), quản lý phiên bản mã nguồn phân tán (Git).
 - Khả năng mở rộng để lập trình với nhiều ngôn ngữ, như C/C++, C#, Java, Python, PHP.
 - Chạy trên Windows, macOS và Linux.
@@ -21,7 +21,7 @@
     * Trình biên dịch (compiler) C/C++.
 
 
-## Cài đặt VS Code, C/C++ extension, và C/C++ compiler trên Windows <a name="install">
+## <a name="install">Cài đặt VS Code, C/C++ extension, và C/C++ compiler trên Windows </a>
 
 ### Cài đặt VS Code
 - [Tải về gói cài đặt](https://code.visualstudio.com/Download). Chọn phiên bản cho Windows.
@@ -84,7 +84,7 @@ gdb --version
 ```
 <img src="figs/installmingw6.PNG">
 
-## Lập trình C/C++ với VS Code <a name="use">
+## <a name="use">Lập trình C/C++ với VS Code </a>
 Tạo chương trình "Hello World" với VS Code.
 
 - Khởi động VS Code.

@@ -24,7 +24,7 @@
 
 <br>
 
-## 2.1 - Giới thiệu ngôn ngữ lập trình C <a name="intro"/>
+## 2.1 - <a name="intro"/>Giới thiệu ngôn ngữ lập trình C </a>
 ### 2.1.1 - Đặc điểm ngôn ngữ C
 - Ngôn ngữ C do Dennis Ritchie phát triển tại [phòng thí nghiệm Bell](http://www.bell-labs.com/) năm 1972.
 - C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.
@@ -142,6 +142,6 @@ float DienTichHinhTron(float r)
 }
 ```
 
-## 2.2 - Cơ bản về ngôn ngữ C <a name="basic">
+## 2.2 - <a name="basic">Cơ bản về ngôn ngữ C </a>
 ### 2.2.1 - 
 ### 2.2.2 - 

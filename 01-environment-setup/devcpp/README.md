@@ -10,12 +10,12 @@
 </blockquote>
 </p>
 
-### Đặc điểm của Dev-C++ <a name="specs"/>
+### <a name="specs"/>Đặc điểm của Dev-C++ </a>
 - [Dev-C++](https://www.bloodshed.net/) thường được sử dụng trong dạy/học lập trình C/C++ bởi: rất gọn nhẹ, dễ sử dụng, đủ tính năng cơ bản, mã nguồn mở (open-source).
 - Dev-C++ hỗ trợ một số trình biên dịch khác nhau (như [MinGW](https://www.mingw-w64.org/), [Cygwin](http://cygwin.com/), [TDM-GCC](https://sourceforge.net/projects/tdm-gcc/)).
 - Dev-C++ chỉ chạy trên Windows.
 
-### Cài đặt Dev-C++ <a name="install"/>
+### <a name="install"/>Cài đặt Dev-C++ </a>
 #### Tải nguồn cài đặt Dev-C++
 Tải nguồn cài tại [SourceForge](https://sourceforge.net/projects/orwelldevcpp/files/latest/download). Gói cài đặt này gồm cả trình biên dịch [TDM-GCC](https://sourceforge.net/projects/tdm-gcc/).
 #### Cài đặt Dev-C++
@@ -40,7 +40,7 @@ Nhấn **Install**.
 
 Nhấn **Finish**.
 
-### Sử dụng Dev-C++ <a name="use"/>
+### <a name="use"/>Sử dụng Dev-C++ </a>
 Viết chương trình in ra màn hình dòng chữ "Hello World!".
 - Khởi động Dev-C++
 <img src="figs/devcpp-install-05.PNG"/>
