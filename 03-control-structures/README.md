@@ -352,7 +352,7 @@ while (condition)
 - Bước 1: Biểu thức điều kiện `condition` được kiểm tra. 
 - Bước 2: 
     - Nếu biểu thức `condition` có giá trị sai (== 0), khối lệnh không được thi hành, vòng lặp dừng.
-    - Nếu biểu thức 'condtion` có giá trị đúng (!= 0), khối lệnh không được thi hành và quay lại bước 1.
+    - Nếu biểu thức 'condtion` có giá trị đúng (!= 0), khối lệnh được thi hành và quay lại bước 1.
 
 <div class="note">
 <p>
