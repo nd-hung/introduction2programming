@@ -10,6 +10,7 @@
 <h4>3.2.1 - Câu lệnh <b>if</b></h4>
 <h4>3.2.2 - Câu lệnh <b>switch</b></h4>
 </ul>
+
 <h3>3.3 - <a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
 <ul>
 <h4>3.3.1 - Lệnh <b>for</b></h4>
@@ -18,7 +19,9 @@
 </ul>
 </div>
 
-Một vấn đề quan trọng trong lập trình là làm sao điều khiển việc thi hành các khối lệnh theo trình tự như giải thuật đã mô tả. Theo phương pháp lập trình cấu trúc, mọi chương trình đều có thể tạo thành từ sự kết hợp của ba cấu trúc điều khiển cơ bản: tuần tự (sequence), rẽ nhánh hay lựa chọn (selection), và lặp (repetition).
+Một vấn đề quan trọng trong lập trình là làm sao điều khiển thi hành các khối lệnh theo trình tự như giải thuật đã mô tả. 
+
+Theo phương pháp lập trình cấu trúc, mọi chương trình đều có thể tạo thành từ sự kết hợp của ba cấu trúc điều khiển cơ bản: tuần tự (sequence), rẽ nhánh hay lựa chọn (selection), và lặp (repetition).
 
 ## 3.1 - Cấu trúc tuần tự (sequence)
 
