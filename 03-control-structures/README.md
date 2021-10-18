@@ -444,7 +444,7 @@ do
 
 ```c
 /*
-Viết chương trình dùng lặp lại việc nhập một số nguyên từ bàn phím 
+Viết chương trình lặp lại việc nhập một số nguyên từ bàn phím 
 cho đến khi nhập số 0 thì dừng và in ra tổng các số vừa nhập.
 */
 
