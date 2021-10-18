@@ -1,10 +1,10 @@
 <div>
-<h3>3.3 - Cấu trúc lặp (repetition)
-<ul>
-<h4>3.3.1 - Lệnh <b>for</b></h4>
-<h4>3.3.2 - Lệnh <b>while</b></h4>
-<h4>3.3.3 - Lệnh <b>do-while</b></h4>
-</ul>
+    <h3>3.3 - Cấu trúc lặp (repetition)</h3>
+    <ul>
+        <h4>3.3.1 - Lệnh <b>for</b></h4>
+        <h4>3.3.2 - Lệnh <b>while</b></h4>
+        <h4>3.3.3 - Lệnh <b>do-while</b></h4>
+    </ul>
 </div>
 
 Cấu trúc điều khiển lặp cho phép lặp lại khối lệnh theo một điều kiện xác định.
