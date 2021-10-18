@@ -348,7 +348,7 @@ while (condition)
 ```
 
 #### Thực hiện:
-- Kiểm tra điều kiện trước. Nếu biểu thức `condition` còn đúng (!=0) thì thực hiện khối lệnh.
+- Biểu thức điều kiện được kiểm tra trước. Nếu biểu thức `condition` còn đúng (!=0) thì thực hiện khối lệnh.
 - Nếu biểu thức điều kiện không thỏa mãn từ đầu thì vòng lặp dừng, khối lệnh không được thi hành lần nào.
 
 <div class="note">
