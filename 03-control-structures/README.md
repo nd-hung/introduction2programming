@@ -10,8 +10,7 @@
 <h4>3.2.1 - Câu lệnh <b>if</b></h4>
 <h4>3.2.2 - Câu lệnh <b>switch</b></h4>
 </ul>
-
-<h3>3.3 - <a href="#repetition">Cấu trúc lặp (repetition)</a>
+<h3>3.3 - <a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
 <ul>
 <h4>3.3.1 - Lệnh <b>for</b></h4>
 <h4>3.3.2 - Lệnh <b>while</b></h4>
