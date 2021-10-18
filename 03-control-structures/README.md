@@ -16,7 +16,7 @@
 <ul>
 <h4>3.3.1 - Lệnh <b>for</b></h4>
 <h4>3.3.2 - Lệnh <b>while</b></h4>
-<h4>3.3.3 - Lệnh <b>do ... while</b></h4>
+<h4>3.3.3 - Lệnh <b>do-while</b></h4>
 </ul>
 </div>
 
@@ -404,4 +404,25 @@ int main()
 </p>
 </div>
 
+### 3.3.3 - Câu lệnh lặp **do-while**
+- Câu lệnh **do-while** lặp lại một khối lệnh cho đến khi biểu thức điều kiện có giá trị sai.
+
+<img src="figs/dowhile.png" width="60%">
+
+#### Cú pháp:
+```c
+do
+{
+    // <Lệnh>;
+}while(condition);
+```
+- Biểu thức `condition` phải có kiểu số hoặc con trỏ.
+- Việc kiểm tra biểu thức `condition` thực hiện sau khối lệnh. Vì thế khối lệnh lặp ít nhất 1 lần.
+
+#### Thực hiện:
+
+- Bước 1: Khối lệnh được thực hiện. 
+- Bước 2: Biểu thức điều kiện `condition` được kiểm tra
+    - Nếu biểu thức `condition` có giá trị sai (== 0), vòng lặp dừng.
+    - Nếu biểu thức 'condtion` có giá trị đúng (!= 0), khối lệnh được thi hành và quay lại bước 1.
 
