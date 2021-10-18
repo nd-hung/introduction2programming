@@ -409,7 +409,7 @@ int main()
 ### 3.3.3 - Câu lệnh lặp **do-while**
 - Câu lệnh **do-while** lặp lại một khối lệnh cho đến khi biểu thức điều kiện có giá trị sai.
 
-<img src="figs/dowhile.png" width="60%">
+<img src="figs/dowhile.png" width="55%">
 
 #### Cú pháp:
 ```c
@@ -436,3 +436,32 @@ do
 </ul>
 </p>
 </div>
+
+<details>
+<summary>Ví dụ </summary>
+<p>
+
+```c
+/*
+Viết chương trình dùng lặp lại việc nhập một số nguyên từ bàn phím 
+cho đến khi nhập số 0 thì dừng và in ra tổng các số vừa nhập.
+*/
+
+#include<stdio.h>
+
+int main()
+{
+    int n, sum=0;
+
+    do{
+        printf("Nhap mot so nguyen (nhap 0 de dung):");
+        scanf("%d", &n);
+        sum += n;
+    }while(n != 0);
+
+    printf("Tong cac so vua nhap = %d\n", sum);
+}
+```
+
+</p>
+</details>
