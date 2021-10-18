@@ -19,7 +19,7 @@
 </ul>
 </div>
 
-Vấn đề quan trọng trong lập trình là làm sao điều khiển việc thi hành các khối lệnh theo theo trình tự mong muốn như giải thuật đã mô tả. Theo phương pháp lập trình cấu trúc, mọi chương trình đều có thể tạo nên bằng sự kết hợp của ba cấu trúc điều khiển cơ bản: tuần tự (sequence), rẽ nhánh hay lựa chọn (selection), và lặp (repetition).
+Một vấn đề quan trọng trong lập trình là làm sao điều khiển việc thi hành các khối lệnh theo trình tự như giải thuật đã mô tả. Theo phương pháp lập trình cấu trúc, mọi chương trình đều có thể tạo thành từ sự kết hợp của ba cấu trúc điều khiển cơ bản: tuần tự (sequence), rẽ nhánh hay lựa chọn (selection), và lặp (repetition).
 
 ## 3.1 - Cấu trúc tuần tự (sequence)
 
