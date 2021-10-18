@@ -290,7 +290,7 @@ Sử dụng câu lệnh **for** khi cần lặp lại một lệnh/khối lệnh
 - Biểu thức `cond_expression` xác định điều kiện thực thi khối lệnh. Nếu `cond_expression` có giá trị đúng (!= 0) thì khối lệnh `statement` được thi hành.
 - Lệnh `loop_expression` được thực hiện sau khối lệnh `statement`, xác định bước nhảy cho vòng lặp.
 
- <div class="note">
+<div class="note">
 <p>
 <ul>
     <li>Câu lệnh <code>for</code> có thể lồng nhau.</li>
@@ -346,3 +346,18 @@ while (condition)
   // <Lệnh>;
 }
 ```
+
+#### Thực hiện:
+- Kiểm tra điều kiện trước. Nếu biểu thức `condition` còn đúng (!=0) thì thực hiện khối lệnh.
+- Nếu biểu thức điều kiện không thỏa mãn từ đầu thì vòng lặp dừng, khối lệnh không được thi hành lần nào.
+
+<div class="note">
+<p>
+<ul>
+    <li>Câu lệnh <code>while</code> có thể lồng nhau.</li>
+    <li>Cần kiểm soát để điều kiện lặp sai (== 0) sau hữu hạn bước. Nếu không, lệnh <code>while</code> sẽ lặp vô tận. </li>
+</ul>
+</p>
+</div>
+
+
