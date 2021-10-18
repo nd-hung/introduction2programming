@@ -272,7 +272,6 @@ int main()
 Cấu trúc điều khiển lặp cho phép lặp lại khối lệnh theo một điều kiện xác định.
 
 ### 3.3.1 - Câu lệnh lặp **for**
-Sử dụng câu lệnh **for** khi cần lặp lại một lệnh/khối lệnh dựa theo một điều kiện cho trước.
 
 <img src="figs/for_loop.png" width="60%">
 
