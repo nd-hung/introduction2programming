@@ -267,6 +267,8 @@ int main()
 
 ## 3.3 - <a name="repetition">Cấu trúc lặp (repetition)</a>
 
+Cấu trúc điều khiển lặp cho phép lặp lại khối lệnh theo một điều kiện xác định.
+
 ### 3.3.1 - Câu lệnh lặp **for**
 Sử dụng câu lệnh **for** khi cần lặp lại một lệnh/khối lệnh dựa theo một điều kiện cho trước.
 
@@ -426,3 +428,11 @@ do
     - Nếu biểu thức `condition` có giá trị sai (== 0), vòng lặp dừng.
     - Nếu biểu thức 'condtion` có giá trị đúng (!= 0), khối lệnh được thi hành và quay lại bước 1.
 
+<div class="note">
+<p>
+<ul>
+    <li>Câu lệnh <code>do-while</code> có thể lồng nhau.</li>
+    <li>Tương tự lệnh <code>while</code>, lệnh <code>do-while</code> có thể bị lặp vô tận. </li>
+</ul>
+</p>
+</div>
