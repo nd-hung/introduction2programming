@@ -9,6 +9,9 @@ Hãy viết chương trình tìm & in ra các số hoàn hảo <= 10000.
 int main()
 {
     unsigned int n=10000,tonguocso,i,j;
+
+    printf("Cac so hoan hao <= %d la:\n", n);
+    
     // Xét các số từ 1 đến n
     for(i=1; i <= n; i++)
         {
