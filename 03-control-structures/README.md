@@ -346,10 +346,12 @@ while (condition)
   // <Lệnh>;
 }
 ```
+- Biểu thức `condition` phải có kiểu số học (arithmetic) hoặc con trỏ (pointer).
 
 #### Thực hiện:
-- Biểu thức điều kiện được kiểm tra trước. Nếu biểu thức `condition` còn đúng (!=0) thì thực hiện khối lệnh.
-- Nếu biểu thức điều kiện không thỏa mãn từ đầu thì vòng lặp dừng, khối lệnh không được thi hành lần nào.
+- 1. Biểu thức điều kiện `condition` được kiểm tra. 
+- 2. Nếu biểu thức `condition` có giá trị sai (== 0), khối lệnh không được thi hành, vòng lặp dừng.
+Nếu biểu thức 'condtion` có giá trị đúng (!= 0), khối lệnh không được thi hành và quay lại bước 1.
 
 <div class="note">
 <p>
