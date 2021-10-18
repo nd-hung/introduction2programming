@@ -1,7 +1,7 @@
 /*
 Nhập một tháng dương lịch, in ra số ngày của tháng đó.
 
-Input: tháng trong năm (1..12)
+Input: tháng trong năm (1..12), năm (khi tháng == 2)
 Output: số ngày của tháng.
 
 Biết: Trong 1 năm dương lịch:
