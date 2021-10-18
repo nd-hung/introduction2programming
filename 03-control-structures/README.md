@@ -410,7 +410,7 @@ int main()
 ### 3.3.3 - Câu lệnh lặp **do-while**
 - Câu lệnh **do-while** lặp lại một khối lệnh cho đến khi biểu thức điều kiện có giá trị sai.
 
-<img src="figs/dowhile.png" width="55%">
+<img src="figs/dowhile.png" width="50%">
 
 #### Cú pháp:
 ```c
