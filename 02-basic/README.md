@@ -152,7 +152,7 @@ Các kiểu dữ liệu cơ sở trong C:
 - Kiểu ký tự: 256 ký tự trong bảng mã ASCII
 
 #### Kiểu số nguyên không dấu (unsigned)
-- Dùng n bits để biểu diễn số nguyên không dấu -> miền giá trị biểu diễn được là: 0 .. 2<sup>n-1</sup>
+- Dùng n bits để biểu diễn số nguyên không dấu trên máy tính -> miền giá trị biểu diễn được là: 0 .. 2<sup>n-1</sup>
 
 | Kiểu           | Kích thước <br>(bit) | Miền giá trị       |
 | :---  | :---: | ---: |

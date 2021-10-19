@@ -64,17 +64,17 @@ unsigned int SoDao(unsigned int n)
 }
 
 /* Hàm kiểm tra số đối xứng
-Nếu số đảo của n == n -> n là số đối xứng.
+Nếu số đảo của n == n thì n là số đối xứng.
 */
 char LaSoDoiXung(unsigned int n)
 {
-    /*
-    if(SoDao(n) == n)
-        return 1;
-    else    
-        return 0;
+    /* Cách 1
+    if(SoDao(n) == n) return 1;
+    else return 0;
     */
-   return(SoDao(n) == n);
+   
+   // Cách 2
+   return SoDao(n) == n;
 }
 
 // Hàm kiểm tra n có phải số chính phương
