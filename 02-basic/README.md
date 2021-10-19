@@ -160,10 +160,10 @@ Các kiểu dữ liệu cơ sở trong C:
 
 | Kiểu           | Kích thước <br>(bit) | Miền giá trị       |
 | :---  | :---: | ---: |
-| char  |   8   | –128 .. +127 |
-| int   |   16  | –32,768 .. +32,767 |
-| short |   16  | –32,768 .. +32,767 |
-| long  |   32  | –2,147,483,648 .. +2,147,483,647 |
+| char  |   8   | –128 .. 127 |
+| int   |   16  | –32,768 .. 32,767 |
+| short |   16  | –32,768 .. 32,767 |
+| long  |   32  | –2,147,483,648 .. 2,147,483,647 |
 
 #### Kiểu số nguyên không dấu (unsigned)
 - Dùng n bits để biểu diễn số nguyên không dấu trên máy tính -> miền giá trị biểu diễn được là: 0 .. 2<sup>n-1</sup>
@@ -180,8 +180,8 @@ Các kiểu dữ liệu cơ sở trong C:
 
 | Kiểu           | Kích thước <br>(bit) | Miền giá trị       |
 | :---   | :---: | ---: |
-| float  | 32    | 3.4E-38 .. 3.4E+38 |
-| double | 64    | 1.7E-308 .. 1.7*E+308 |
+| float  | 32    | -3.4E-38 .. 3.4E+38 |
+| double | 64    | -1.7E-308 .. 1.7*E+308 |
 
 - Kiểu `float` có độ chính xác đến 7 chữ số phần thập phân (single-precision).
 - Kiểu `double` có độ chính xác đến 19 chữ số phần thập phân (double-precision).
