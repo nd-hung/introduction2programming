@@ -46,7 +46,7 @@ if(condition)
         // <Lệnh>;
     }
 ```
-- `<condition>` là một biểu thức logic, có kết quả đúng (!=0, thường là 1), hoặc sai (tương ứng 0).
+- `<condition>` là một biểu thức logic, có kết quả đúng (!=0, thường là 1), hoặc sai (== 0).
 
 ##### Ví dụ:
 ```c
