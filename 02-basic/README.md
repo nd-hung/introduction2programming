@@ -152,14 +152,14 @@ Các kiểu dữ liệu cơ sở trong C:
 - Kiểu ký tự: 256 ký tự trong bảng mã ASCII
 
 #### Kiểu số nguyên không dấu (unsigned)
+- Dùng n bits để biểu diễn số nguyên không dấu -> miền giá trị biểu diễn được là: 0 .. 2<sup>n-1</sup>
 
-
-| Kiểu           | Kích thước <br>(Byte) | Miền giá trị       |
+| Kiểu           | Kích thước <br>(bit) | Miền giá trị       |
 | :---  | :---: | ---: |
-| unsigned char  | 1                     | 0 .. 255           |
-| unsigned int   | 2                     | 0 .. 65,535        |
-| unsigned short | 2                     | 0 .. 65,535        |
-| unsigned long  | 4                     | 0 .. 4,294,967,295 |
+| unsigned char  | 8                     | 0 .. 255           |
+| unsigned int   | 16                     | 0 .. 65,535        |
+| unsigned short | 16                     | 0 .. 65,535        |
+| unsigned long  | 32                     | 0 .. 4,294,967,295 |
 
 
 
