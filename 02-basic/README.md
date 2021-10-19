@@ -204,12 +204,6 @@ Các kiểu dữ liệu cơ sở trong C:
 - Miền giá trị: 256 ký tự trong bảng mã ASCII
 - Ký tự được lưu trong máy tính bằng mã ASCII của nó. Chẳng hạn, ký tự 'A' được lưu thành số 65 hay `a` là 97.
 
-<div class="info">
-<p>
-<ul>
-    .
-</ul>
-</p>
-</div>
+
 
 ### 2.2.2 - 

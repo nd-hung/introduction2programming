@@ -19,8 +19,8 @@
 
 <a href="#ides"><h3>1.2 - Một số công cụ lập trình C/C++ thông dụng</h3></a>
 <ul>
-    <a href="devcpp"><h4>1.2.1 - Dev-C++</h4></a>
-    <a href="vscode"><h4>1.2.2 - Visual Studio Code</h4>
+    <h4><a href="devcpp">1.2.1 - Dev-C++</a></h4>
+    <h4><a href="vscode">1.2.2 - Visual Studio Code</a></h4>
 </ul>
 </div>
 
