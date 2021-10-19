@@ -191,9 +191,13 @@ Các kiểu dữ liệu cơ sở trong C:
     - `true` (đúng): giá trị khác 0,thường là 1.
 
 <div class="note">
-<ul>Ngôn ngữ C++ bổ sung kiểu <code>bool</code> để định nghĩa tường minh kiểu boolean.
-</ul>
+<p>
+    Ngôn ngữ C++ bổ sung kiểu <code>bool</code> để định nghĩa tường minh kiểu boolean.
+</p>
 </div>
 
+#### Kiểu ký tự
+- Tên kiểu: char
+-  Miền giá trị: 256 ký tự trong bảng mã ASCII
 
 ### 2.2.2 - 
