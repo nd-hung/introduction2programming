@@ -192,7 +192,7 @@ Các kiểu dữ liệu cơ sở trong C:
 
 <div class="note">
 <ul>Ngôn ngữ C++ bổ sung kiểu <code>bool</code> để định nghĩa tường minh kiểu boolean.
-<ul>
+</ul>
 </div>
 
 
