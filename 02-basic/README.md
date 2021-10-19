@@ -148,8 +148,9 @@ Kiểu dữ liệu cơ sở (fundamental types) là các loại dữ liệu dự
 Các kiểu dữ liệu cơ sở trong C:
 - Kiểu số nguyên
 - Kiểu số thực
-- Kiểu boolean: có giá trị đúng hoặc sai
-- Kiểu ký tự: 256 ký tự trong bảng mã ASCII
+- Kiểu boolean
+- Kiểu ký tự
+- Kiểu void
 
 #### Các kiểu số nguyên có dấu (signed)
 
@@ -200,6 +201,15 @@ Các kiểu dữ liệu cơ sở trong C:
 
 #### Kiểu ký tự
 - Tên kiểu: char
--  Miền giá trị: 256 ký tự trong bảng mã ASCII
+- Miền giá trị: 256 ký tự trong bảng mã ASCII
+- Ký tự được lưu trong máy tính bằng mã ASCII của nó. Chẳng hạn, ký tự 'A' được lưu thành số 65 hay `a` là 97.
+
+<div class="info">
+<p>
+<ul>
+    .
+</ul>
+</p>
+</div>
 
 ### 2.2.2 - 
