@@ -141,6 +141,17 @@ int main()
 </p>
 </details>
 
+<details>
+<summary>Ví dụ 2</summary>
+<p>
+
+https://github.com/nd-hung/introduction2programming/blob/908a0ccf014af24c33bc916b1e499de35d3b7817/03-control-structures/src/tinhtientaxi.c
+
+</p>
+</details>
+
+
+
 ### 3.2.2 - Câu lệnh rẽ nhánh **switch**
 
 <img src="figs/switch.png" width="50%">

@@ -151,18 +151,16 @@ Các kiểu dữ liệu cơ sở trong C:
 - Kiểu boolean: có giá trị đúng hoặc sai
 - Kiểu ký tự: 256 ký tự trong bảng mã ASCII
 
-#### Kiểu số nguyên không âm (unsigned)
-```math
-a^2+b^2=c^2
-```
+#### Kiểu số nguyên không dấu (unsigned)
 
 
 | Kiểu           | Kích thước <br>(Byte) | Miền giá trị       |
-| -------------  | --------------------- | ------------------ |
-| unsigned char  | 8                     | 0 .. 255           |
+| :---  | :---: | ---: |
+| unsigned char  | 1                     | 0 .. 255           |
 | unsigned int   | 2                     | 0 .. 65,535        |
 | unsigned short | 2                     | 0 .. 65,535        |
 | unsigned long  | 4                     | 0 .. 4,294,967,295 |
+
 
 
 ### 2.2.2 - 
