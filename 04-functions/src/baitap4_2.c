@@ -24,7 +24,8 @@ char LaSoDoiXung(unsigned int n);
 char LaSoChinhPhuong(unsigned int n);
 // Hàm kiểm tra n có phải số nguyên tố hay không
 char LaSNT(unsigned int n); 
-
+// Hàm trả về tổng các chữ số lẻ của n
+unsigned int TongCSLe(unsigned int n); 
 //////////////////////////////////////////////////////////////////////
 // Chương trình chính
 int main()
@@ -44,6 +45,13 @@ int main()
         printf("%d la so chinh phuong\n", n);
     else
         printf("%d khong phai so chinh phuong\n", n);
+
+    if(LaSNT(n))
+        printf("%d la so nguyen to.\n", n);
+    else
+        printf("%d khong phai so nguyen to .\n", n);    
+
+    printf("Tong cac chu so le cua %d = %d .\n", n, TongCSLe(n));            
 }
 
 //////////////////////////////////////////////////////////////////////
@@ -81,4 +89,29 @@ char LaSoDoiXung(unsigned int n)
 char LaSoChinhPhuong(unsigned int n)
 {
     return (int)sqrt(n) * (int)sqrt(n) == n;
+}
+
+// Hàm kiểm tra n có phải số nguyên tố hay không
+char LaSNT(unsigned int n)
+{   int i;
+    if(n < 2) return 0; // Số NT nhỏ nhất là 2
+    // Xét các số trong đoạn [2, |sqrt(n)|], 
+    // Nếu có ít nhất 1 ước số của n thì n không phải SNT
+    for(i=2; i <= (int)sqrt(n); i++)
+        if(n % i == 0) return 0;
+    // nếu không thuộc 2 trường hợp trên -> n là SNT
+    return 1;
+}
+
+unsigned int TongCSLe(unsigned int n)
+{
+    unsigned int sum=0;
+    unsigned char chusocuoi;
+    while(n > 0)
+    {
+        chusocuoi = n % 10;
+        if(chusocuoi % 2 != 0) sum += chusocuoi;
+        n /= 10;
+    }
+    return sum;
 }
