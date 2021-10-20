@@ -158,7 +158,7 @@ Các kiểu dữ liệu cơ sở trong C:
 - Dùng n bits để biểu diễn số nguyên có dấu trên máy tính -> miền giá trị biểu diễn được là 
 -2<sup>n-1</sup> .. +2<sup>n-1</sup>-1
 
-| Kiểu           | Kích thước <br>(bit) | Miền giá trị       |
+| Kiểu  | Kích thước <br>(bit) | Miền giá trị       |
 | :---  | :---: | ---: |
 | char  |   8   | –128 .. 127 |
 | int   |   16  | –32,768 .. 32,767 |
@@ -202,8 +202,50 @@ Các kiểu dữ liệu cơ sở trong C:
 #### Kiểu ký tự
 - Tên kiểu: char
 - Miền giá trị: 256 ký tự trong bảng mã ASCII
-- Ký tự được lưu trong máy tính bằng mã ASCII của nó. Chẳng hạn, ký tự 'A' được lưu thành số 65 hay `a` là 97.
+- Ký tự được lưu trong máy tính bằng mã ASCII của nó. Chẳng hạn, ký tự 'A' được lưu thành số 65 hay 'a' là 97.
 
 
+#### Biến (variables)
+- Một biến là một vùng nhớ được đặt tên, dùng để lưu trữ dữ liệu trong quá trình chương trình hoạt động. 
+- Trong ngôn ngữ C, một biến có kích thước và kiểu dữ liệu nhất định; từ đó xác định được miền giá trị mà biến có thể lưu trữ, cũng như các thao tác có thể thực hiện được với biến này.
+- Trong C, phải khai báo biến trước khi sử dụng.
+
+**Khai báo biến**:
+
+```
+<kiểu dữ liệu> <tên biến>;
+<kiểu dữ liệu> <tên biến> = <giá trị>;
+<kiểu dữ liệu> <tên biến 1>, <tên biến 2>;
+```
+**Ví dụ**:
+```c
+int a; // Khai báo biến a có kiểu int
+float b, c=0; // Các biến b,c cùng có kiểu float, c được gán giá trị 0
+```
+
+#### Hằng (constants)
+- Một hằng là một vùng nhớ được đặt tên, dùng để lưu trữ giá trị không đổi trong chương trình. 
+- Trong C, phải khai báo hằng trước khi sử dụng.
+
+**Khai báo hằng**:
+
+```
+const <kiểu dữ liệu> <tên hằng> = <giá trị>;
+
+hoặc:
+
+#define <tên hằng>  <giá trị>
+```
+**Ví dụ**:
+```c
+const float PI = 3.1416;
+#define MAX 100
+```
+
+#### Biểu thức 
+- Biểu thức là sự kết hợp của các toán tử(operators) và các toán hạng (operands).
+- Các toán tử tác động lên các toán hạng theo *thứ tự ưu tiên* xác định để tính giá trị của biểu thức.
+- Toán tử: `+, -, *, /, %, ...`
+- Toán hạng: hằng, biến, lời gọi hàm...
 
 ### 2.2.2 - 
