@@ -14,7 +14,7 @@
 
 [3.7. Đếm số lượng vi trùng](vitrung.c)
 
-[3.9. Tìm các số hoàn hảo](vitrung.c)
+[3.9. Tìm các số hoàn hảo](perfect_number.c)
 
 [3.10. Tìm ước số chung lớn nhất](uscln.c)
 
