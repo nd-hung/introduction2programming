@@ -26,6 +26,9 @@ char LaSoChinhPhuong(unsigned int n);
 char LaSNT(unsigned int n); 
 // Hàm trả về tổng các chữ số lẻ của n
 unsigned int TongCSLe(unsigned int n); 
+
+// Hàm trả về tổng các chữ số nguyên tố của n
+unsigned int TongCSNT(unsigned int n);
 //////////////////////////////////////////////////////////////////////
 // Chương trình chính
 int main()
@@ -49,9 +52,13 @@ int main()
     if(LaSNT(n))
         printf("%d la so nguyen to.\n", n);
     else
-        printf("%d khong phai so nguyen to .\n", n);    
+        printf("%d khong phai so nguyen to\n", n);    
 
-    printf("Tong cac chu so le cua %d = %d .\n", n, TongCSLe(n));            
+    printf("Tong cac chu so le cua %d = %d\n", n, TongCSLe(n));            
+    
+    printf("Tong cac chu nguyen to cua %d = %d\n", n, TongCSNT(n));                
+
+
 }
 
 //////////////////////////////////////////////////////////////////////
@@ -114,4 +121,18 @@ unsigned int TongCSLe(unsigned int n)
         n /= 10;
     }
     return sum;
+}
+
+// Hàm trả về tổng chữ số nguyên tố của
+unsigned int TongCSNT(unsigned int n){
+	unsigned int sum = 0;
+	unsigned char chusocuoi;
+	
+	while(n > 0){
+		chusocuoi = n % 10;
+		if(LaSNT(chusocuoi))
+			sum += chusocuoi;
+		n /= 10;
+	}
+	return sum;
 }
