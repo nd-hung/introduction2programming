@@ -22,12 +22,15 @@ int main()
 	if(a == 0) 
 		if(b == 0)
 			if(c == 0)
+				// a == 0, b == 0, c == 0
 				printf("PT co vo so nghiem.\n");
 			else
+				// a == 0, b == 0, c != 0
 				printf("PT vo nghiem.\n");
 		else
+			// a == 0, b != 0
 			printf("PT co ghiem x = %f.\n", -c/b);
-	else // -> PT bậc 2 chính tắc -> tìm nghiệm theo delta
+	else // a != 0 -> PT bậc 2 chính tắc -> tìm nghiệm theo delta
 	{
 		delta = b*b - 4*a*c;
 		if(delta < 0)	printf("PT vo nghiem.\n");
@@ -35,7 +38,7 @@ int main()
 		if(delta > 0)	
 		{
 			x1 = (-b + sqrt(delta)) / (2*a);
-			x2 = (-b - sqrt(delta)) / (2*a);
+			x2 = (-b - sqrt(delta)) / 2 / a;
 			printf("x1 = %f.\n", x1);
 			printf("x2 = %f.\n", x2);
 		}
