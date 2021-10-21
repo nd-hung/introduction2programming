@@ -2,7 +2,7 @@
 
 [3.1. Minh họa lệnh goto](in_cac_so_tu_1_n.c)
 
-[3.2. Giải phương trình ax<sup>2</sup>+bx +c = 0](giaipt_bac2.c)
+[3.2. Giải phương trình ax<sup>2</sup>+bx +c = 0](GiaiPT_Bac2.c)
 
 [3.3. Rút tiền ATM](rut_tien_atm.c)
 
