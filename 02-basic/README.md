@@ -143,18 +143,17 @@ float DienTichHinhTron(float r)
 ## 2.2 - <a name="basic">Cơ bản về ngôn ngữ C </a>
 ### 2.2.1 - Các kiểu dữ liệu cơ sở
 
-Kiểu dữ liệu cơ sở (fundamental types) là các loại dữ liệu dựng sẵn (built-in) bởi ngôn ngữ lập trình.
+Kiểu dữ liệu cơ sở (fundamental types) là các loại dữ liệu được tạo sẵn (built-in) bởi ngôn ngữ lập trình.
 
 Các kiểu dữ liệu cơ sở trong C:
 - Kiểu số nguyên
 - Kiểu số thực
 - Kiểu boolean
 - Kiểu ký tự
-- Kiểu void
 
-#### Các kiểu số nguyên có dấu (signed)
+#### Các kiểu số nguyên có dấu (signed integer)
 
-- Kiểu số nguyên có dấu biểu diễn số nguyên, bao gồm cả số âm và số không âm.
+- Kiểu số nguyên có dấu biểu diễn số nguyên, bao gồm cả số âm và số không âm (chẳng hạn 3, -15,...).
 - Dùng n bits để biểu diễn số nguyên có dấu trên máy tính -> miền giá trị biểu diễn được là 
 -2<sup>n-1</sup> .. +2<sup>n-1</sup>-1
 
@@ -165,8 +164,8 @@ Các kiểu dữ liệu cơ sở trong C:
 | short |   16  | –32,768 .. 32,767 |
 | long  |   32  | –2,147,483,648 .. 2,147,483,647 |
 
-#### Kiểu số nguyên không dấu (unsigned)
-- Dùng n bits để biểu diễn số nguyên không dấu trên máy tính -> miền giá trị biểu diễn được là: 0 .. 2<sup>n-1</sup>
+#### Kiểu số nguyên không âm (unsigned integer)
+- Dùng n bits để biểu diễn số nguyên không âm trên máy tính -> miền giá trị biểu diễn được là: 0 .. 2<sup>n-1</sup>
 
 | Kiểu           | Kích thước <br>(bit) | Miền giá trị       |
 | :---  | :---: | ---: |
@@ -187,7 +186,7 @@ Các kiểu dữ liệu cơ sở trong C:
 - Kiểu `double` có độ chính xác đến 19 chữ số phần thập phân (double-precision).
 
 #### Kiểu boolean
-- Ngôn ngữ C định nghĩa ngầm định giá trị kiểu boolean như sau:
+- Ngôn ngữ C định nghĩa ngầm định giá trị kiểu boolean bằng một số nguyên:
     - `false` (sai): giá trị 0.
     - `true` (đúng): giá trị khác 0,thường là 1.
 
@@ -202,11 +201,11 @@ Các kiểu dữ liệu cơ sở trong C:
 #### Kiểu ký tự
 - Tên kiểu: char
 - Miền giá trị: 256 ký tự trong bảng mã ASCII
-- Ký tự được lưu trong máy tính bằng mã ASCII của nó. Chẳng hạn, ký tự 'A' được lưu thành số 65 hay 'a' là 97.
-
+- Ký tự được lưu trong máy tính bằng mã ASCII của nó. Chẳng hạn, ký tự 'A' được lưu thành số 65, hay 'a' là 97.
 
 #### Biến (variables)
 - Một biến là một vùng nhớ được đặt tên, dùng để lưu trữ dữ liệu trong quá trình chương trình hoạt động. 
+- Giá trị của biến có thể thay đổi.
 - Trong ngôn ngữ C, một biến có kích thước và kiểu dữ liệu nhất định; từ đó xác định được miền giá trị mà biến có thể lưu trữ, cũng như các thao tác có thể thực hiện được với biến này.
 - Trong C, phải khai báo biến trước khi sử dụng.
 
@@ -243,8 +242,8 @@ const float PI = 3.1416;
 ```
 
 #### Biểu thức 
-- Biểu thức là sự kết hợp của các toán tử(operators) và các toán hạng (operands).
-- Các toán tử tác động lên các toán hạng theo *thứ tự ưu tiên* xác định để tính giá trị của biểu thức.
+- Biểu thức là sự kết hợp của các toán tử (operators) và các toán hạng (operands).
+- Các toán tử tác động lên các toán hạng theo thứ tự ưu tiên xác định để tính giá trị của biểu thức.
 - Toán tử: `+, -, *, /, %, ...`
 - Toán hạng: hằng, biến, lời gọi hàm...
 
