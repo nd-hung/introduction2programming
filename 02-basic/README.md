@@ -71,7 +71,7 @@ c, ..., z`
         </li> 
 Chẳng hạn, công thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết `distance = speed * time` thay vì `d = s * t`.
 <li> 
-    Nên sử dụng một <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)">quy cách đặt tên (naming convention)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
+    Nên sử dụng một <a href="https://www.doc.ic.ac.uk/lab/cplus/cstyle.html">quy cách đặt tên (naming convention)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
 </li>
 </ul>
 </p>
