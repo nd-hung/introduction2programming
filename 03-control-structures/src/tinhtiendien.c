@@ -13,13 +13,14 @@ Output: Số tiền phải thanh toán (VND)
 
 #include<stdio.h>
 const int GIA1=2000, GIA2=2500, GIA3=3000;
+const int MUC1=100, MUC2=150, MUC3=300;
 
 int main()
 {
     int sokWh;
     float sotien=0;
 
-    // input
+    // Nhập chỉ số điện tiêu thụ
     do
     {
         printf("So kWh tieu thu: ");
@@ -27,14 +28,15 @@ int main()
         if(sokWh <= 0) printf("So kWh phai > 0");
     } while (sokWh <= 0);
     
-    // process
-    if(sokWh <= 100) sotien = sokWh * GIA1;
-        else // > 100
-            if(sokWh <= 150) sotien = 100 * GIA1 + (sokWh - 100) * GIA2;
-            else // > 150
-                if(sokWh <= 300) sotien = 100*GIA1 + 50*GIA2 + (sokWh - 150)*GIA3;
-                else // > 300
-                    sotien = (100*GIA1 + 50*GIA2 + (sokWh - 150)*GIA3)*1.1;
-    //output
-    printf("So kWh tieu thu: %d \tSo tien: %.3f (VND)\n", sokWh, sotien);
+    // Tính tiền
+    if(sokWh <= MUC1) sotien = sokWh * GIA1;
+        else // > MUC1
+            if(sokWh <= MUC2) sotien = MUC1 * GIA1 + (sokWh - MUC1) * GIA2;
+            else // > MUC2
+                if(sokWh <= MUC3) sotien = MUC1*GIA1 + (MUC2-MUC1)*GIA2 + (sokWh - (MUC2+MUC1))*GIA3;
+                else // > MUC3 
+                    sotien = (MUC1*GIA1 + (MUC2-MUC1)*GIA2 + (sokWh - (MUC2+MUC1))*GIA3)*1.1;
+
+    // In kết quả
+    printf("So kWh tieu thu: %d \tSo tien: %.2f (VND)\n", sokWh, sotien);
 }
