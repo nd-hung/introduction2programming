@@ -33,10 +33,10 @@ int main()
     else // > MUC1
         if(sokWh <= MUC2) sotien = MUC1 * GIA1 + (sokWh - MUC1) * GIA2;
         else // > MUC2
-            if(sokWh <= MUC3) sotien = MUC1*GIA1 + (MUC2-MUC1)*GIA2 + (sokWh - (MUC2+MUC1))*GIA3;
+            if(sokWh <= MUC3) sotien = MUC1*GIA1 + (MUC2-MUC1)*GIA2 + (sokWh - MUC2)*GIA3;
             else // > MUC3 
-                sotien = (MUC1*GIA1 + (MUC2-MUC1)*GIA2 + (sokWh - (MUC2+MUC1))*GIA3)*1.1;
+                sotien = (MUC1*GIA1 + (MUC2-MUC1)*GIA2 + (sokWh - MUC2)*GIA3)*1.1;
 
     // In kết quả
-    printf("So kWh tieu thu: %d \tSo tien: %.2f (VND)\n", sokWh, sotien);
+    printf("So tien thanh toan: %.2f (VND)\n", sotien);
 }
