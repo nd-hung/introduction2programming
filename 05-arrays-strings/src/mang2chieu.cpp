@@ -16,20 +16,21 @@ g) Sắp xếp ma trận sao cho trên mỗi dòng các phần tử tăng dần.
 #define MAX 20
 
 typedef int matran[MAX][MAX];
-void TaoMT(matran a, int &m, int &n);
-void NhapMT(matran a, int &m, int &n);
-void XuatMT(matran a, int m, int n);
-int MaxMT(matran a, int m, int n);
-int LaSNT(int n);
-int LaMTSNT(matran a, int m, int n);
+void TaoMT(matran a, int &m, int &n);   // a 
+void NhapMT(matran a, int &m, int &n);  // a
+void XuatMT(matran a, int m, int n);    // b
+int MaxMT(matran a, int m, int n);      // c
+int LaSNT(int n);                       // d
+int LaMTSNT(matran a, int m, int n);    // d
+void SapXepMT(matran a, int m, int n);  // g
 
 int main()
 {
     matran a;
     int m,n;
     
-    //TaoMT(a, m, n);
-    NhapMT(a, m, n);
+    TaoMT(a, m, n);
+    //NhapMT(a, m, n);
     XuatMT(a, m, n);
 
     // In ra phần tử lớn nhất của ma trận
@@ -40,6 +41,12 @@ int main()
         printf("Tat ca phan tu la SNT.\n");
     else
         printf("Khong phai tat ca phan tu la SNT.\n");
+
+    // Sắp xếp ma trận mỗi hàng tăng dần
+    SapXepMT(a, m, n);
+    // In ra ma trận sau khi sắp xếp
+    printf("\nMa tran sau khi sap xep:\n");
+    XuatMT(a,m,n);
 }
 
 
@@ -118,4 +125,23 @@ int LaMTSNT(matran a, int m, int n)
             if(!LaSNT(a[i][j])) return 0;
     // nếu không rơi vào trường hợp trên -> tất cả phần tử đều là SNT -> trả về 1
     return 1;
+}
+
+/*
+Sắp xếp từng hàng tăng dần.
+*/
+void SapXepMT(matran a, int m, int n)
+{
+    // Xét từng hàng của ma trận
+    for(int i=0; i < m; i++)
+    { // Sắp xếp các phần tử trên hàng i tăng dần
+        for(int j=0; j < n-1; j++)
+            for(int k=j+1; k < n; k++)
+            if(a[i][j] > a[i][k]) 
+            {
+                int t = a[i][j];
+                a[i][j] = a[i][k];
+                a[i][k] = t;
+            }
+    }
 }
