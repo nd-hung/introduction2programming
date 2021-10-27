@@ -241,10 +241,55 @@ const float PI = 3.1416;
 #define MAX 100
 ```
 
+### 2.2.2 - Biểu thức và câu lệnh
 #### Biểu thức 
 - Biểu thức là sự kết hợp của các toán tử (operators) và các toán hạng (operands).
 - Các toán tử tác động lên các toán hạng theo thứ tự ưu tiên xác định để tính giá trị của biểu thức.
 - Toán tử: `+, -, *, /, %, ...`
 - Toán hạng: hằng, biến, lời gọi hàm...
 
-### 2.2.2 - 
+Các ví dụ về biểu thức:
+```c
+b*b - 4*a*c;  
+(-b + sqrt(delta))/2/a;    
+((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0));
+```
+
+#### Toán tử gán
+- Là câu lệnh gán giá trị của biểu thức (bên phải) cho một biến (bên trái).
+
+- Cú pháp:
+```c
+<biến> = <biểu thức>;
+```
+- Các ví dụ về toán tử gán:
+```c
+delta = b*b - 4*a*c;      
+x1 = (-b + sqrt(delta))/2/a;   
+is_leap_year = ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0));   
+a = b = c = d = e = 100; 
+```
+
+#### Các phép toán số học 
+##### Phép toán 1 ngôi (chỉ có 1 toán hạng)
+++ (tăng 1 đơn vị)
+
+-- (giảm 1 đơn vị)
+
+Nếu toán tử ++/-- đặt trước toán hạng thì thực hiện tăng/giảm trước. Ngược lại nếu ++/-- đặt sau toán hạng thì thực hiện tăng/giảm sau.
+
+```c
+x = 68; y = x++; // y = 68, x = 69
+x = 68; y = ++x; // x = 69, y = 69
+```
+
+##### Phép toán 2 ngôi (có 2 toán hạng)
+
+| Phép toán | Tên gọi | Mô tả | Ví dụ
+| :---:   | :--- | :--- | :---: |
+| +  | Cộng (addition) | Cộng 2 số | `x + y` |
+| -  | Trừ  (subtraction) | Trừ 2 số | `x - y` |
+| *  | Nhân (multiplication) | Nhân 2 số | `x * y` |
+| /  | Chia (division) | Chia 2 số | `x / y` |
+| %  | Chia lấy phần dư (modulus) |  | `x % y` |
+
