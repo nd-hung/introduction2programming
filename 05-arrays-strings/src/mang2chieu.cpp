@@ -25,6 +25,7 @@ int LaSNT(int n);                       // d
 int LaMTSNT(matran a, int m, int n);    // d
 void SapXepMT(matran a, int m, int n);  // g
 
+/////////////////////////////////////////////////////////////////////
 int main()
 {
     matran a;
@@ -50,6 +51,7 @@ int main()
     XuatMT(a,m,n);
 }
 
+/////////////////////////////////////////////////////////////////////
 // Tạo ma trận mxn phần tử có giá trị ngẫu nhiên
 void TaoMT(matran a, int &m, int &n)
 {
