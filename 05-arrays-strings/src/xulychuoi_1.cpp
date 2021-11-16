@@ -3,6 +3,9 @@ Các thao tác cơ bản với chuỗi ký tự.
 Viết chương trình thực hiện (mỗi chức năng cài đặt 1 hàm):
 a) Nhập chuỗi
 b) Xuất chuỗi
+c) Tính độ dài chuỗi
+d) Sao chép chuỗi
+e) Biến đổi chuỗi thành dạng chữ thường/chữ in hoa
 */
 #include <stdio.h>
 #include <string.h>
@@ -35,8 +38,23 @@ int main()
 
     // Tạo bản sao chuỗi
     char *s2;
-    s2 = strdup("Nha Trang Viet Nam.");
+    s2 = strdup(s1);
     XuatChuoi(s2);
+
+    // Tạo chuỗi đảo ngược
+    s2 = strrev(s);
+    printf("Chuoi dao nguoc:\n");
+    puts(s2);
+
+    // Đổi chuỗi sang chữ thường
+    s2 = strlwr(s1);
+    printf("Chuoi in thuong:\n");
+    puts(s2);
+
+    // Đổi chuỗi sang chữ hoa
+    s2 = strupr(s1);
+    printf("Chuoi in hoa:\n");
+    puts(s2);
 
 }
 ///////////////////////////////////////////////////////////////////////////////
