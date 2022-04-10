@@ -10,6 +10,5 @@ Tài liệu tham khảo chính
 #### The C Programming Language (2nd Edition), Brian Kernighan and Dennis Ritchie
 #### Practical C Programming (3rd Edition), O'Reilly
 #### Bài giảng Cơ sở lập trình, Đặng Bình Phương, Khoa CNTT, Trường ĐHKHTN, ĐHQG TP. Hồ Chí Minh, 2018
-
-
-
+#### Giáo trình Kỹ thuật lập trình, Nguyễn Đức Thuần, NXB KHKT, 2021
+#### Bài giảng Nhập môn lập trình, Lê Thị Bích Hằng, Trường ĐH Nha Trang, 2021
