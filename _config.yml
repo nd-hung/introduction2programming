@@ -4,3 +4,5 @@ description: Nhập môn lập trình
 show_downloads: false
 markdown: CommonMarkGhPages
 markdown: GFM
+plugins:
+  - jekyll-gist
