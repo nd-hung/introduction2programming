@@ -98,7 +98,6 @@ Chẳng hạn, công thức tính quãng đường đi khi biết vận tốc v�
     ```
 
 ### 2.1.3 -  Cấu trúc cơ bản của chương trình C
-{% gist e01309ebe540852dba75d8cb3f0e5b13 %}
 
 ```c
 // Khai báo các thư viện
