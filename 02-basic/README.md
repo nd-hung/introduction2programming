@@ -293,7 +293,4 @@ x = 68; y = ++x; // x = 69, y = 69
 | /  | Chia (division) | Chia 2 số | `x / y` |
 | %  | Chia lấy phần dư (modulus) |  | `x % y` |
 
-{% gist e01309ebe540852dba75d8cb3f0e5b13 %}
 
-
-</script>">
