@@ -7,24 +7,29 @@ In ra từ dài nhất trong chuỗi.
 #define MAX_LENGTH 200
 
 // Hàm in từ dài nhất trong chuỗi
-void PrintLongestWord(char st[]) {
+void PrintLongestWord(char st[])
+{
     int max_len = 0, start = 0, end = 0;
     int max_start = 0, max_end = 0; // Vị trí của từ dài nhất
     // Xét từng ký tự từ đầu đến trước ký tự kết thúc chuỗi ('\0')
     int i = 0;
     while (st[i] != '\0')
         // Nếu là ký tự trắng thì chuyển qua ký tự kế tiếp
-        if (st[i] == ' ') i++;
-        else {
+        if (st[i] == ' ')
+            i++;
+        else
+        {
             // Nếu là ký tự khác khoảng trắng thì đó là đầu 1 từ
             start = i; // start = vị trí ký tự đầu tiên của từ đang xét
             // Tìm vị trí cuối của từ hiện tại
             end = start;
             // Kết thúc vòng lặp -> end = vị trí của ký tự trắng ngay sau từ đang xét
             // hoặc end = vị trí kết thúc chuỗi
-            while (st[end] != ' ' && st[end] != '\0') end++;
+            while (st[end] != ' ' && st[end] != '\0')
+                end++;
             // Nếu độ dài từ đang xét > max_len -> từ đang xét dài hơn -> lấy vị trí & độ dài của nó
-            if (end - start > max_len) {
+            if (end - start > max_len)
+            {
                 max_start = start;
                 max_end = end;
                 max_len = end - start;
@@ -39,7 +44,8 @@ void PrintLongestWord(char st[]) {
 }
 
 // Chương trình chính
-int main() {
+int main()
+{
     char st[MAX_LENGTH];
     printf("Nhap mot chuoi:\n");
     gets(st);
