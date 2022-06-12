@@ -38,6 +38,7 @@ void PrintLongestWord(char st[]) {
         printf("%c", st[j]);
 }
 
+// Chương trình chính
 int main() {
     char st[MAX_LENGTH];
     printf("Nhap mot chuoi:\n");
