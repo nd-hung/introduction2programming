@@ -10,7 +10,7 @@ In ra từ dài nhất trong chuỗi.
 void PrintLongestWord(char st[])
 {
     int max_len = 0, start = 0, end = 0;
-    int max_start = 0, max_end = 0; // Vị trí của từ dài nhất
+    int max_start = 0, max_end = 0; // Vị trí đầu, cuối của từ dài nhất
     // Xét từng ký tự từ đầu đến trước ký tự kết thúc chuỗi ('\0')
     int i = 0;
     while (st[i] != '\0')
