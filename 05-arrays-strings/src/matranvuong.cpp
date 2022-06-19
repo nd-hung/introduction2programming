@@ -3,7 +3,7 @@ Viết chương trình xử lý ma trận vuông gồm các hàm sau:
 - Hàm NhapMTV để nhập ma trận vuông bậc n (2 ≤ n ≤ 10) các phần tử là số nguyên.
 - Hàm InMTV để in ra màn hình các phần tử của ma trận theo đúng định dạng.
 - Hàm MaxTGT để tìm và trả về giá trị lớn nhất của các phần tử thuộc ma trận tam giác trên.
- Biết ma trận tam giác trên của ma trận vuông A_(n×n) là các phần tử {a_ij } thỏa mãn i ≤j.
+ Biết ma trận tam giác trên của ma trận vuông A(n×n) là các phần tử a[i][j] thỏa mãn i ≤j.
 - Hàm ThayThe để thay các phần tử thuộc đường chéo chính thành 1, các phần tử còn lại của ma trận thành 0.
 - Hàm main lần lượt gọi các hàm trên để kiểm tra kết quả thực hiện.
 */
@@ -47,6 +47,15 @@ int MaxTGT(int a[MAX][MAX], int n) {
     return max;
 }
 
+// Hàm ThayThe để thay các phần tử thuộc đường chéo chính thành 1, các phần tử còn lại của ma trận thành 0.
+void ThayThe(int a[MAX][MAX], int n)
+{
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            if(i == j) a[i][i] = 1;
+            else a[i][j] = 0;
+}
+
 // Chương trình chính
 int main() {
     int a[MAX][MAX], n;
@@ -54,6 +63,9 @@ int main() {
     printf("\nMa tran vua nhap la:\n");
     InMTV(a, n);
     printf("Phan tu lon nhat cua ma tran tam giac tren la %d\n", MaxTGT(a, n));
+    ThayThe(a, n);
+    printf("Ma tran sau khi bien doi:\n");
+    InMTV(a, n);
 }
 
 
