@@ -18,19 +18,16 @@ void NhapMTV(int a[MAX][MAX], int &n) {
         scanf("%d", &n);
     } while (n < 2 || n > 10);
     // Nhập giá trị các phần tử của ma trận
-    for(int i=0; i< n; i++)
-        for(int j=0; j<n; j++)
-        {
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++) {
             printf("a[%d][%d] = ", i, j);
             scanf("%d", &a[i][j]);
         }
 }
 
 // Hàm in ma trận vuông
-void InMTV(int a[MAX][MAX], int n)
-{
-    for(int i=0; i< n; i++)
-    {
+void InMTV(int a[MAX][MAX], int n) {
+    for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++)
             printf("%5d", a[i][j]);
         // Xuống hàng
@@ -38,13 +35,25 @@ void InMTV(int a[MAX][MAX], int n)
     }
 }
 
+// Hàm MaxTGT tìm và trả về giá trị lớn nhất của các phần tử thuộc ma trận tam giác trên
+int MaxTGT(int a[MAX][MAX], int n) {
+    int max = a[0][0];
+    // Xét các phần tử thuộc mt tam giác trên
+    for (int i = 0; i < n; i++)
+        for (int j = i; j < n; j++)
+            // Nếu a[i][j] > max thì gán max <- a[i][j]
+            if (a[i][j] > max) max = a[i][j];
+    // trả giá trị max cho lời gọi hàm
+    return max;
+}
+
 // Chương trình chính
-int main()
-{
+int main() {
     int a[MAX][MAX], n;
-    NhapMTV(a,n);
+    NhapMTV(a, n);
     printf("\nMa tran vua nhap la:\n");
-    InMTV(a,n);
+    InMTV(a, n);
+    printf("Phan tu lon nhat cua ma tran tam giac tren la %d\n", MaxTGT(a, n));
 }
 
 
