@@ -1,0 +1,38 @@
+site_name: Nhập môn lập trình
+site_description: Introduction to Computer Programming
+site_author: Hung Nguyen
+
+repo_url: https://github.com/nd-hung/introduction2programming
+edit_uri: tree/main/docs
+
+nav:
+    - Các chủ đề:
+      - Tổng quan về lập trình: topics\overview\
+      - Cơ bản về ngôn ngữ C/C++#: topics\
+      - Các cấu trúc điều khiển: topics\
+      - Hàm và cấu trúc chương trình: topics\
+      - Xử lý mảng: topics\
+      - Xử lý chuỗi: topics\
+      - Dữ liệu kiểu cấu trúc: topics\
+      - Thực hành: labs\README.md
+    - Giảng viên: author\about.md 
+
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+    features:
+        - content.action.view
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - attr_list
+    - def_list
+    - tables

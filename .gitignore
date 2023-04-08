@@ -2,9 +2,6 @@
 *.o
 *.obj
 
-# VS Code
-.vscode/
-
 # Precompiled Headers
 *.gch
 *.pch
@@ -36,6 +33,14 @@
 *.log
 *.tex
 
-# drafts
-_drafts/
-
+# c# and .net
+*.csproj
+bin/
+obj/
+.vscode/
+lib/
+*.log
+.sln
+.vs/
+# local folder
+local/
