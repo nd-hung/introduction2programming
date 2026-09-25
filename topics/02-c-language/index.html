@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Hung Nguyen">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Index - Cơ sở lập trình</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../css/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/django.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Cơ sở lập trình</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Các chủ đề</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../overview/" class="dropdown-item">Tổng quan về lập trình</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Cơ bản về ngôn ngữ C/C++#</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Các cấu trúc điều khiển</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Hàm và cấu trúc chương trình</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Xử lý mảng</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Xử lý chuỗi</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Dữ liệu kiểu cấu trúc</a>
+</li>
+                                    
+<li>
+    <a href="../../labs/README.md" class="dropdown-item">Thực hành</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../author/about/" class="nav-link">Giảng viên</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/nd-hung/introduction2programming/tree/main/docs/topics/02-c-language/README.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            
+            <li class="nav-item" data-bs-level="2"><a href="#21-gioi-thieu-ngon-ngu-lap-trinh-c" class="nav-link">2.1 - Giới thiệu ngôn ngữ lập trình C</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#22-co-ban-ve-ngon-ngu-c" class="nav-link">2.2 - Cơ bản về ngôn ngữ C</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 align="center"> 
+2 - Cơ bản về ngôn ngữ C
+</h2>
+
+<h3 id="muc-tieu">Mục tiêu:<a class="headerlink" href="#muc-tieu" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Xác định được cấu trúc của một chương trình C </li>
+<li>Sử dụng được các thành phần: biến, hằng, biểu thức, câu lệnh</li>
+<li>Viết chương trình sử dụng các lệnh cơ bản</li>
+</ul>
+<div class="header">
+<a href="#intro"><h3>2.1 - Giới thiệu ngôn ngữ lập trình C</h3></a>
+<ul>
+    <h4>2.1.1 - Đặc điểm</h4>
+    <h4>2.1.2 - Bộ từ vựng</h4>
+    <h4>2.1.3 - Cấu trúc chương trình C</h4>
+</ul>
+
+<a href="#basic"><h3>2.2 - Cơ bản về ngôn ngữ C</h3></a>
+<ul>
+    <h4>2.2.1 - Các kiểu dữ liệu cơ sở</h4>
+    <h4>2.2.2 - Biểu thức, câu lệnh</h4>
+</ul>
+</div>
+
+<p><br></p>
+<h2 id="21-gioi-thieu-ngon-ngu-lap-trinh-c">2.1 - <a name="intro"/>Giới thiệu ngôn ngữ lập trình C </a><a class="headerlink" href="#21-gioi-thieu-ngon-ngu-lap-trinh-c" title="Permanent link">&para;</a></h2>
+<h3 id="211-ac-iem-ngon-ngu-c">2.1.1 - Đặc điểm ngôn ngữ C<a class="headerlink" href="#211-ac-iem-ngon-ngu-c" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ngôn ngữ C do Dennis Ritchie phát triển tại <a href="http://www.bell-labs.com/">phòng thí nghiệm Bell</a> năm 1972.</li>
+<li>C thuộc nhóm ngôn ngữ lập trình thủ tục/cấu trúc.</li>
+<li>Ưu điểm của C:<ul>
+<li>Mạnh và linh động, kết hợp được tính năng của cả ngôn ngữ lập trình cấp cao (high-level) và cấp thấp (low-level).</li>
+<li>Rõ ràng, cô đọng.</li>
+<li>Được sử dụng rộng rãi bởi các nhà lập trình chuyên nghiệp.</li>
+</ul>
+</li>
+</ul>
+<h3 id="212-bo-tu-vung-cua-c">2.1.2 - Bộ từ vựng của C<a class="headerlink" href="#212-bo-tu-vung-cua-c" title="Permanent link">&para;</a></h3>
+<h4 id="cac-ky-tu-uoc-su-dung">Các ký tự được sử dụng<a class="headerlink" href="#cac-ky-tu-uoc-su-dung" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Bộ ký tự chữ cái Latinh <code>A, B, C, ..., Z, a, b,
+c, ..., z</code></li>
+<li>Bộ chữ số thập phân: <code>0, 1, 2, ..., 9</code></li>
+<li>Các ký hiệu toán học: <code>+ – * / = &lt; &gt; ( )</code></li>
+<li>Các ký tự đặc biệt: <code>. , : ; [ ] % ! \ # $ ‘</code></li>
+<li>Ký tự gạch nối <code>_</code>, khoảng trắng <code>‘ ’</code></li>
+</ul>
+<h4 id="cac-tu-khoa-keywords">Các từ khóa (keywords)<a class="headerlink" href="#cac-tu-khoa-keywords" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Từ khóa là các từ dùng riêng của ngôn ngữ. Không được đặt các tên biến, hằng, hàm trùng với từ khóa.</p>
+</li>
+<li>
+<p>Bộ từ khóa của C</p>
+</li>
+</ul>
+<pre><code class="language-c">    const;  struct; typedef;  static
+    signed; unsigned; char; double; float; int; long; short; void
+    if; else; switch; case; default
+    for; while; do
+    break; continue; return
+    goto; enum; union; sizeof; auto; extern; register; volatile
+</code></pre>
+<h4 id="teninh-danh-identifier">Tên/Định danh (Identifier)<a class="headerlink" href="#teninh-danh-identifier" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Khi viết chương trình, cần sử dụng các thành phần như: các biến, hằng, hàm, cấu trúc. Việc khai báo và sử dụng chúng thông qua tên/định danh (identifier).</li>
+<li>Trong C, một tên có thể được tạo thành từ các ký tự chữ cái và chữ số nhưng bắt buộc bắt đầu bằng chữ cái hoặc dấu gạch dưới <code>_</code>.</li>
+<li>Không được đặt tên trùng với từ khóa hoặc có khoảng trắng.</li>
+<li>Ngôn ngữ C phân biệt chữ hoa chữ thường (case sensitive). Vì thế, 2 tên sau đây là khác nhau: <code>maxSpeed</code> và <code>MaxSpeed</code>.</li>
+</ul>
+<div class="goodpractice">
+  <p>
+    <ul>
+        <li> 
+            Nên đặt tên có nghĩa & ngắn gọn (không nên dài quá 31 ký tự). 
+        </li> 
+Chẳng hạn, công thức tính quãng đường đi khi biết vận tốc và thời gian, nên viết `distance = speed * time` thay vì `d = s * t`.
+<li> 
+    Nên sử dụng một <a href="https://www.doc.ic.ac.uk/lab/cplus/cstyle.html">quy cách đặt tên (naming convention)</a> thống nhất. Điều này giúp cho mã nguồn dễ đọc, dễ hiểu hơn.
+</li>
+</ul>
+</p>
+</div>
+
+<h4 id="dau-cham-phay">Dấu chấm phẩy <code>;</code><a class="headerlink" href="#dau-cham-phay" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Dùng để phân tách giữa các câu lệnh. </li>
+</ul>
+<h4 id="dong-chu-thich-comments">Dòng chú thích (comments)<a class="headerlink" href="#dong-chu-thich-comments" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Các dòng chú thích giúp chương trình nguồn dễ hiểu hơn.</li>
+<li>Trình biên dịch bỏ qua các dòng chú thích.</li>
+<li>Hai dạng chú thích trong C:<ul>
+<li>Dạng 1: Chú thích gồm nhiều dòng
+<code>c
+/*
+    Comment 1
+    Comment 2
+*/</code></li>
+<li>Dạng 2: Chú thích trên một dòng
+<code>c
+// Comment</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="213-cau-truc-co-ban-cua-chuong-trinh-c">2.1.3 -  Cấu trúc cơ bản của chương trình C<a class="headerlink" href="#213-cau-truc-co-ban-cua-chuong-trinh-c" title="Permanent link">&para;</a></h3>
+<pre><code class="language-c">// Khai báo các thư viện
+#include &lt;stdio.h&gt;        
+
+// Khai báo các hằng, biến toàn cục (global)
+const float PI=3.1416;  
+
+// Khai báo khuôn mẫu hàm (prototype)
+float DienTichHinhTron(float); 
+
+/*---------------------------------------------------------------------------*/
+
+// Chương trình chính
+int main() 
+{
+    // Khai báo biến cục bộ (local)
+    float banKinh, dienTich=0; 
+
+    // Các lệnh
+    printf(&quot;Nhap ban kinh hinh tron = &quot;);   // Lệnh xuất
+    scanf(&quot;%f&quot;, &amp;banKinh);  // Lệnh nhập 
+    if(banKinh &gt; 0)                         
+    {
+        dienTich = DienTichHinhTron(banKinh); // Lời gọi hàm
+        printf(&quot;Dien tich hinh tron = %f\n&quot;, dienTich);
+    }
+    else
+        printf(&quot;Ban kinh hinh tron phai &gt; 0&quot;);
+
+    return 0;   // Kết thúc chương trình
+}
+
+/*---------------------------------------------------------------------------*/
+
+// Cài đặt hàm tự định nghĩa
+float DienTichHinhTron(float r)
+{
+    if(r &gt; 0) return r*r*PI;
+}
+</code></pre>
+<h2 id="22-co-ban-ve-ngon-ngu-c">2.2 - <a name="basic">Cơ bản về ngôn ngữ C </a><a class="headerlink" href="#22-co-ban-ve-ngon-ngu-c" title="Permanent link">&para;</a></h2>
+<h3 id="221-cac-kieu-du-lieu-co-so">2.2.1 - Các kiểu dữ liệu cơ sở<a class="headerlink" href="#221-cac-kieu-du-lieu-co-so" title="Permanent link">&para;</a></h3>
+<p>Kiểu dữ liệu cơ sở (fundamental types) là các loại dữ liệu được tạo sẵn (built-in) bởi ngôn ngữ lập trình.</p>
+<p>Các kiểu dữ liệu cơ sở trong C:
+- Kiểu số nguyên
+- Kiểu số thực
+- Kiểu boolean
+- Kiểu ký tự</p>
+<h4 id="cac-kieu-so-nguyen-co-dau-signed-integer">Các kiểu số nguyên có dấu (signed integer)<a class="headerlink" href="#cac-kieu-so-nguyen-co-dau-signed-integer" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Kiểu số nguyên có dấu biểu diễn số nguyên, bao gồm cả số âm và số không âm (chẳng hạn 3, -15,...).</li>
+<li>Dùng n bits để biểu diễn số nguyên có dấu trên máy tính -&gt; miền giá trị biểu diễn được là 
+-2<sup>n-1</sup> .. +2<sup>n-1</sup>-1</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kiểu</th>
+<th style="text-align: center;">Kích thước <br>(bit)</th>
+<th style="text-align: right;">Miền giá trị</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">char</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: right;">–128 .. 127</td>
+</tr>
+<tr>
+<td style="text-align: left;">int</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">–32,768 .. 32,767</td>
+</tr>
+<tr>
+<td style="text-align: left;">short</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">–32,768 .. 32,767</td>
+</tr>
+<tr>
+<td style="text-align: left;">long</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: right;">–2,147,483,648 .. 2,147,483,647</td>
+</tr>
+</tbody>
+</table>
+<h4 id="kieu-so-nguyen-khong-am-unsigned-integer">Kiểu số nguyên không âm (unsigned integer)<a class="headerlink" href="#kieu-so-nguyen-khong-am-unsigned-integer" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Dùng n bits để biểu diễn số nguyên không âm trên máy tính -&gt; miền giá trị biểu diễn được là: 0 .. 2<sup>n-1</sup></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kiểu</th>
+<th style="text-align: center;">Kích thước <br>(bit)</th>
+<th style="text-align: right;">Miền giá trị</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">unsigned char</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: right;">0 .. 255</td>
+</tr>
+<tr>
+<td style="text-align: left;">unsigned int</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">0 .. 65,535</td>
+</tr>
+<tr>
+<td style="text-align: left;">unsigned short</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">0 .. 65,535</td>
+</tr>
+<tr>
+<td style="text-align: left;">unsigned long</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: right;">0 .. 4,294,967,295</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cac-kieu-so-thuc-floating-point">Các kiểu số thực (floating-point)<a class="headerlink" href="#cac-kieu-so-thuc-floating-point" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kiểu</th>
+<th style="text-align: center;">Kích thước <br>(bit)</th>
+<th style="text-align: right;">Miền giá trị</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">float</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: right;">-3.4E-38 .. 3.4E+38</td>
+</tr>
+<tr>
+<td style="text-align: left;">double</td>
+<td style="text-align: center;">64</td>
+<td style="text-align: right;">-1.7E-308 .. 1.7*E+308</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Kiểu <code>float</code> có độ chính xác đến 7 chữ số phần thập phân (single-precision).</li>
+<li>Kiểu <code>double</code> có độ chính xác đến 19 chữ số phần thập phân (double-precision).</li>
+</ul>
+<h4 id="kieu-boolean">Kiểu boolean<a class="headerlink" href="#kieu-boolean" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Ngôn ngữ C định nghĩa ngầm định giá trị kiểu boolean bằng một số nguyên:<ul>
+<li><code>false</code> (sai): giá trị 0.</li>
+<li><code>true</code> (đúng): giá trị khác 0,thường là 1.</li>
+</ul>
+</li>
+</ul>
+<div class="note">
+<p>
+<ul>
+    Ngôn ngữ C++ bổ sung kiểu <code>bool</code> để định nghĩa tường minh kiểu boolean.
+</ul>
+</p>
+</div>
+
+<h4 id="kieu-ky-tu">Kiểu ký tự<a class="headerlink" href="#kieu-ky-tu" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Tên kiểu: char</li>
+<li>Miền giá trị: 256 ký tự trong bảng mã ASCII</li>
+<li>Ký tự được lưu trong máy tính bằng mã ASCII của nó. Chẳng hạn, ký tự 'A' được lưu thành số 65, hay 'a' là 97.</li>
+</ul>
+<h4 id="bien-variables">Biến (variables)<a class="headerlink" href="#bien-variables" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Một biến là một vùng nhớ được đặt tên, dùng để lưu trữ dữ liệu trong quá trình chương trình hoạt động. </li>
+<li>Giá trị của biến có thể thay đổi.</li>
+<li>Trong ngôn ngữ C, một biến có kích thước và kiểu dữ liệu nhất định; từ đó xác định được miền giá trị mà biến có thể lưu trữ, cũng như các thao tác có thể thực hiện được với biến này.</li>
+<li>Trong C, phải khai báo biến trước khi sử dụng.</li>
+</ul>
+<p><strong>Khai báo biến</strong>:</p>
+<pre><code>&lt;kiểu dữ liệu&gt; &lt;tên biến&gt;;
+&lt;kiểu dữ liệu&gt; &lt;tên biến&gt; = &lt;giá trị&gt;;
+&lt;kiểu dữ liệu&gt; &lt;tên biến 1&gt;, &lt;tên biến 2&gt;;
+</code></pre>
+<p><strong>Ví dụ</strong>:</p>
+<pre><code class="language-c">int a; // Khai báo biến a có kiểu int
+float b, c=0; // Các biến b,c cùng có kiểu float, c được gán giá trị 0
+</code></pre>
+<h4 id="hang-constants">Hằng (constants)<a class="headerlink" href="#hang-constants" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Một hằng là một vùng nhớ được đặt tên, dùng để lưu trữ giá trị không đổi trong chương trình. </li>
+<li>Trong C, phải khai báo hằng trước khi sử dụng.</li>
+</ul>
+<p><strong>Khai báo hằng</strong>:</p>
+<pre><code>const &lt;kiểu dữ liệu&gt; &lt;tên hằng&gt; = &lt;giá trị&gt;;
+
+hoặc:
+
+#define &lt;tên hằng&gt;  &lt;giá trị&gt;
+</code></pre>
+<p><strong>Ví dụ</strong>:</p>
+<pre><code class="language-c">const float PI = 3.1416;
+#define MAX 100
+</code></pre>
+<h3 id="222-bieu-thuc-va-cau-lenh">2.2.2 - Biểu thức và câu lệnh<a class="headerlink" href="#222-bieu-thuc-va-cau-lenh" title="Permanent link">&para;</a></h3>
+<h4 id="bieu-thuc">Biểu thức<a class="headerlink" href="#bieu-thuc" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Biểu thức là sự kết hợp của các toán tử (operators) và các toán hạng (operands).</li>
+<li>Các toán tử tác động lên các toán hạng theo thứ tự ưu tiên xác định để tính giá trị của biểu thức.</li>
+<li>Toán tử: <code>+, -, *, /, %, ...</code></li>
+<li>Toán hạng: hằng, biến, lời gọi hàm...</li>
+</ul>
+<p>Các ví dụ về biểu thức:</p>
+<pre><code class="language-c">b*b - 4*a*c;  
+(-b + sqrt(delta))/2/a;    
+((year % 400 == 0) || (year % 4 == 0 &amp;&amp; year % 100 != 0));
+</code></pre>
+<h4 id="toan-tu-gan">Toán tử gán<a class="headerlink" href="#toan-tu-gan" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Là câu lệnh gán giá trị của biểu thức (bên phải) cho một biến (bên trái).</p>
+</li>
+<li>
+<p>Cú pháp:</p>
+</li>
+</ul>
+<pre><code class="language-c">&lt;biến&gt; = &lt;biểu thức&gt;;
+</code></pre>
+<ul>
+<li>Các ví dụ về toán tử gán:</li>
+</ul>
+<pre><code class="language-c">delta = b*b - 4*a*c;      
+x1 = (-b + sqrt(delta))/2/a;   
+is_leap_year = ((year % 400 == 0) || (year % 4 == 0 &amp;&amp; year % 100 != 0));   
+a = b = c = d = e = 100; 
+</code></pre>
+<h4 id="cac-phep-toan-so-hoc">Các phép toán số học<a class="headerlink" href="#cac-phep-toan-so-hoc" title="Permanent link">&para;</a></h4>
+<h5 id="phep-toan-1-ngoi-chi-co-1-toan-hang">Phép toán 1 ngôi (chỉ có 1 toán hạng)<a class="headerlink" href="#phep-toan-1-ngoi-chi-co-1-toan-hang" title="Permanent link">&para;</a></h5>
+<p>++ (tăng 1 đơn vị)</p>
+<p>-- (giảm 1 đơn vị)</p>
+<p>Nếu toán tử ++/-- đặt trước toán hạng thì thực hiện tăng/giảm trước. Ngược lại nếu ++/-- đặt sau toán hạng thì thực hiện tăng/giảm sau.</p>
+<pre><code class="language-c">x = 68; y = x++; // y = 68, x = 69
+x = 68; y = ++x; // x = 69, y = 69
+</code></pre>
+<h5 id="phep-toan-2-ngoi-co-2-toan-hang">Phép toán 2 ngôi (có 2 toán hạng)<a class="headerlink" href="#phep-toan-2-ngoi-co-2-toan-hang" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Phép toán</th>
+<th style="text-align: left;">Tên gọi</th>
+<th style="text-align: left;">Mô tả</th>
+<th style="text-align: center;">Ví dụ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Cộng (addition)</td>
+<td style="text-align: left;">Cộng 2 số</td>
+<td style="text-align: center;"><code>x + y</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Trừ  (subtraction)</td>
+<td style="text-align: left;">Trừ 2 số</td>
+<td style="text-align: center;"><code>x - y</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">*</td>
+<td style="text-align: left;">Nhân (multiplication)</td>
+<td style="text-align: left;">Nhân 2 số</td>
+<td style="text-align: center;"><code>x * y</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">/</td>
+<td style="text-align: left;">Chia (division)</td>
+<td style="text-align: left;">Chia 2 số</td>
+<td style="text-align: center;"><code>x / y</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">%</td>
+<td style="text-align: left;">Chia lấy phần dư (modulus)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><code>x % y</code></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

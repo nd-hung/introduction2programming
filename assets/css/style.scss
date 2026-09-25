@@ -1,0 +1,191 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2,h3
+{
+  color:brown;
+}
+
+blockquote{
+  font-size: 1.2em;
+  width:75%;
+  margin:30px auto;
+  font-family:"Courier New";
+  font-style:normal;
+  //color:#22200;
+  padding:1.2em 25px 0.5em 50px;
+  //border-left:8px solid brown ;
+  line-height:1.2;
+  position:relative;
+  //background:rgb(231,231,231);
+  background: transparent;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content:"\201C";
+  color:brown;
+  font-size:4em;
+  position: absolute;
+  left:10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content:'';
+}
+
+blockquote span{
+  display:block;
+  color:brown;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:0.5em;
+}
+
+div {
+  margin-bottom: 12px;
+  padding: 0px 4px;
+}
+
+.danger {
+  background-color: #ffdddd;
+  border: 1px solid #f44336;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #04AA6D;
+}
+
+.code {
+  // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  width:50%;
+  background: url(../images/icons/code.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.info {
+  background: url(../images/icons/info.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
+}
+
+.note {
+  background: url(../images/icons/note.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
+}
+
+
+.tip {
+  // with thanks to https://www.iconsdb.com/icon-sets/web-2-blue-2-icons/
+  background: url(../images/icons/idea.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  background-color: rgb(223,246,221);
+  padding-left: 60px;
+  padding-top: 10px;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
+}
+
+.warning {
+  background: url(../images/icons/warning.png) no-repeat; 
+  background-size: 40px 40px;
+  background-position: 8px center;
+  padding-left: 35px;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
+}
+
+.header {
+  border: 1px solid brown;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.goodpractice {
+  //background-color: #ddffdd
+  background:url(../images/icons/checked.png) no-repeat;
+  background-size:40px 40px;
+  background-position:8px center;
+  padding-left:35px;
+  border: 1px solid rgb(30, 133, 200);
+  border-radius: 5px;
+  // border: 1px solid green;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 5px 0;
+  border: 2px solid brown;
+  border-radius: 5px;
+  text-align:center;
+  vertical-align: middle;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+// set img block auto
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+details > summary {
+  list-style-type: none;
+  padding: 4px;
+  padding-left: 50px;
+  padding-bottom:0px;
+  width: 75px;
+  border:1px solid lightgrey;
+  border-radius: 5px;
+  cursor:zoom-in;
+  background:url(../images/icons/code.png) no-repeat;
+  background-size:30px 30px;
+  background-color:#D3D3D3;
+  background-position:8px center;
+  color: brown;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: '';
+}
+
+details[open] > summary {
+  cursor:zoom-out;
+}
+
+a:link {
+  color: brown;
+}
+
+a:hover {
+  color: darkorange;
+}

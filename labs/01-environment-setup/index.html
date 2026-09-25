@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Hung Nguyen">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Index - Cơ sở lập trình</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../css/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/django.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Cơ sở lập trình</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Các chủ đề</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../topics/overview/" class="dropdown-item">Tổng quan về lập trình</a>
+</li>
+                                    
+<li>
+    <a href="../../topics/" class="dropdown-item">Cơ bản về ngôn ngữ C/C++#</a>
+</li>
+                                    
+<li>
+    <a href="../../topics/" class="dropdown-item">Các cấu trúc điều khiển</a>
+</li>
+                                    
+<li>
+    <a href="../../topics/" class="dropdown-item">Hàm và cấu trúc chương trình</a>
+</li>
+                                    
+<li>
+    <a href="../../topics/" class="dropdown-item">Xử lý mảng</a>
+</li>
+                                    
+<li>
+    <a href="../../topics/" class="dropdown-item">Xử lý chuỗi</a>
+</li>
+                                    
+<li>
+    <a href="../../topics/" class="dropdown-item">Dữ liệu kiểu cấu trúc</a>
+</li>
+                                    
+<li>
+    <a href="../README.md" class="dropdown-item">Thực hành</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../author/about/" class="nav-link">Giảng viên</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/nd-hung/introduction2programming/tree/main/docs/labs/01-environment-setup/README.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            
+            <li class="nav-item" data-bs-level="2"><a href="#11-cac-buoc-viet-chuong-trinh" class="nav-link">1.1 - Các bước viết chương trình</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#12-mot-so-cong-cu-lap-trinh-cc-thong-dung" class="nav-link">1.2 - Một số công cụ lập trình C/C++ thông dụng</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#tai-lieu-tham-khao" class="nav-link">Tài liệu tham khảo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 align="center"> 
+1 - Thiết lập môi trường lập trình C/C++
+</h2>
+
+<h3 id="muc-tieu">Mục tiêu:<a class="headerlink" href="#muc-tieu" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Xác định được quy trình tạo một chương trình máy tính</li>
+<li>Thiết lập được môi trường lập trình C/C++ thông dụng</li>
+<li>Tạo được chương trình đơn giản đầu tiên</li>
+</ul>
+<div class="header">
+<a href="#programmingsteps">
+  <h3>1.1 - Các bước viết chương trình</h3>
+</a>
+<ul>
+    <h4>1.1.1 - Viết mã nguồn (Edit)</h4>
+    <h4>1.1.2 - Dịch (Compile)</h4>
+    <h4>1.1.3 - Chạy (Run)</h4>
+</ul>
+
+<a href="#ides"><h3>1.2 - Một số công cụ lập trình C/C++ thông dụng</h3></a>
+<ul>
+    <h4><a href="devcpp">1.2.1 - Dev-C++</a></h4>
+    <h4><a href="vscode">1.2.2 - Visual Studio Code</a></h4>
+</ul>
+</div>
+
+<p>
+<blockquote>
+  First, solve the problem. Then, write the code.
+  <span> - John Johnson</span>
+</blockquote>
+</p>
+
+<h2 id="11-cac-buoc-viet-chuong-trinh">1.1 - <a name="programmingsteps">Các bước viết chương trình</a><a class="headerlink" href="#11-cac-buoc-viet-chuong-trinh" title="Permanent link">&para;</a></h2>
+<p>Để giải quyết một bài toán bằng máy tính, đầu tiên cần xây dựng được <em>giải thuật</em>, sau đó sử dụng một (hoặc một số) <em>ngôn ngữ lập trình</em> để <em>cài đặt</em> giải thuật thành <em>chương trình máy tính</em>.</p>
+<p>Có thể chia quy trình viết chương trình thành ba bước: viết mã nguồn (edit), dịch (compile) và chạy (run).</p>
+<p><img src="figs/c-programming-pipeline.PNG"></p>
+<h3 id="111-buoc-1-viet-ma-nguon-edit">1.1.1 - Bước 1: Viết mã nguồn (Edit)<a class="headerlink" href="#111-buoc-1-viet-ma-nguon-edit" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Mã nguồn (source code) là những dòng lệnh được viết theo cú pháp của một ngôn ngữ lập trình cụ thể, chẳng hạn như C/C++, Java, Python,... </li>
+<li>Ở các ngôn ngữ lập trình bậc cao, các dòng lệnh được viết theo cú pháp gần gũi với ngôn ngữ tự nhiên, thường là tiếng Anh. <br> <em>Ví dụ</em>: Để in một thông báo lên màn hình, câu lệnh trong ngôn ngữ C như sau:</li>
+</ul>
+<pre><code class="language-c">printf(&quot;This is a message&quot;);
+</code></pre>
+<h3 id="112-buoc-2-dich-compile">1.1.2 - Bước 2: Dịch (Compile)<a class="headerlink" href="#112-buoc-2-dich-compile" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Bước dịch (compiling) chuyển đổi mã nguồn (là các dòng lệnh con người hiểu được) sang mã máy (máy tính hiểu &amp; thực thi được).</li>
+<li>Quá trình dịch được thực hiện bởi chương trình dịch (compiler).</li>
+<li>Nếu mã nguồn còn có lỗi cú pháp, chương trình dịch sẽ thông báo lỗi. Người lập trình cần quay lại <strong>Bước 1</strong> để khắc phục hết các lỗi này.</li>
+<li>Nếu không còn lỗi cú pháp, trình biên dịch chuyển đổi file mã nguồn thành file mã máy có phần mở rộng là <code>.obj</code>; sau đó liên kết với các thư viện liên quan để tạo thành file thi hành được trên máy tính (có phần mở rộng là <code>.exe</code>).</li>
+</ul>
+<h3 id="113-buoc-3-chay-run">1.1.3 - Bước 3: Chạy (Run)<a class="headerlink" href="#113-buoc-3-chay-run" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Sau khi biên dịch thành công, file thực thi (executable file) có thể chạy trên máy tính.</li>
+<li>Chương trình chạy được không đồng nghĩa với chương trình chạy đúng.</li>
+<li>Chương trình cần chạy thử nhiều lần với các tình huống khác nhau của dữ liệu vào để phát hiện và khắc phục các lỗi logic (nếu có). Nếu còn lỗi, quay lại <strong>Bước 1</strong> để khắc phục.</li>
+</ul>
+<div class="info">
+  <p>
+  <ul>
+    <li>
+      Đa số công cụ lập trình C/C++ hiện nay đều tích hợp các chức năng soạn thảo mã nguồn, biên dịch, chạy và gỡ rối; vì thế chúng được gọi là môi trường phát triển tích hợp (Integrated Development Environment - IDE).
+    </li>
+  </ul>
+  </p>
+</div>
+
+<h2 id="12-mot-so-cong-cu-lap-trinh-cc-thong-dung">1.2 - <a name="ides"/>Một số công cụ lập trình C/C++ thông dụng </a><a class="headerlink" href="#12-mot-so-cong-cu-lap-trinh-cc-thong-dung" title="Permanent link">&para;</a></h2>
+<h3 id="121-dev-c">1.2.1 - <a href="devcpp">Dev-C++</a><a class="headerlink" href="#121-dev-c" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Rất gọn nhẹ, đủ chức năng cơ bản &amp; dễ sử dụng. </li>
+<li>Chỉ chạy trên Windows.</li>
+</ul>
+<h3 id="122-visual-studio-code">1.2.2 - <a href="vscode">Visual Studio Code</a><a class="headerlink" href="#122-visual-studio-code" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Gọn nhẹ với nhiều tính năng cao cấp.</li>
+<li>Chạy trên Windows, macOS và Linux.</li>
+</ul>
+<h3 id="123-mot-so-ide-khac">1.2.3 - Một số IDE khác<a class="headerlink" href="#123-mot-so-ide-khac" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.jetbrains.com/clion/">CLion</a></li>
+<li><a href="https://visualstudio.microsoft.com/">Visual Studio</a></li>
+<li><a href="https://www.eclipse.org/">Eclipse</a></li>
+<li><a href="https://developer.apple.com/xcode/">XCode</a></li>
+</ul>
+<h2 id="tai-lieu-tham-khao"><a href="references/">Tài liệu tham khảo</a><a class="headerlink" href="#tai-lieu-tham-khao" title="Permanent link">&para;</a></h2></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

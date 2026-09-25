@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Hung Nguyen">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Index - Cơ sở lập trình</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../css/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/django.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Cơ sở lập trình</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Các chủ đề</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../overview/" class="dropdown-item">Tổng quan về lập trình</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Cơ bản về ngôn ngữ C/C++#</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Các cấu trúc điều khiển</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Hàm và cấu trúc chương trình</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Xử lý mảng</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Xử lý chuỗi</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Dữ liệu kiểu cấu trúc</a>
+</li>
+                                    
+<li>
+    <a href="../../labs/README.md" class="dropdown-item">Thực hành</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../author/about/" class="nav-link">Giảng viên</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/nd-hung/introduction2programming/tree/main/docs/topics/03-control-structures/README.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#31-cau-truc-tuan-tu-sequence" class="nav-link">3.1 - Cấu trúc tuần tự (sequence)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#32-cau-truc-re-nhanh-selection" class="nav-link">3.2 - Cấu trúc rẽ nhánh (selection)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 align="center"> 
+3 - Các cấu trúc điều khiển
+</h2>
+
+<div class="header">
+<h3>3.1 - Cấu trúc tuần tự (sequence)</h3>
+
+<h3>3.2 - <a href="#selection">Cấu trúc rẽ nhánh (selection)</a></h3>
+<ul>
+<h4>3.2.1 - Câu lệnh <b>if</b></h4>
+<h4>3.2.2 - Câu lệnh <b>switch</b></h4>
+</ul>
+
+<h3>3.3 - <a href="#repetition">Cấu trúc lặp (repetition)</a></h3>
+<ul>
+<h4>3.3.1 - Lệnh <b>for</b></h4>
+<h4>3.3.2 - Lệnh <b>while</b></h4>
+<h4>3.3.3 - Lệnh <b>do-while</b></h4>
+</ul>
+</div>
+
+<p>Một vấn đề quan trọng trong lập trình là làm sao điều khiển thi hành các khối lệnh theo trình tự như giải thuật đã mô tả. </p>
+<p>Theo phương pháp lập trình cấu trúc, mọi chương trình đều có thể tạo thành từ sự kết hợp của ba cấu trúc điều khiển cơ bản: tuần tự (sequence), rẽ nhánh hay lựa chọn (selection), và lặp (repetition).</p>
+<h2 id="31-cau-truc-tuan-tu-sequence">3.1 - Cấu trúc tuần tự (sequence)<a class="headerlink" href="#31-cau-truc-tuan-tu-sequence" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Cài đặt cấu trúc tuần tự bằng cách đặt các câu lệnh theo thứ tự cần thực hiện.</li>
+</ul>
+<p><img src="figs/sequence.png" width="20%"></p>
+<h2 id="32-cau-truc-re-nhanh-selection">3.2 - <a name="selection">Cấu trúc rẽ nhánh (selection)</a><a class="headerlink" href="#32-cau-truc-re-nhanh-selection" title="Permanent link">&para;</a></h2>
+<h3 id="321-cau-lenh-if">3.2.1 - Câu lệnh <strong>if</strong><a class="headerlink" href="#321-cau-lenh-if" title="Permanent link">&para;</a></h3>
+<h4 id="dang-1">Dạng 1<a class="headerlink" href="#dang-1" title="Permanent link">&para;</a></h4>
+<p><img src="figs/if1.png" width="40%"></p>
+<h5 id="cu-phap">Cú pháp<a class="headerlink" href="#cu-phap" title="Permanent link">&para;</a></h5>
+<pre><code class="language-c">if(condition)
+    {
+        // Khối lệnh được thực hiện khi biểu thức logic &lt;condition&gt; != 0 (true)
+        // &lt;Lệnh&gt;;
+    }
+</code></pre>
+<ul>
+<li><code>&lt;condition&gt;</code> là một biểu thức logic, có kết quả đúng (!=0, thường là 1), hoặc sai (== 0).</li>
+</ul>
+<h5 id="vi-du">Ví dụ:<a class="headerlink" href="#vi-du" title="Permanent link">&para;</a></h5>
+<pre><code class="language-c">int a = 36;
+if(a % 2 == 0) printf(&quot;%d la so chan\n&quot;, a);
+</code></pre>
+<h4 id="dang-2">Dạng 2<a class="headerlink" href="#dang-2" title="Permanent link">&para;</a></h4>
+<p><img src="figs/if2.png" width="55%"></p>
+<h5 id="cu-phap_1">Cú pháp<a class="headerlink" href="#cu-phap_1" title="Permanent link">&para;</a></h5>
+<pre><code class="language-c">if(condition)
+    {
+        // Khối lệnh được thực hiện khi biểu thức condition != 0 (true)
+        // &lt;Lệnh 1&gt;;
+    }
+else
+    {
+        // Khối lệnh được thực hiện khi biểu thức condition == 0 (false)
+        // &lt;Lệnh 2&gt;;
+    }
+</code></pre>
+<h5 id="vi-du_1">Ví dụ:<a class="headerlink" href="#vi-du_1" title="Permanent link">&para;</a></h5>
+<pre><code class="language-c">int a = 36;
+if(a % 2 == 0) printf(&quot;%d la so chan\n&quot;, a);
+else printf(&quot;%d la so le\n&quot;, a);
+</code></pre>
+<div class="note">
+<p>
+<ul>
+    <li>Nếu khối chỉ có 1 câu lệnh thì không cần đặt trong cặp ký tự <code>{}</code>.</li>
+    <li>Câu lệnh <code>if</code> có thể lồng nhau, khi đó điều kiện sau từ khóa <code>else</code> sẽ ngược lại với điều kiện ở <code>if</code> ngay trước nó.</li>
+    <li>Khi sử dụng các lệnh <code>if</code> lồng nhau, nên sử dụng cấu trúc <code>else</code> để loại trừ các trường hợp.</li>
+</ul>
+</p>
+</div>
+
+<details>
+<summary>Ví dụ</summary>
+<p>
+
+
+<pre><code class="language-c">/*
+Tính tiền taxi dựa vào quãng đường đi và bảng giá.
+Bảng giá:
+&lt;= 1 km dau: 15000 đ
+Từ km thứ 2 đến km thứ 5: 13500 đ/km
+Từ km thứ 6 trở đi: 11000 đ/km
+Nếu vượt 120 km được giảm 10% tổng tiền.
+
+* Input: 
+- Số km (nhập từ bàn phím)
+- Bảng giá
+
+* Output: Số tiền phải thanh toán.
+*/
+
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    float sokm, sotien=0;
+
+    printf(&quot;Nhap quang duong di (km):&quot;);
+    scanf(&quot;%f&quot;, &amp;sokm);
+
+    if(sokm &lt;= 0)   printf(&quot;Quang duong phai &gt; 0.\n&quot;);
+    else
+        if(sokm &lt;= 1)   sotien = 15000;
+        else
+            // &lt;-&gt; (sokm &gt; 1 &amp;&amp; sokm &lt;= 5)
+            if(sokm &lt;= 5)   sotien = 15000 + (sokm - 1) * 13500;
+            else
+                // &lt;-&gt; (sokm &gt; 5 &amp;&amp; sokm &lt;= 120)
+                if(sokm &lt;= 120) 
+                    sotien = 15000 + 4 * 13500 + (sokm - 5) * 11000;
+                else
+                    // &lt;-&gt; (sokm &gt; 120)
+                    sotien = (15000 + 4 * 13500 + (sokm - 5) * 11000) * 0.9;
+
+    printf(&quot;\n--------------------------------\n&quot;);
+    printf(&quot;Quang duong:\t%10.2f (km)\nSo tien:\t%10.2f (d)\n&quot;, sokm, sotien);
+}
+</code></pre>
+
+
+</p>
+</details>
+
+<h3 id="322-cau-lenh-re-nhanh-switch">3.2.2 - Câu lệnh rẽ nhánh <strong>switch</strong><a class="headerlink" href="#322-cau-lenh-re-nhanh-switch" title="Permanent link">&para;</a></h3>
+<p><img src="figs/switch.png" width="50%"></p>
+<h4 id="cu-phap_2">Cú pháp:<a class="headerlink" href="#cu-phap_2" title="Permanent link">&para;</a></h4>
+<pre><code class="language-c">switch(expression) {
+  case value_1:
+    // &lt;Lệnh 1&gt;;
+    break;
+  case value_2:
+    // &lt;Lệnh 2&gt;;
+    break;
+  case value_3::
+    // &lt;Lệnh 3&gt;;
+    break;
+    // ...
+
+  default:
+    // &lt;Lệnh n&gt;;
+}
+</code></pre>
+<ul>
+<li>Cấu trúc <code>switch</code> chọn thực hiện các lệnh dựa trên so sánh biểu thức <code>&lt;expression&gt;</code> với các giá trị được xét.</li>
+<li>Biểu thức và các các hằng giá trị phải có kiểu rời rạc (integral): số nguyên (có hoặc không dấu), ký tự (được trình biên dịch chuyển sang mã ASCII tương ứng), thành viên của kiểu liệt kê (được trình biên dịch chuyển sang số nguyên tương ứng), các trường <code>bit</code> (0,1).</li>
+<li>Các giá trị <code>value_1, value_2, ...</code> phải là hằng và không được trùng nhau. </li>
+</ul>
+<h4 id="thuc-hien">Thực hiện:<a class="headerlink" href="#thuc-hien" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Biểu thức <expression> lần lượt được so sánh với từng giá trị <code>value_1, value_2, ...</code>, nếu trùng khớp thì chương trình thực hiện <code>&lt;lệnh/khối lệnh&gt;</code> tương ứng.</li>
+<li>Khi gặp lệnh <strong>break</strong>, chương trình sẽ thoát khỏi khối <strong>switch</strong>.</li>
+<li>Nếu sau một trường hợp mà không gọi lệnh <strong>break</strong>, chương trình chuyển xuống xử lý trường hợp kế tiếp.</li>
+<li>Nếu biểu thức không trùng với giá trị nào đã xét, lệnh/khối lệnh ở sau nhãn <strong>default</strong> được thực thi.</li>
+</ul>
+<div class="note">
+<p>
+<ul>
+    <li> Câu lệnh <code>switch</code> có thể lồng nhau.</li>
+    <li> Khối rẽ nhánh cài đặt được bằng lệnh <code>switch</code> thì cũng cài đặt được bằng lệnh <code>if</code>. Ngược lại có thể không đúng.</li>
+</ul>
+</p>
+</div>
+
+<details>
+<summary>Ví dụ</summary>
+<p>
+
+
+<pre><code class="language-c">/*
+Nhập một tháng dương lịch, in ra số ngày của tháng đó.
+
+Input: tháng trong năm (1..12)
+Output: số ngày của tháng.
+
+Biết: Trong một năm dương lịch:
+- Tháng 1,3,5,7,8,10,12 có 31 ngày.
+- Tháng 4,6,9,11 có 30 ngày.
+- Tháng 2: năm nhuận có 29 ngày, năm không nhuận có 28 ngày.
+(Năm nhuận là năm thỏa mãn 1 trong 2 điều kiện:
+    + Chia hết cho 400
+    + Chia hết cho 4 và không chia hết 100)
+*/
+
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    unsigned char month;
+
+    printf(&quot;Nhap mot thang duong lich:&quot;);
+    scanf(&quot;%d&quot;, &amp;month);
+
+    /* Cách 1 - Sử dụng lệnh rẽ nhánh if 
+
+    if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+        printf(&quot;Thang %d co 31 ngay\n&quot;, month);
+
+    if(month == 4 || month == 6 || month == 9 || month == 11)
+        printf(&quot;Thang %d co 30 ngay\n&quot;, month);
+
+    if(month == 2)
+    {
+        int year;
+        printf(&quot;Xin nhap nam:&quot;);
+        scanf(&quot;%d&quot;, &amp;year);
+        if((year % 400 == 0) || (year % 4 == 0 &amp;&amp; year % 100 !=0)) // -&gt; nam nhuan
+            printf(&quot;Thang %d/%d co 29 ngay&quot;, month, year);
+        else
+            printf(&quot;Thang %d/%d co 28 ngay&quot;, month, year);
+    }
+
+    if(month &lt; 1 || month &gt; 12)
+        printf(&quot;Khong co thang %d&quot;, month);
+    */
+
+   // Cách 2 - Sử dụng cấu trúc rẽ nhánh switch
+   switch (month)
+   {
+   case 1:
+   case 3:
+   case 5:
+   case 7:
+   case 8:
+   case 10:
+   case 12: printf(&quot;Thang %d co 31 ngay\n&quot;, month); break;
+   case 4:
+   case 6:
+   case 9:
+   case 11: printf(&quot;Thang %d co 30 ngay\n&quot;, month); break;
+   case 2:
+        {
+            int year;
+            printf(&quot;Xin nhap nam:&quot;);
+            scanf(&quot;%d&quot;, &amp;year);
+            if((year % 400 == 0) || (year % 4 == 0 &amp;&amp; year % 100 !=0)) // -&gt; nam nhuan
+                printf(&quot;Thang %d/%d co 29 ngay&quot;, month, year);
+            else
+                printf(&quot;Thang %d/%d co 28 ngay&quot;, month, year);
+            break;
+        }
+   default:  printf(&quot;Khong co thang %d&quot;, month); 
+   }
+}
+</code></pre>
+
+</p>
+</details>
+
+<h3><a name="repetition">3.3 - Cấu trúc lặp (repetition)</a></h3>
+
+<p>Cấu trúc điều khiển lặp cho phép lặp lại khối lệnh theo một điều kiện xác định.</p>
+<h3 id="331-cau-lenh-lap-for">3.3.1 - Câu lệnh lặp <strong>for</strong><a class="headerlink" href="#331-cau-lenh-lap-for" title="Permanent link">&para;</a></h3>
+<p><img src="figs/for_loop.png" width="60%"></p>
+<h4 id="cu-phap_3">Cú pháp:<a class="headerlink" href="#cu-phap_3" title="Permanent link">&para;</a></h4>
+<pre><code class="language-c"> for (init_expression; cond_expression; loop_expression) 
+    {
+        // statement   
+        // &lt;Lệnh&gt;;
+    }
+ ```
+ - `init_expression`: Biểu thức khởi đầu
+ - `cond_expression`: Biểu thức điều kiện lặp
+ - `loop_expression`: Biểu thức lặp (bước nhảy)
+
+ #### Thực hiện:
+- Lệnh khởi đầu `init_expression` được thi hành 1 lần.
+- Biểu thức `cond_expression` xác định điều kiện thực thi khối lệnh. Nếu `cond_expression` có giá trị đúng (!= 0) thì khối lệnh `statement` được thi hành.
+- Lệnh `loop_expression` được thực hiện sau khối lệnh `statement`, xác định bước nhảy cho vòng lặp.
+
+&lt;div class=&quot;note&quot;&gt;
+&lt;p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Câu lệnh &lt;code&gt;for&lt;/code&gt; có thể lồng nhau.&lt;/li&gt;
+    &lt;li&gt;Nên dùng lệnh &lt;code&gt;for&lt;/code&gt; cho các vòng lặp có số lần lặp xác định.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Ví dụ&lt;/summary&gt;
+&lt;p&gt;
+
+```c
+/*
+Một số tự nhiên n được gọi là số hoàn hảo (perfect number) nếu tổng các ước số &lt; n bằng n.
+Ví dụ: 6 là một số hoàn hảo vì tổng các ước số của nó là 1+2+3 = 6.
+Hãy viết chương trình tìm &amp; in ra các số hoàn hảo &lt;= 10000.
+*/
+
+#include&lt;stdio.h&gt;
+
+int main()
+{
+    unsigned int n=10000,tonguocso,i,j;
+
+    printf(&quot;Cac so hoan hao &lt;= %d la:\n&quot;, n);
+
+    // Xét các số từ 1 đến n
+    for(i=1; i &lt;= n; i++)
+        {
+            // Với mỗi số i, tính tổng các ước số &lt; i
+            tonguocso = 0;
+            for(j=1; j &lt;= i/2; j++)
+                if(i %j == 0) tonguocso += j;
+            // Nếu tổng ước số == i -&gt; i là số thỏa mãn
+            if(tonguocso == i) printf(&quot;%d\n&quot;, i);
+        }
+}
+</code></pre>
+<p></p>
+</details></p>
+<h3 id="332-cau-lenh-lap-while">3.3.2 - Câu lệnh lặp <strong>while</strong><a class="headerlink" href="#332-cau-lenh-lap-while" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Câu lệnh <strong>while</strong> lặp lại một khối lệnh chừng nào điều kiện xác định còn thỏa mãn.</li>
+</ul>
+<p><img src="figs/while.png" width="60%"></p>
+<h4 id="cu-phap_4">Cú pháp:<a class="headerlink" href="#cu-phap_4" title="Permanent link">&para;</a></h4>
+<pre><code class="language-c">while (condition) 
+{
+  // Khối lệnh được thi hành khi &lt;condition&gt; còn đúng (!= 0)
+  // &lt;Lệnh&gt;;
+}
+</code></pre>
+<ul>
+<li>Biểu thức <code>condition</code> phải có kiểu số học (arithmetic) hoặc con trỏ (pointer).</li>
+</ul>
+<h4 id="thuc-hien_1">Thực hiện:<a class="headerlink" href="#thuc-hien_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Bước 1: Biểu thức điều kiện <code>condition</code> được kiểm tra. </li>
+<li>Bước 2: <ul>
+<li>Nếu biểu thức <code>condition</code> có giá trị sai (== 0), khối lệnh không được thi hành, vòng lặp dừng.</li>
+<li>Nếu biểu thức 'condtion` có giá trị đúng (!= 0), khối lệnh được thi hành và quay lại bước 1.</li>
+</ul>
+</li>
+</ul>
+<details>
+<summary>Ví dụ </summary>
+<p>
+
+
+<pre><code class="language-c">/*
+Tìm ước số chung lớn nhất của 2 số nguyên dương a,b.
+
+Input: a, b &gt; 0
+Output: USCLN(a,b).
+*/
+
+#include&lt;stdio.h&gt;
+
+int main()
+{
+    unsigned int a,b;
+    unsigned int a0,b0; // Để lưu lại giá trị ban đầu của a,b
+
+    do{
+        printf(&quot;a = &quot;);
+        scanf(&quot;%d&quot;, &amp;a);
+    }while(a &lt;= 0);
+    a0 = a;
+
+    do{
+        printf(&quot;b = &quot;);
+        scanf(&quot;%d&quot;, &amp;b);
+    }while(b &lt;= 0);
+    b0 = b;
+
+    while(a != b)
+        if(a &gt; b) a -= b;
+        else b -= a;
+
+    printf(&quot;USCLN(%d, %d) = %d\n&quot;, a0,b0,a);
+}
+</code></pre>
+
+</p>
+</details>
+
+<div class="note">
+<p>
+<ul>
+    <li>Câu lệnh <code>while</code> có thể lồng nhau.</li>
+    <li>Cần kiểm soát để điều kiện lặp sai (== 0) sau hữu hạn bước. Nếu không, lệnh <code>while</code> sẽ lặp vô tận. </li>
+</ul>
+</p>
+</div>
+
+<h3 id="333-cau-lenh-lap-do-while">3.3.3 - Câu lệnh lặp <strong>do-while</strong><a class="headerlink" href="#333-cau-lenh-lap-do-while" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Câu lệnh <strong>do-while</strong> lặp lại một khối lệnh cho đến khi biểu thức điều kiện có giá trị sai.</li>
+</ul>
+<p><img src="figs/dowhile.png" width="50%"></p>
+<h4 id="cu-phap_5">Cú pháp:<a class="headerlink" href="#cu-phap_5" title="Permanent link">&para;</a></h4>
+<pre><code class="language-c">do
+{
+    // &lt;Lệnh&gt;;
+}while(condition);
+</code></pre>
+<ul>
+<li>Biểu thức <code>condition</code> phải có kiểu số hoặc con trỏ.</li>
+<li>Việc kiểm tra biểu thức <code>condition</code> thực hiện sau khối lệnh. Vì thế khối lệnh lặp ít nhất 1 lần.</li>
+</ul>
+<h4 id="thuc-hien_2">Thực hiện:<a class="headerlink" href="#thuc-hien_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Bước 1: Khối lệnh được thực hiện. </li>
+<li>Bước 2: Biểu thức điều kiện <code>condition</code> được kiểm tra<ul>
+<li>Nếu biểu thức <code>condition</code> có giá trị sai (== 0), vòng lặp dừng.</li>
+<li>Nếu biểu thức 'condtion` có giá trị đúng (!= 0), khối lệnh được thi hành và quay lại bước 1.</li>
+</ul>
+</li>
+</ul>
+<div class="note">
+<p>
+<ul>
+    <li>Câu lệnh <code>do-while</code> có thể lồng nhau.</li>
+    <li>Tương tự lệnh <code>while</code>, lệnh <code>do-while</code> có thể bị lặp vô tận. </li>
+</ul>
+</p>
+</div>
+
+<details>
+<summary>Ví dụ </summary>
+<p>
+
+
+<pre><code class="language-c">/*
+Viết chương trình lặp lại việc nhập một số nguyên từ bàn phím 
+cho đến khi nhập số 0 thì dừng và in ra tổng các số vừa nhập.
+*/
+
+#include&lt;stdio.h&gt;
+
+int main()
+{
+    int n, sum=0;
+
+    do{
+        printf(&quot;Nhap mot so nguyen (nhap 0 de dung):&quot;);
+        scanf(&quot;%d&quot;, &amp;n);
+        sum += n;
+    }while(n != 0);
+
+    printf(&quot;Tong cac so vua nhap = %d\n&quot;, sum);
+}
+</code></pre>
+
+
+</p>
+</details></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
