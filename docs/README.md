@@ -1,11 +1,9 @@
-# Nhập môn lập trình
+# Cơ sở lập trình
 
-Introduction to Computer Programming
+Fundamentals of Computer Programming
 
----
 
-Tóm tắt kiến thức và các bài thực hành của học phần Nhập môn lập trình.
-Công cụ lập trình sử dụng để minh họa là ngôn ngữ C/C++.
+
 
 <div class="text-center">
     <a href="topics/" class="btn btn-primary" role="button">Tóm tắt lý thuyết</a>
@@ -14,6 +12,7 @@ Công cụ lập trình sử dụng để minh họa là ngôn ngữ C/C++.
 </div><br>
 
 ## Các chủ đề chính
+### Lập trình cơ bản
 - #### [Tổng quan về lập trình](topics/01-overview/README.md)
 - #### [Cơ bản về ngôn ngữ C/C++](topics/02-c-language/README.md)
 - #### [Các cấu trúc điều khiển](topics/03-control-structures/README.md)
@@ -21,6 +20,11 @@ Công cụ lập trình sử dụng để minh họa là ngôn ngữ C/C++.
 - #### [Xử lý mảng](topics/05-arrays-strings/README.md)
 - #### [Xử lý chuỗi](topics/05-arrays-strings/README.md)
 - #### [Dữ liệu kiểu cấu trúc](topics/06-struct/README.md)
+### Lập trình nâng cao
+- #### Kiểu con trỏ
+- #### Hàm nâng cao
+- #### Xử lý file
+- #### Lập trình đệ quy
 
 ## Tài liệu tham khảo
 ### Sách, giáo trình
