@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,27 +8,28 @@
         <meta name="author" content="Hung Nguyen">
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Index - Nhập môn lập trình</title>
+        <title>Index - Cơ sở lập trình</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <link href="../../css/extra.css" rel="stylesheet">
-
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/django.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/django.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../..">Nhập môn lập trình</a>
+                <a class="navbar-brand" href="../..">Cơ sở lập trình</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -36,32 +37,36 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Các chủ đề <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Các chủ đề</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../overview/README.md" class="dropdown-item">Tổng quan</a>
+    <a href="../overview/" class="dropdown-item">Tổng quan về lập trình</a>
 </li>
                                     
 <li>
-    <a href="../dotnet-and-csharp/README.md" class="dropdown-item">Nền tảng .NET và ngôn ngữ C#</a>
+    <a href="../" class="dropdown-item">Cơ bản về ngôn ngữ C/C++#</a>
 </li>
                                     
 <li>
-    <a href="../classes-and-objects/README.md" class="dropdown-item">Lớp và đối tượng</a>
+    <a href="../" class="dropdown-item">Các cấu trúc điều khiển</a>
 </li>
                                     
 <li>
-    <a href="../inheritance/README.md" class="dropdown-item">Thừa kế</a>
+    <a href="../" class="dropdown-item">Hàm và cấu trúc chương trình</a>
 </li>
                                     
 <li>
-    <a href="../polymorphism/README.md" class="dropdown-item">Đa hình</a>
+    <a href="../" class="dropdown-item">Xử lý mảng</a>
 </li>
                                     
 <li>
-    <a href="../filehandling/README.md" class="dropdown-item">Xử lý file</a>
+    <a href="../" class="dropdown-item">Xử lý chuỗi</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Dữ liệu kiểu cấu trúc</a>
 </li>
                                     
 <li>
@@ -69,19 +74,19 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../../author/about/" class="nav-link">Giảng viên</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a href="https://github.com/nd-hung/introduction2programming/tree/main/docs/topics/02-basic/README.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/nd-hung/introduction2programming/tree/main/docs/topics/02-c-language/README.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -90,24 +95,24 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
             
-            <li class="nav-item" data-level="2"><a href="#21-gioi-thieu-ngon-ngu-lap-trinh-c" class="nav-link">2.1 - Giới thiệu ngôn ngữ lập trình C </a>
+            <li class="nav-item" data-bs-level="2"><a href="#21-gioi-thieu-ngon-ngu-lap-trinh-c" class="nav-link">2.1 - Giới thiệu ngôn ngữ lập trình C</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#22-co-ban-ve-ngon-ngu-c" class="nav-link">2.2 - Cơ bản về ngôn ngữ C </a>
+            <li class="nav-item" data-bs-level="2"><a href="#22-co-ban-ve-ngon-ngu-c" class="nav-link">2.2 - Cơ bản về ngôn ngữ C</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -279,31 +284,31 @@ float DienTichHinhTron(float r)
 <table>
 <thead>
 <tr>
-<th align="left">Kiểu</th>
-<th align="center">Kích thước <br>(bit)</th>
-<th align="right">Miền giá trị</th>
+<th style="text-align: left;">Kiểu</th>
+<th style="text-align: center;">Kích thước <br>(bit)</th>
+<th style="text-align: right;">Miền giá trị</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">char</td>
-<td align="center">8</td>
-<td align="right">–128 .. 127</td>
+<td style="text-align: left;">char</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: right;">–128 .. 127</td>
 </tr>
 <tr>
-<td align="left">int</td>
-<td align="center">16</td>
-<td align="right">–32,768 .. 32,767</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">–32,768 .. 32,767</td>
 </tr>
 <tr>
-<td align="left">short</td>
-<td align="center">16</td>
-<td align="right">–32,768 .. 32,767</td>
+<td style="text-align: left;">short</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">–32,768 .. 32,767</td>
 </tr>
 <tr>
-<td align="left">long</td>
-<td align="center">32</td>
-<td align="right">–2,147,483,648 .. 2,147,483,647</td>
+<td style="text-align: left;">long</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: right;">–2,147,483,648 .. 2,147,483,647</td>
 </tr>
 </tbody>
 </table>
@@ -314,31 +319,31 @@ float DienTichHinhTron(float r)
 <table>
 <thead>
 <tr>
-<th align="left">Kiểu</th>
-<th align="center">Kích thước <br>(bit)</th>
-<th align="right">Miền giá trị</th>
+<th style="text-align: left;">Kiểu</th>
+<th style="text-align: center;">Kích thước <br>(bit)</th>
+<th style="text-align: right;">Miền giá trị</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">unsigned char</td>
-<td align="center">8</td>
-<td align="right">0 .. 255</td>
+<td style="text-align: left;">unsigned char</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: right;">0 .. 255</td>
 </tr>
 <tr>
-<td align="left">unsigned int</td>
-<td align="center">16</td>
-<td align="right">0 .. 65,535</td>
+<td style="text-align: left;">unsigned int</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">0 .. 65,535</td>
 </tr>
 <tr>
-<td align="left">unsigned short</td>
-<td align="center">16</td>
-<td align="right">0 .. 65,535</td>
+<td style="text-align: left;">unsigned short</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: right;">0 .. 65,535</td>
 </tr>
 <tr>
-<td align="left">unsigned long</td>
-<td align="center">32</td>
-<td align="right">0 .. 4,294,967,295</td>
+<td style="text-align: left;">unsigned long</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: right;">0 .. 4,294,967,295</td>
 </tr>
 </tbody>
 </table>
@@ -346,21 +351,21 @@ float DienTichHinhTron(float r)
 <table>
 <thead>
 <tr>
-<th align="left">Kiểu</th>
-<th align="center">Kích thước <br>(bit)</th>
-<th align="right">Miền giá trị</th>
+<th style="text-align: left;">Kiểu</th>
+<th style="text-align: center;">Kích thước <br>(bit)</th>
+<th style="text-align: right;">Miền giá trị</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">float</td>
-<td align="center">32</td>
-<td align="right">-3.4E-38 .. 3.4E+38</td>
+<td style="text-align: left;">float</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: right;">-3.4E-38 .. 3.4E+38</td>
 </tr>
 <tr>
-<td align="left">double</td>
-<td align="center">64</td>
-<td align="right">-1.7E-308 .. 1.7*E+308</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: center;">64</td>
+<td style="text-align: right;">-1.7E-308 .. 1.7*E+308</td>
 </tr>
 </tbody>
 </table>
@@ -466,42 +471,42 @@ x = 68; y = ++x; // x = 69, y = 69
 <table>
 <thead>
 <tr>
-<th align="center">Phép toán</th>
-<th align="left">Tên gọi</th>
-<th align="left">Mô tả</th>
-<th align="center">Ví dụ</th>
+<th style="text-align: center;">Phép toán</th>
+<th style="text-align: left;">Tên gọi</th>
+<th style="text-align: left;">Mô tả</th>
+<th style="text-align: center;">Ví dụ</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">+</td>
-<td align="left">Cộng (addition)</td>
-<td align="left">Cộng 2 số</td>
-<td align="center"><code>x + y</code></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: left;">Cộng (addition)</td>
+<td style="text-align: left;">Cộng 2 số</td>
+<td style="text-align: center;"><code>x + y</code></td>
 </tr>
 <tr>
-<td align="center">-</td>
-<td align="left">Trừ  (subtraction)</td>
-<td align="left">Trừ 2 số</td>
-<td align="center"><code>x - y</code></td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Trừ  (subtraction)</td>
+<td style="text-align: left;">Trừ 2 số</td>
+<td style="text-align: center;"><code>x - y</code></td>
 </tr>
 <tr>
-<td align="center">*</td>
-<td align="left">Nhân (multiplication)</td>
-<td align="left">Nhân 2 số</td>
-<td align="center"><code>x * y</code></td>
+<td style="text-align: center;">*</td>
+<td style="text-align: left;">Nhân (multiplication)</td>
+<td style="text-align: left;">Nhân 2 số</td>
+<td style="text-align: center;"><code>x * y</code></td>
 </tr>
 <tr>
-<td align="center">/</td>
-<td align="left">Chia (division)</td>
-<td align="left">Chia 2 số</td>
-<td align="center"><code>x / y</code></td>
+<td style="text-align: center;">/</td>
+<td style="text-align: left;">Chia (division)</td>
+<td style="text-align: left;">Chia 2 số</td>
+<td style="text-align: center;"><code>x / y</code></td>
 </tr>
 <tr>
-<td align="center">%</td>
-<td align="left">Chia lấy phần dư (modulus)</td>
-<td align="left"></td>
-<td align="center"><code>x % y</code></td>
+<td style="text-align: center;">%</td>
+<td style="text-align: left;">Chia lấy phần dư (modulus)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><code>x % y</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -512,19 +517,20 @@ x = 68; y = ++x; // x = 69, y = 69
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -544,7 +550,7 @@ x = 68; y = ++x; // x = 69, y = 69
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
