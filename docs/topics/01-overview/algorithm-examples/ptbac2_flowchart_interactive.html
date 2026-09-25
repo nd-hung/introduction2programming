@@ -147,8 +147,13 @@ kbd{font-family:var(--fm);font-size:11px;border:1px solid var(--line);border-bot
 <body>
 <div class="wrap">
   <header>
-    <h3>Thuật toán giải phương trình bậc hai <span class="eq">a*x² + b*x + c = 0</span></h3>
-    <p class="sub">Nhập a, b, c (số thực bất kỳ) rồi chạy từng bước. Nút đang xét được tô cam, đường đã đi được tô xanh. Mỗi bước khớp với một dòng trong chương trình C bên phải.</p>
+    <h3>
+      Thuật toán giải phương trình bậc hai <span class="eq">a*x² + b*x + c = 0</span>
+    </h3>
+    <p class="sub">Nhập a, b, c (số thực bất kỳ) rồi chạy từng bước. 
+      Bước đang xử lý tô màu cam, đường đã đi được tô đậm. 
+      Màn hình bên phải chứa mã nguồn chương trình C cài đặt thuật toán và kết quả tương ứng.
+    </p>
   </header>
 
   <section class="panel controls" aria-label="Điều khiển">
@@ -293,9 +298,9 @@ const CODE=[
 '#include <math.h>',
 '',
 'int main() {',
-'    double a, b, c;',
+'    float a, b, c;',
 '    printf("Nhap a, b, c: ");',
-'    scanf("%lf %lf %lf", &a, &b, &c);',
+'    scanf("%f %f %f", &a, &b, &c);',
 '    if (a == 0) {',
 '        if (b == 0) {',
 '            if (c == 0)',
@@ -303,20 +308,20 @@ const CODE=[
 '            else',
 '                printf("PT vo nghiem\\n");',
 '        } else {',
-'            double x = -c / b;',
-'            printf("PT co 1 nghiem x = %.4lf\\n", x);',
+'            float x = -c / b;',
+'            printf("PT co 1 nghiem x = %.4f\\n", x);',
 '        }',
 '    } else {',
-'        double delta = b*b - 4*a*c;',
+'        float delta = b*b - 4*a*c;',
 '        if (delta < 0)',
 '            printf("PT vo nghiem\\n");',
 '        else if (delta == 0) {',
-'            double x = -b / (2*a);',
-'            printf("PT co nghiem kep x = %.4lf\\n", x);',
+'            float x = -b / (2*a);',
+'            printf("PT co nghiem kep x = %.4f\\n", x);',
 '        } else {',
-'            double x1 = (-b + sqrt(delta)) / (2*a);',
-'            double x2 = (-b - sqrt(delta)) / (2*a);',
-'            printf("PT co 2 nghiem: x1 = %.4lf, x2 = %.4lf\\n", x1, x2);',
+'            float x1 = (-b + sqrt(delta)) / (2*a);',
+'            float x2 = (-b - sqrt(delta)) / (2*a);',
+'            printf("PT co 2 nghiem: x1 = %.4f, x2 = %.4f\\n", x1, x2);',
 '        }',
 '    }',
 '    return 0;',

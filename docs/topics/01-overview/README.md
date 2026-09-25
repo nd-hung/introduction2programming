@@ -34,8 +34,8 @@ Fundamentals of Computer Programming
     - Phổ dụng
     - Hữu hạn
 
-### Một số bài toán quen thuộc và lưu đồ thuật toán
+### Một số bài toán quen thuộc và thuật toán
 
-<iframe src="ptbac2_flowchart_interactive.html" width="100%" height="100%"></iframe>
+- [Giải phương trình ax^2 + bx + c = 0](algorithm-examples/ptbac2_flowchart_interactive.html)
 
 ## Ngôn ngữ lập trình
